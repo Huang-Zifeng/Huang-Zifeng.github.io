@@ -3,10 +3,10 @@
 title: "周报1 | 大物考试、法师桥和ChatGPT"
 date: 2023-02-14T00:09:42+08:00
 draft: false
-tags: ["life", "what's new"]
-categories: ["Weekly"]
+tags: ["Weekly", "What's New"]
+categories: ["日常"]
 author: "Mitcher"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+image: "https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230312000411047.png"
 ---
 
 本篇是对`2023-02-08` 到 `2023-02-14` 这周生活的记录与思考。

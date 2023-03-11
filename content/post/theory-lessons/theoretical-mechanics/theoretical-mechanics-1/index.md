@@ -3,7 +3,7 @@ title: "理论力学学习笔记1 | 静力学公理和物体的受力分析"
 date: 2023-02-20
 draft: false
 keywords: ["理论力学"]
-categories: ["理论课笔记"]
+categories: ["学习"]
 author: "Mitcher"
 ---
 

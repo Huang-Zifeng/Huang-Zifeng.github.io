@@ -2,12 +2,11 @@
 title: "周报2 | 小情绪"
 date: 2023-03-03T01:44:01+08:00
 draft: false
-tags: ["life"]
-categories: ["Weekly"]
+tags: ["Weekly"]
+categories: ["日常"]
 author: "Mitcher"
+image: "https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311233627867.png"
 ---
-
-![猫](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/28f3d3c986a418bea9986cdf32d007e.jpg)
 
 本篇是对`2023-2-24`到`2023-3-3`这周生活的记录和思考。
 

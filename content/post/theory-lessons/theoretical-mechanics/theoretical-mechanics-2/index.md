@@ -3,7 +3,7 @@ title: "理论力学学习笔记2 | 平面力系"
 date: 2023-02-27T11:29:55+08:00
 draft: false
 tags: ["理论力学"]
-categories: ["理论课笔记"]
+categories: ["学习"]
 author: "Mitcher"
 ---
 

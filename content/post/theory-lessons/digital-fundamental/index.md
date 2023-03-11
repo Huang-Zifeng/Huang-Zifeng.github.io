@@ -3,7 +3,7 @@ title: "数字电子技术基础学习笔记1 | 数制和码制"
 date: 2023-03-01
 draft: false
 tags: ["数字电子技术基础"]
-categories: ["理论课笔记"]
+categories: ["学习"]
 author: "Mitcher"
 ---
 
