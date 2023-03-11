@@ -1,0 +1,50 @@
+name: deploy
+
+on:
+    push:
+    workflow_dispatch:
+
+# env:
+#   PAGEFIND_VERSION: 0.12.0
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+              with:
+                  submodules: true
+                  fetch-depth: 0
+            
+            # - name: Install Pagefind
+            #   uses: supplypike/setup-bin@v3
+            #   with:
+            #       uri: "https://github.com/CloudCannon/pagefind/releases/download/v${{ env.PAGEFIND_VERSION }}/pagefind_extended-v${{ env.PAGEFIND_VERSION }}-x86_64-unknown-linux-musl.tar.gz"
+            #       name: "pagefind_extended"
+            #       version: ${{env.PAGEFIND_VERSION}}
+
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                  hugo-version: latest
+                  extended: true
+
+            - name: Build Web
+              run: hugo
+
+            - name: Setup Node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            - run: npm i pagefind
+            - run: npm_config_yes=true npx pagefind --source "public" --bundle-dir mysearch
+
+            - name: Deploy Web
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+                  EXTERNAL_REPOSITORY: Huang-Zifeng/Huang-Zifeng.github.io
+                  PUBLISH_BRANCH: cf-pages
+                  PUBLISH_DIR: ./public
+                  commit_message: ${{ github.event.head_commit.message }}
