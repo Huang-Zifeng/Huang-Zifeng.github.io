@@ -3,7 +3,6 @@ title: 关于
 date: '2023-02-02'
 aliases:
   - contact
-lastmod: '2023-2-02'
 menu:
     main: 
         weight: -90

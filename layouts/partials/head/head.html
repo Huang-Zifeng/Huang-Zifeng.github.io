@@ -1,6 +1,8 @@
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 
+<script async defer src="https://analytics.umami.is/script.js" data-website-id="8ff4dc0b-4c73-4410-98b0-462a3594c14c"></script>
+
 {{- $description := partialCached "data/description" . .RelPermalink -}}
 <meta name='description' content='{{ $description }}'>
 {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
