@@ -21,7 +21,7 @@ draft: false
 
 详细的配置过程已经在[为你的博客创建搜索引擎——Pagefind搭建指北](https://www.huang-zifeng.com/p/为你的博客创建搜索引擎pagefind搭建指北/)中分享。
 
-首先，碰见了和我一样喜欢折腾但不是程式专长的[吳秉儒先生]([Pin 起來！ (pinchlime.com)](https://pinchlime.com/))，每次有一点小进度都欣喜向他报告。一个对生产力工具和部落格很有热枕的人。
+首先，碰见了和我一样喜欢折腾但不是程式专长的[吳秉儒先生](https://pinchlime.com/)，每次有一点小进度都欣喜向他报告。一个对生产力工具和部落格很有热枕的人。
 
 ![image-20230313004536834](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313004536834.png)
 
