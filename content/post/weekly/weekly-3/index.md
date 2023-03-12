@@ -31,7 +31,7 @@ draft: false
 
 ![Email](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313005245363.png)
 
-最后在推上练习到了作者bglw，问题圆满解决。
+最后在推上联系到了作者bglw，问题圆满解决。
 
 ![image-20230313005726857](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313005726857.png)
 
