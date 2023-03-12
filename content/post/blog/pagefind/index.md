@@ -2,7 +2,7 @@
 title: "为你的博客创建搜索引擎——谈谈我在搭建Pagefind时踩过的坑"
 date: 2023-03-05T16:04:50+08:00
 draft: false
-tags: ["trouble"]
+tags: ["折腾"]
 categories: ["博客"]
 author: "Mitcher"
 image: "https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311202803144.png"

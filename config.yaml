@@ -12,7 +12,7 @@ languages:
         weight: 1
     zh-cn:
         languageName: 中文
-        title: Mitcher
+        title: 林定㝝
         description: 20岁，是个学生
         weight: 2
 
@@ -51,7 +51,7 @@ params:
 
     sidebar:
         emoji: 
-        subtitle: 20岁，是个学生
+        subtitle: 20嵗，是個學生
         avatar:
             enabled: true
             local: true

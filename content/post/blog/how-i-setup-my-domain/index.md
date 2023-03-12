@@ -2,7 +2,7 @@
 title: "拥有自己域名的路上碰到的魔幻事件"
 date: 2023-02-07T01:04:44+08:00
 draft: false
-tags: ["trouble"]
+tags: ["折腾"]
 categories: ["博客"]
 author: "Mitcher"
 ---
