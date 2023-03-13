@@ -13,7 +13,7 @@ languages:
     zh-cn:
         languageName: 中文
         title: 林定㝝
-        description: 20岁，是个学生
+        description: 20嵗，是個學生
         weight: 2
 
 # Change it to your Disqus shortname before using
@@ -202,7 +202,7 @@ menu:
 
         - identifier: rss
           name: RSS
-          url: https://www.huang-zifeng.com/zh/index.xml
+          url: https://www.huang-zifeng.com/index.xml
           params:
               icon: rss
 
