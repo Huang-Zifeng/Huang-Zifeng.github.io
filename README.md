@@ -1,4 +1,4 @@
 # Huang-Zifeng.github.io
-My first blog.
+My blog.
 
-Visit https://www.huang-zifeng.com/ to learn more!
+Visit https://www.huang-zifeng.com/ to have a look!
