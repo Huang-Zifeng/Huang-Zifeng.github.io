@@ -10,4 +10,4 @@ authors:
 
 I am willing to write something in English here in a near future.
 
-Most of the contents are written in Chinese and can be found  [here](https://www.huang-zifeng.com/zh/).
+Most of the contents are written in Chinese and can be found  [here](https://www.huang-zifeng.com).
