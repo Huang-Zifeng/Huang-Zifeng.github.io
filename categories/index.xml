@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on 林定㝝</title>
+        <link>https://www.huang-zifeng.com/categories/</link>
+        <description>Recent content in Categories on 林定㝝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 19 Mar 2023 16:54:51 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>日常</title>
+        <link>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</link>
+        <pubDate>Sun, 19 Mar 2023 16:54:51 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</guid>
+        <description>&lt;img src="https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 日常" /&gt;</description>
+        </item>
+        <item>
+        <title>博客</title>
+        <link>https://www.huang-zifeng.com/categories/%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Sun, 12 Mar 2023 22:47:34 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/categories/%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230312000207584.png" alt="Featured image of post 博客" /&gt;</description>
+        </item>
+        <item>
+        <title>学习</title>
+        <link>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</link>
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</guid>
+        <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311235546380.png" alt="Featured image of post 学习" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

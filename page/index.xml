@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on 林定㝝</title>
+        <link>https://www.huang-zifeng.com/page/</link>
+        <description>Recent content in Pages on 林定㝝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.huang-zifeng.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于</title>
+        <link>https://www.huang-zifeng.com/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;h2 id=&#34;-hi我是黄梓峰&#34;&gt;✋ Hi，我是黄梓峰&lt;/h2&gt;
+&lt;p&gt;哈尔滨工业大学(深圳)自动化21级学生&lt;/p&gt;
+&lt;p&gt;会简单的单片机开发,平时喜欢拍照📷、玩游戏🎮，也偶尔折腾深度学习和博客&lt;/p&gt;
+&lt;p&gt;目标是成为 Full Stack DevOps ，目前在不断努力学习中。在 GitHub 关注我了解更多。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>随想</title>
+        <link>https://www.huang-zifeng.com/%E9%9A%8F%E6%83%B3/</link>
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/%E9%9A%8F%E6%83%B3/</guid>
+        <description>&lt;p&gt;这里是随想。受到&lt;a class=&#34;link&#34; href=&#34;https://pinchlime.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Pin 起來！&lt;/a&gt;中的&lt;a class=&#34;link&#34; href=&#34;https://pinchlime.com/stream/2023/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stream&lt;/a&gt;启发而建立。&lt;/p&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
+&lt;h4 id=&#34;march&#34;&gt;March&lt;/h4&gt;
+&lt;p&gt;工程经验+1&lt;/p&gt;
+&lt;p&gt;话说单片机debug的时候，总会卡在下面的这三行汇编当中反复循环&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0x1FFFF3B2 F8D01808 LDR   r1,[r0,#0x808]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0x1FFFF3B6 0549   LSLS   r1,r1,#21
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0x1FFFF3B8 D4FB   BMI   0x1FFFF3B2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;换了正点原子给的例程后排除了程序的问题，之后在正点原子技术客服的建议下将3.3V供电换成了5V供电，问题解决&lt;/p&gt;
+&lt;p&gt;搞单片机这种东西还是很吃工程经验的——遇到问题得向老师傅多请教一下。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mar 18 4:44&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一粒沙滲進浪漫恆河&lt;/p&gt;
+&lt;p&gt;一枝花很希望結果&lt;/p&gt;
+&lt;p&gt;每個渴望與伴侶一夥&lt;/p&gt;
+&lt;p&gt;一粒星要撲向浩瀚銀河&lt;/p&gt;
+&lt;p&gt;一絲煙都奢望愛火&lt;/p&gt;
+&lt;p&gt;美麗的結局卻沒有幾多&lt;/p&gt;
+&lt;p&gt;最希冀的那一個	心儀這一個&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;合意的	永遠最難擁抱&lt;/p&gt;
+&lt;p&gt;未見到答案的傾慕&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;一盞燈盼照寂寞行人	一間屋都思念某君&lt;/p&gt;
+&lt;p&gt;過客盼望會遇上關心&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;誰又會榮幸到	逃離荒島&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;逝去的	錯愛變成鼓舞&lt;/p&gt;
+&lt;p&gt;就算鑽進了冤枉路&lt;/p&gt;
+&lt;p&gt;無負你 行錯路&lt;/p&gt;
+&lt;p&gt;——AGA《一》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mar 17 2:27&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你尚未出现时&lt;/p&gt;
+&lt;p&gt;我的生命平静&lt;/p&gt;
+&lt;p&gt;轩昂阔步行走&lt;/p&gt;
+&lt;p&gt;动辄料事如神&lt;/p&gt;
+&lt;p&gt;如今惶乱，怯弱&lt;/p&gt;
+&lt;p&gt;像冰融的春水&lt;/p&gt;
+&lt;p&gt;一流就流向你&lt;/p&gt;
+&lt;p&gt;又不知你在何处&lt;/p&gt;
+&lt;p&gt;——木心《五岛晚邮》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mar 14 2:05&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今日模电听的不是很懂，&lt;/p&gt;
+&lt;p&gt;其余不错，忍不住折腾了一下pagefind，但是发现问题好像已经不是CI的问题了（用pseudoyu的网站文件试了一下，非常谢谢@&lt;a class=&#34;link&#34; href=&#34;www.pseudoyu.com&#34; &gt;pseudoyu&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;争取早睡，继续加油&lt;/p&gt;
+&lt;p&gt;Plus, 智能车的学长真的蛮友好，希望和他们在一起有所成长吧&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mar 7 23:12&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这几天发生了许多事。&lt;/p&gt;
+&lt;p&gt;明天要好好努力！😴&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mar 7 2:27&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;february&#34;&gt;February&lt;/h4&gt;
+&lt;p&gt;今天晚上篮球课老师说要去帮忙补上学期的期末考试，遂有了一次打比赛的千载难逢的机会。高考之后很少碰过篮球了，因此今天格外开森。&lt;/p&gt;
+
+
+
+&lt;div class=&#34;box aligncenter&#34; style=&#34;max-width:350px;&#34;&gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img  itemprop=&#34;thumbnail&#34; src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230301005217593.png&#34; alt=&#34;篮球&#34; /&gt;
+    &lt;/div&gt;
+    
+      &lt;figcaption&gt;
+          &lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;篮球&lt;/p&gt;
+&lt;/blockquote&gt;
+
+              
+          &lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Feb 28 0:41&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今天晚上吃完晚饭，躺在床上一点干劲也没有的时候，比利突然发微信说散步散到了我们学校。庆幸自己的一个晚上就此被拯救。顺便，我们一起去银茶喝的丢酸油挺好喝的，油柑好像是以前小时候经常会吃的水果，不知怎么淡忘了。&lt;/p&gt;
+
+
+
+&lt;div class=&#34;box aligncenter&#34; style=&#34;max-width:350px;&#34;&gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img  itemprop=&#34;thumbnail&#34; src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/0386c233b79fad3824bbc3cdf2070c9.jpg&#34; alt=&#34;丢酸油柑&#34; /&gt;
+    &lt;/div&gt;
+    
+      &lt;figcaption&gt;
+          &lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;丢酸油柑&lt;/p&gt;
+&lt;/blockquote&gt;
+
+              
+          &lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Feb 27 21:03&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;OpenAI(确切来说是ChatGPT)应该是我用过最难登录的东西，从禁用虚拟手机号到检查IP地址，没有比它更disgusting的了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Feb 26 20:51&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;刚刚在四食堂试了一下新开的汉堡店，味道一般般，价格也一般般。每次进四食堂的时候都会默默替门口右手边的档口感到忧伤。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Feb 26 18:13&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以前小学时经常喜欢在QQ空间分享自己无厘头的想法，现在大学了在朋友圈还是做一样的事情或许不太适宜，担心他们看过之后会想：“原来他是这样一个人！”。我也并非对自己不满，只是不想每次发圈都要承想别人的评论。但是来这里的人，也许都是有意了解我的人。Welcome!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Feb 26 10:14&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://www.huang-zifeng.com/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://www.huang-zifeng.com/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友链</title>
+        <link>https://www.huang-zifeng.com/%E5%8F%8B%E9%93%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/%E5%8F%8B%E9%93%BE/</guid>
+        <description>&lt;h2 id=&#34;--一起成为朋友吧&#34;&gt;✋  一起成为朋友吧&lt;/h2&gt;
+&lt;p&gt;交换友链可发邮件至 &lt;a class=&#34;link&#34; href=&#34;mailto:hi@huang-zifeng.com&#34; &gt;hi@huang-zifeng.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我的博客信息：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;名称:&lt;/strong&gt; Mitcher&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地址:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.huang-zifeng.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;头像:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com/img/avatar_hu4b6d3ebe4b9b4430ce23d7610b481822_20819_300x0_resize_box_3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.huang-zifeng.com/img/avatar_hu4b6d3ebe4b9b4430ce23d7610b481822_20819_300x0_resize_box_3.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;描述:&lt;/strong&gt; 20嵗，是個學生&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

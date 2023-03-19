@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Mitcher</title>
+        <link>https://www.huang-zifeng.com/en/page/</link>
+        <description>Recent content in Pages on Mitcher</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.huang-zifeng.com/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://www.huang-zifeng.com/en/about/</link>
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/en/about/</guid>
+        <description>&lt;h2 id=&#34;-hii-am-huang-zifeng&#34;&gt;✋ Hi，I am Huang Zifeng&lt;/h2&gt;
+&lt;p&gt;Hi, I am a student majoring in Automation from Harbin Institute of Technology, Shenzhen.&lt;/p&gt;
+&lt;p&gt;I am proficient in simple STM32 development and I enjoy photography 📷, playing games 🎮, and occasionally tinkering with deep learning and blogging.&lt;/p&gt;
+&lt;p&gt;My goal is to become a Full Stack DevOps and I am currently working hard to achieve that.&lt;/p&gt;
+&lt;p&gt;Follow me on GitHub to learn more about me.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://www.huang-zifeng.com/en/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/en/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://www.huang-zifeng.com/en/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/en/links/</guid>
+        <description>&lt;h2 id=&#34;--一起成为朋友吧&#34;&gt;✋  一起成为朋友吧&lt;/h2&gt;
+&lt;p&gt;交换友链可发邮件至 &lt;a class=&#34;link&#34; href=&#34;mailto:hi@huang-zifeng.com&#34; &gt;hi@huang-zifeng.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我的博客信息：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;名称:&lt;/strong&gt; Mitcher&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地址:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.huang-zifeng.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;头像:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com/img/avatar_hu4b6d3ebe4b9b4430ce23d7610b481822_20819_300x0_resize_box_3.png&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.huang-zifeng.com/img/avatar_hu4b6d3ebe4b9b4430ce23d7610b481822_20819_300x0_resize_box_3.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;描述:&lt;/strong&gt; 20嵗，是個學生&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://www.huang-zifeng.com/en/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/en/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

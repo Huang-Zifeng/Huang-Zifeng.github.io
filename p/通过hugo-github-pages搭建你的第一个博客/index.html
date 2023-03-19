@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+<script async defer src="https://analytics.umami.is/script.js" data-website-id="8ff4dc0b-4c73-4410-98b0-462a3594c14c"></script><meta name='description' content='今天在这里给大家分享如何用Hugo搭建自己的个人博客。 前言 搭建博客这个想法最早受到ZheWana和朋友Fun_Cheong的启发，想通过博客'>
+<title>通过Hugo&#43;GitHub Pages搭建你的第一个博客</title>
+
+<link rel='canonical' href='https://www.huang-zifeng.com/p/%E9%80%9A%E8%BF%87hugo-github-pages%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/'>
+
+<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='通过Hugo&#43;GitHub Pages搭建你的第一个博客'>
+<meta property='og:description' content='今天在这里给大家分享如何用Hugo搭建自己的个人博客。 前言 搭建博客这个想法最早受到ZheWana和朋友Fun_Cheong的启发，想通过博客'>
+<meta property='og:url' content='https://www.huang-zifeng.com/p/%E9%80%9A%E8%BF%87hugo-github-pages%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/'>
+<meta property='og:site_name' content='林定㝝'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2023-02-01T12:10:21&#43;08:00'/><meta property='article:modified_time' content='2023-02-01T12:10:21&#43;08:00'/>
+<meta name="twitter:title" content="通过Hugo&#43;GitHub Pages搭建你的第一个博客">
+<meta name="twitter:description" content="今天在这里给大家分享如何用Hugo搭建自己的个人博客。 前言 搭建博客这个想法最早受到ZheWana和朋友Fun_Cheong的启发，想通过博客">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu4b6d3ebe4b9b4430ce23d7610b481822_20819_300x0_resize_box_3.png" width="300"
+                            height="298" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">林定㝝</a></h1>
+            <h2 class="site-description">20嵗，是個學生</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Huang-Zifeng/'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.huang-zifeng.com/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%9A%8F%E6%83%B3/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cloud" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" />
+</svg>
+
+
+
+                
+                <span>随想</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E9%93%BE/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://www.huang-zifeng.com/en/" >English</option>
+                        
+                            <option value="https://www.huang-zifeng.com/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>深色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#一环境搭建">一、环境搭建</a>
+      <ol>
+        <li><a href="#1-git安装">1. Git安装</a></li>
+        <li><a href="#2-hugo安装">2. Hugo安装</a></li>
+        <li><a href="#3-go安装">3. Go安装</a></li>
+        <li><a href="#4-添加环境变量">4. 添加环境变量</a></li>
+      </ol>
+    </li>
+    <li><a href="#二创建-hugo-网站">二、创建 Hugo 网站</a>
+      <ol>
+        <li><a href="#1-创建网站">1. 创建网站</a></li>
+        <li><a href="#2-安装主题">2. 安装主题</a></li>
+        <li><a href="#3-修改配置文件toml">3. 修改配置文件<code>.toml</code></a></li>
+        <li><a href="#4-发布文章">4. 发布文章</a></li>
+        <li><a href="#5-在本地启动你的网站">5. 在本地启动你的网站</a></li>
+      </ol>
+    </li>
+    <li><a href="#三在github-pages上面发布你的网站">三、在GitHub Pages上面发布你的网站</a>
+      <ol>
+        <li><a href="#1-新建仓库">1. 新建仓库</a></li>
+        <li><a href="#2生成静态网站">2.生成静态网站</a></li>
+        <li><a href="#3-修改仓库设置和配置文件">3. 修改仓库设置和配置文件</a></li>
+      </ol>
+    </li>
+    <li><a href="#参考资料">参考资料</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%8D%9A%E5%AE%A2/" style="background-color: #2a9d8f; color: #fff;">
+                博客
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E9%80%9A%E8%BF%87hugo-github-pages%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/">通过Hugo&#43;GitHub Pages搭建你的第一个博客</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 01, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 6 分钟
+                </time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <path d="M13.5 6.5l4 4" />
+</svg>
+
+
+
+                <time class="article-words">
+                    2904字
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>今天在这里给大家分享如何用Hugo搭建自己的个人博客。</p>
+<h2 id="前言">前言</h2>
+<p>搭建博客这个想法最早受到<a class="link" href="https://zhewana.cn/"  target="_blank" rel="noopener"
+    >ZheWana</a>和朋友<a class="link" href="https://funcheong.cn/"  target="_blank" rel="noopener"
+    >Fun_Cheong</a>的启发，想通过博客作为知识的输出工具和分享平台。后面看到<a class="link" href="https://www.pseudoyu.com/zh/"  target="_blank" rel="noopener"
+    >Pseudoyu</a>的博客之后才知道原来博客可以这样记录生活，于是更加坚定了搭建博客这件事。其中笔者踩了不少的坑才得以呈现此文。当然，这篇文章和任何其他技术类的文章一样，受限于技术日新月异地发展，其中一些细节可能会有出错或者不再适用的情况（笔者踩的另一个坑）。所以也请读者不吝指正文章需要更正的地方，并且带眼识文，不要只执着与此文，更可参考更多的其他文章。</p>
+<h2 id="一环境搭建">一、环境搭建</h2>
+<p>如果你有能力完成<a class="link" href="https://gohugo.io/getting-started/quick-start/"  target="_blank" rel="noopener"
+    >Quick Start | Hugo (gohugo.io)</a>中的内容，那么你可以跳过本部分内容。</p>
+<p>本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作）</p>
+<p>安装程序的时候最好勾选添加到环境变量选项，如果忘记添加也可以按照Step4手动添加</p>
+<h3 id="1-git安装">1. Git安装</h3>
+<p><a class="link" href="https://git-scm.com/downloads"  target="_blank" rel="noopener"
+    >Git - Downloads (git-scm.com)</a></p>
+<h3 id="2-hugo安装">2. Hugo安装</h3>
+<p><a class="link" href="https://gohugo.io/installation/windows/"  target="_blank" rel="noopener"
+    >Windows | Hugo (gohugo.io)</a></p>
+<p><a class="link" href="https://gohugo.io/installation/macos/"  target="_blank" rel="noopener"
+    >macOS | Hugo (gohugo.io)</a></p>
+<h3 id="3-go安装">3. Go安装</h3>
+<p><a class="link" href="https://go.dev/doc/install"  target="_blank" rel="noopener"
+    >Download and install - The Go Programming Language</a></p>
+<p>Hugo是用Go语言编写的静态网站生成工具。</p>
+<h3 id="4-添加环境变量">4. 添加环境变量</h3>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/8Pt6z.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h2 id="二创建-hugo-网站">二、创建 Hugo 网站</h2>
+<h3 id="1-创建网站">1. 创建网站</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site site-name<span class="o">(</span>网站名字<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-安装主题">2. 安装主题</h3>
+<p>Hugo支持广泛的主题，你可以在<a class="link" href="https://themes.gohugo.io/"  target="_blank" rel="noopener"
+    >Themes</a>当中选取你想要的主题，每个主题的配置方式有些许不同，应该参考主题对应仓库下的说明，但是以下步骤是每个主题搭建都会遵循的步骤。</p>
+<p>你可以下载主题的最新版本 .zip 文件 并且解压放到 <code>themes</code> 目录.</p>
+<p>另外, 也可以直接把这个主题克隆到 <code>themes</code> 目录:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>或者, 初始化你的项目目录为 git 仓库, 并且把主题仓库作为你的网站目录的子模块</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/pseudoyu/hugo-theme-den themes/hugo-theme-den
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>（PS: <code>Coder</code>主题笔者直接用<code>git clone</code>可以成功，但是<code>den</code>主题只有使用第三种方式的时候才成功，采用前两种方式的时候不会创建<code>.gitmodule</code>文件，后续<code>GitHub Pages</code>在网站时会报错，den默认使用了<code>gitmodule</code>?  未知QAQ）</p>
+<p>下面以den这款主题为例子讲述如何搭建</p>
+<h3 id="3-修改配置文件toml">3. 修改配置文件<code>.toml</code></h3>
+<p>根目录下的<code>config.toml</code>是我们网站的配置文件，一般可以在<code>theme\(主题名字)\exampleSite</code>里面直接找到作者推荐的配置文件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span><span class="lnt">156
+</span><span class="lnt">157
+</span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
+</span><span class="lnt">161
+</span><span class="lnt">162
+</span><span class="lnt">163
+</span><span class="lnt">164
+</span><span class="lnt">165
+</span><span class="lnt">166
+</span><span class="lnt">167
+</span><span class="lnt">168
+</span><span class="lnt">169
+</span><span class="lnt">170
+</span><span class="lnt">171
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- General Settings --------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="nv">baseURL</span> <span class="o">=</span> <span class="s2">&#34;https://example.com&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">title</span> <span class="o">=</span> <span class="s2">&#34;Den&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">theme</span> <span class="o">=</span> <span class="s2">&#34;hugo-theme-den&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#enableRobotsTXT = true       # generate robots.txt</span>
+</span></span><span class="line"><span class="cl"><span class="nv">enableEmoji</span> <span class="o">=</span> <span class="nb">true</span>           <span class="c1"># use emoji support</span>
+</span></span><span class="line"><span class="cl"><span class="nv">hasCJKLanguage</span> <span class="o">=</span> <span class="nb">true</span>        <span class="c1"># detect CJK languages for word count etc.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">preserveTaxonomyNames</span> <span class="o">=</span> <span class="nb">true</span> <span class="c1"># do not make tag names lowercase</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls</span>
+</span></span><span class="line"><span class="cl"><span class="nv">rssLimit</span> <span class="o">=</span> <span class="m">20</span>                <span class="c1"># limit number of entries in RSS feeds</span>
+</span></span><span class="line"><span class="cl"><span class="nv">ignoreErrors</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&#34;error-remote-getjson&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Copyright, appears in the footer</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># copyright = &#34;&#34;             # default: author.name</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Pagination</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># number of entries per page for archives, tags and categories</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># since we don&#39;t have list view, recommend a large value</span>
+</span></span><span class="line"><span class="cl"><span class="nv">paginate</span> <span class="o">=</span> <span class="m">20</span>
+</span></span><span class="line"><span class="cl"><span class="nv">paginatePath</span> <span class="o">=</span> <span class="s2">&#34;page&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Syntax Hightlight</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PygmentsCodeFences</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PygmentsUseClasses</span> <span class="o">=</span> <span class="nb">true</span>    <span class="c1"># required for shhighlight shortcode</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># service plugins</span>
+</span></span><span class="line"><span class="cl"><span class="nv">disqusShortname</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>         <span class="c1"># disqus_shortname</span>
+</span></span><span class="line"><span class="cl"><span class="nv">googleAnalytics</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>         <span class="c1"># UA-XXXXXXXX-X</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># language support # en / zh-tw / other... translations present in i18n/</span>
+</span></span><span class="line"><span class="cl"><span class="nv">defaultContentLanguage</span> <span class="o">=</span> <span class="s2">&#34;en&#34;</span>           <span class="c1"># Default language to use</span>
+</span></span><span class="line"><span class="cl"><span class="nv">defaultContentLanguageInSubdir</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Links format</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>permalinks<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">posts</span> <span class="o">=</span> <span class="s2">&#34;/:year/:month/:day/:slug/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">categories</span> <span class="o">=</span> <span class="s2">&#34;/category/:slug/&#34;</span>      <span class="c1"># required</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">tags</span> <span class="o">=</span> <span class="s2">&#34;/tag/:slug/&#34;</span>                 <span class="c1"># required</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">pages</span> <span class="o">=</span> <span class="s2">&#34;/:slug/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>author<span class="o">]</span>                     <span class="c1"># required</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Jane Doe&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>sitemap<span class="o">]</span>                    <span class="c1"># required</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">changefreq</span> <span class="o">=</span> <span class="s2">&#34;weekly&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">priority</span> <span class="o">=</span> 0.5
+</span></span><span class="line"><span class="cl">  <span class="nv">filename</span> <span class="o">=</span> <span class="s2">&#34;sitemap.xml&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- Other Params ------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>params<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">since</span> <span class="o">=</span> <span class="s2">&#34;2017&#34;</span>             <span class="c1"># Site creation time</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">rssFullContent</span> <span class="o">=</span> <span class="nb">true</span>      <span class="c1"># set true to use full content instead of summary</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># site info (optional)</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">keywords</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&#34;Hugo&#34;</span>, <span class="s2">&#34;theme&#34;</span>,<span class="s2">&#34;den&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;A simple theme for Hugo&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">logoTitle</span> <span class="o">=</span> <span class="s2">&#34;Den&#34;</span> <span class="c1"># shown on top-left, default: title</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">siteLogoImage</span> <span class="o">=</span> <span class="s2">&#34;images/globe.svg&#34;</span>     <span class="c1"># shown besides logoTitle</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># headerTitle = &#34;Den&#34;                   # default: title</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">headerImage</span> <span class="o">=</span> <span class="s2">&#34;images/background.jpg&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">showAuthorCard</span> <span class="o">=</span> <span class="nb">true</span> <span class="c1"># Whether to show author information below the article</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nv">showMenuLanguages</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nv">autoLoadComments</span> <span class="o">=</span> <span class="nb">false</span> <span class="c1"># auto load comment when scrolling down</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># paginate style, default use numbered pagination links</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># if true, use original &#34;Previous&#34; and &#34;Next&#34; links.</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># paginateOriginalStyle = true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">dateFormatToUse</span> <span class="o">=</span> <span class="s2">&#34;2006-01-02&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nv">google_verification</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>  <span class="c1"># Google_Verification</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Link custom CSS and JS assets</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">#   (relative to /static/css and /static/js respectively)</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">customCSS</span> <span class="o">=</span> <span class="o">[]</span>             <span class="c1"># if [&#39;custom.css&#39;], load &#39;/static/css/custom.css&#39; file</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">customJS</span> <span class="o">=</span> <span class="o">[]</span>              <span class="c1"># if [&#39;custom.js&#39;], load &#39;/static/js/custom.js&#39; file</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- Related Articles --------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>related<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># Only include matches with rank &gt;= threshold. This is a normalized rank between 0 and 100.</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">threshold</span> <span class="o">=</span> <span class="m">50</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># To get stable &#34;See also&#34; sections we, by default, exclude newer related pages.</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">includeNewer</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Will lower case keywords in both queries and in the indexes.</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">toLower</span> <span class="o">=</span> <span class="nb">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[[</span>related.indices<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;categories&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">200</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[[</span>related.indices<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;keywords&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">150</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[[</span>related.indices<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;tags&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">100</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>languages.en<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">languageCode</span> <span class="o">=</span> <span class="s2">&#34;en&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">languageName</span> <span class="o">=</span> <span class="s2">&#34;English&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">contentDir</span> <span class="o">=</span> <span class="s2">&#34;content/en&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.en.menu.main<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Notes&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;notes&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;category/notes/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.en.menu.main<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Demos&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">20</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;demos&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;category/demos/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.en.menu.social<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;GitHub&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;github&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.en.menu.links<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;About Me&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;about-me&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>languages.zh-tw<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">languageCode</span> <span class="o">=</span> <span class="s2">&#34;zh-tw&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">languageName</span> <span class="o">=</span> <span class="s2">&#34;繁體中文&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">contentDir</span> <span class="o">=</span> <span class="s2">&#34;content/zh-tw&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[</span>languages.zh-tw.params<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;一個簡單的佈景。&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.zh-tw.menu.main<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;筆記&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;notes&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;category/notes/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.zh-tw.menu.main<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;展示&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">20</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;demos&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;category/demos/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.zh-tw.menu.social<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;GitHub&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;github&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.zh-tw.menu.links<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;關於我&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;about-me&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>一般来说可以直接将<code>theme\(主题名字)\exampleSite</code>里面的所有文件都复制到根目录，快速查看网站的效果。</p>
+<h3 id="4-发布文章">4. 发布文章</h3>
+<p>使用命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts<span class="se">\f</span>irst-post.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>来发布你的第一篇文章吧。</p>
+<p>注意文章开头的draft要设置成false才可以渲染文章。</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/ID885.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="5-在本地启动你的网站">5. 在本地启动你的网站</h3>
+<p>使用以下命令启动网站:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo serve
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>或者</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>去查看 <code>http://localhost:1313</code>.</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/8Tiqy.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h2 id="三在github-pages上面发布你的网站">三、在GitHub Pages上面发布你的网站</h2>
+<h3 id="1-新建仓库">1. 新建仓库</h3>
+<p>首先，我们新建一个仓库</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rDZMH.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>除了仓库名字格式为username.github.io外，不要进行其他设置，因为这样会建立分支，而我们想要的是push代码的时候直接创建分支，避免引起冲突。</p>
+<h3 id="2生成静态网站">2.生成静态网站</h3>
+<p>在根目录下使用命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>为博客生成静态文件，文件默认会保存在目录public\下，GitHub Pages部署的静态网站正是里面的内容。</p>
+<h3 id="3-修改仓库设置和配置文件">3. 修改仓库设置和配置文件</h3>
+<p>上传之前，我们先到GitHub的仓库中进行GitHub Pages的相关设定。进入仓库，打开<code>Setting-Pages</code>,按照下图进行设定，</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rAFob.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>可以看到，GitHub Pages将通过branch分支的<code>docs\</code>目录构建我们的网站。</p>
+<p>但是我们的发布目录是在<code>publish</code>目录中，所以我们要在<code>config.toml</code>中添加下列语句</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">publishDir</span> <span class="p">=</span> <span class="s2">&#34;docs&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这样，我们使用<code>hugo</code>命令生成的网站就会生成在<code>docs\</code>目录下</p>
+<p>重新执行命令<code>hugo</code></p>
+<p>接着在根目录下将代码上传</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init <span class="c1"># 初始化仓库</span>
+</span></span><span class="line"><span class="cl">git remote add origin https://github.com/Huang-Zifeng/Huang-Zifeng.github.io.git <span class="c1"># 修改为自己仓库的路径</span>
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;update&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin master <span class="c1"># 直接用git push会失败，以后还是尽量要指定分支</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>接着，经过大概5分钟左右的等待之后，你就可以通过访问<code>xxx.github.io</code>（这个网址第一次最好还是在上图所示中的<code>Visit Site</code>来获得，毕竟有时候你可能不知道自己设置的网址是否和你期待的一样）来查看你的网站。</p>
+<p>这时候其实还没有完成，你会发现点开其中任何一个链接都会超链接失败，显示<code>404 Page Not Found</code>，因此我们需要复制最开始的网址，将它替换掉<code>config.toml</code>中<code>baseURL = &quot;https://example.com&quot;</code>这一句里面的网址，重新执行<code>hugo</code>生成静态文件，推送代码上去才可以看到我们网站完整的效果。</p>
+<h2 id="参考资料">参考资料</h2>
+<p><a class="link" href="https://sspai.com/post/59904"  target="_blank" rel="noopener"
+    >浅谈我为什么从 HEXO 迁移到 HUGO - 少数派 (sspai.com)</a>（当时碰的坑是GitHub Pages没有设置对，没有弄清楚GitHub Pages的原理，看到这篇文章解决了，发布了第一个以coder为主题的网站）</p>
+<p><a class="link" href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/"  target="_blank" rel="noopener"
+    >Hugo + GitHub Action，搭建你的博客自动发布系统 · Pseudoyu</a>（现在用的主题den和这篇文章的作者一样，Pseudoyu是一位热爱博客的博主，你可以在他的网站里面学习更多自定义博客的知识，以及发掘博客的乐趣，后面笔者很多问题都是Pseudoyu帮我解决的。这篇文章主要参考的是主题的配置以及GitHub Action自动部署）</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/blog/">blog</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8Epagefind%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8C%97/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313001534638.png" loading="lazy" data-key="" data-hash="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313001534638.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">为你的博客创建搜索引擎——Pagefind搭建指北</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%88%E8%B0%88%E6%88%91%E5%9C%A8%E6%90%AD%E5%BB%BApagefind%E6%97%B6%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311202803144.png" loading="lazy" data-key="" data-hash="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311202803144.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">为你的博客创建搜索引擎——谈谈我在搭建Pagefind时踩过的坑</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E6%8B%A5%E6%9C%89%E8%87%AA%E5%B7%B1%E5%9F%9F%E5%90%8D%E7%9A%84%E8%B7%AF%E4%B8%8A%E7%A2%B0%E5%88%B0%E7%9A%84%E9%AD%94%E5%B9%BB%E4%BA%8B%E4%BB%B6/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">拥有自己域名的路上碰到的魔幻事件</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="100b3e75-de12-486c-95dc-77a9928f7467"
+    data-page-id="ffd1e691afc776ce7808cfdcb659ce80"
+    data-page-url="https://www.huang-zifeng.com/p/%E9%80%9A%E8%BF%87hugo-github-pages%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"
+    data-page-title="通过Hugo&#43;GitHub Pages搭建你的第一个博客"></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<script>
+    function setCusdisTheme(theme) {
+        let cusdis = document.querySelector('#cusdis_thread iframe');
+        if (cusdis) {
+            window.CUSDIS.setTheme(theme)
+        }
+    }
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        setCusdisTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <section class="copyright">
+        
+        2023 林定㝝</title><br>
+        <i class="fas fa-bell"></i> <a id="days">0</a>Days<br>
+        共书写了15.7k字<br>
+        共 11篇文章</br><span><p>
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+
+    <script>
+        var s1 = '2023-02-02';
+        s1 = new Date(s1.replace(/-/g, "/"));
+        s2 = new Date();
+        var days = s2.getTime() - s1.getTime();
+        var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+        document.getElementById('days').innerHTML = number_of_days;
+    </script>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

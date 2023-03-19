@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Weekly on 林定㝝</title>
+        <link>https://www.huang-zifeng.com/tags/weekly/</link>
+        <description>Recent content in Weekly on 林定㝝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 19 Mar 2023 16:54:51 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>周报4 | Things That Are Beyond My Control</title>
+        <link>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/</link>
+        <pubDate>Sun, 19 Mar 2023 16:54:51 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/</guid>
+        <description>&lt;img src="https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0638.jpg" alt="Featured image of post 周报4 | Things That Are Beyond My Control" /&gt;&lt;p&gt;这周周报一反以往夜半三更时的更新时间，早早就写了，主要是回到宿舍想到与其玩游戏倒不如记录一下这周生活。题目受到&lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/geloyconcepcion/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;geloyconception&lt;/a&gt;的启发，想来确实也很符合我对这周生活的记录。而且每次总以《xx、xx和xx》为题多少有些刻板。顺便，这也算是这周众多不确定性中的一个因子吧。&lt;/p&gt;
+&lt;h2 id=&#34;edc初尝试&#34;&gt;EDC初尝试&lt;/h2&gt;
+&lt;p&gt;这几天参加了学校举办的EDC(电子设计竞赛)，题目基本和全国题差不多，我们选择的是E题，要设计一个双向DC-DC变换器，虽然因缘巧合之下着是上周我们练习时就讨论过的一道题目，但是实际上手起来发现难度还是相当有的。就拿电路设计部分来说，虽然已经学会了基本的Buck电路和Boost电路，但是在芯片选型和完整设计这一块自己却没有任何的思路可言。最后只是在程序上帮了点小忙，用之前学过但是没实践过的结构体特性设计了一个PID控制器。不确定性也蛮多的：烧录程序的时候keil闪退、芯片无法识别，甚至&lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com/%e9%9a%8f%e6%83%b3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;卡在main函数执行之前&lt;/a&gt;，我们总是在奇怪的地方卡住。电路方面更是如此：IR2104高端使能低端没有输出波形(可能表述的不准确不要怪我balabala，但确实是一反芯片手册上的设计)，最后用贴片的IR2104方才成功，电容/MOS不知道那里击穿，只能逐个重新更换焊接来排查&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;这次下来感觉自己的能力还是很缺失的，但是所幸遇到了很友善的学长向我解释各种知识，也在技术栈上添加了ADC、矩阵键盘这样的小外设。如果学长之后没有找我我也不会奇怪，毕竟自己确实没有体现很大的作用。但是至少这次知道了自己缺失怎样的能力，也算是收获之一。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0670.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;可爱的IR2104&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt; &lt;img src=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0671.jpg&#34;
+	width=&#34;3024&#34;
+	height=&#34;4032&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;现场&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;不确定性碎碎念&#34;&gt;不确定性碎碎念&lt;/h2&gt;
+&lt;p&gt;1# 前天中午从图书馆出来准备吃午饭的时候看见路边的树上结满了Sakura，路上一反平时的单调色彩，遂于午饭后决定拍下，发圈的时候忽然想起到一年前的同一天自己也拍下了Sakura的照片！一对比，噫~怎么感觉少了点东西，还真是，一年前大沙河两边开满的Sakura如今只剩下稀零零的一小片，但是如果是从别的角度拍，也能有很好看的效果。&lt;/p&gt;
+&lt;p&gt;2# 耳机😣耳机😰这学期数不清是第几次丢了&lt;/p&gt;
+&lt;p&gt;3# 每次去实验室都能在经过的活动中心听到风格各异的演唱，也许有一场我不知道的活动，抛开时间的维度自己至少也在相同的地方听到了一样的音乐。&lt;/p&gt;
+&lt;p&gt;刚开始想写的时候还是想到蛮多的，但是写到现在发现怎么憋不出来了。&lt;/p&gt;
+&lt;h2 id=&#34;书影音&#34;&gt;书影音&lt;/h2&gt;
+&lt;p&gt;本周久违地看了一部电影《哈利·波特与魔法石》，学了新的麻瓜咒语&lt;/p&gt;
+&lt;p&gt;漂浮咒 - Wingardium Leviosa&lt;/p&gt;
+&lt;p&gt;注意&lt;code&gt;sa&lt;/code&gt;的发音要轻读，不然会有炸头发的风险（严肃脸）&lt;/p&gt;
+&lt;p&gt;没有听什么新的音乐，但是还是推荐你去听Hikaru Utada，对~不知道听什么的时候就要去听Hikaru Utada。&lt;/p&gt;
+&lt;p&gt;这几周都蛮忙的，希望四月不会是另一个三月。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I wish I would stop blaming myself for things that are beyond my control.
+——Geloy Concepcion&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>周报2 | 小情绪</title>
+        <link>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A52-%E5%B0%8F%E6%83%85%E7%BB%AA/</link>
+        <pubDate>Fri, 03 Mar 2023 01:44:01 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A52-%E5%B0%8F%E6%83%85%E7%BB%AA/</guid>
+        <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311233627867.png" alt="Featured image of post 周报2 | 小情绪" /&gt;&lt;p&gt;本篇是对&lt;code&gt;2023-2-24&lt;/code&gt;到&lt;code&gt;2023-3-3&lt;/code&gt;这周生活的记录和思考。&lt;/p&gt;
+&lt;p&gt;这周是开学第二周，课程和生活逐渐步入了正轨。没有外卖，没有前几周那种暴饮暴食，作业和上课也认真了很多。熬夜还是一样如期而至。但是这周一种以前一直都存在的小情绪却泛滥了起来，会突然感觉无聊，会望眼欲穿某个人会来找自己，会在一次又一次的期待中失望离开。&lt;/p&gt;
+&lt;p&gt;当然也并不是每次都会失望，比如周三傍晚躺在床上的时候比利就突然发一条消息说他到大学城了，那晚我们就边散步边畅聊了很多有的没的。比如遇到战队或者比赛的问题时FunCheong或者学长也会开导我，帮我从一个Pro的角度去看待问题，有一个和你在技术上有很多共同话题的朋友是一件幸事。还有很多…我也正是从中理解作家为什么赞颂友谊。&lt;/p&gt;
+&lt;p&gt;当然啦，也要坦白承认自己是一个情感上不太成熟的人，会害怕承诺和过于自我。经常有时候会说出一些不经大脑思考的话。虽然已经伤害了不止一个人，但是所幸也遇到了包容我的那个人。&lt;/p&gt;
+&lt;p&gt;随便，这周也把这学期的几个baseline定下来了，因为还没有成果所以先不分享。&lt;/p&gt;
+&lt;h2 id=&#34;输入&#34;&gt;输入&lt;/h2&gt;
+&lt;p&gt;数电 - 码制和数制&lt;/p&gt;
+&lt;p&gt;模电 - 本征半导体和掺杂半导体，以及在不同方向电压下的性质&lt;/p&gt;
+&lt;p&gt;理论力学 - 力偶系，平面任意力系&lt;/p&gt;
+&lt;p&gt;毛概 - 毛泽东思想的形成和发展，联系（感觉还是很表面的东西）不过会结合历史还是很有意思的&lt;/p&gt;
+&lt;p&gt;Magnetically Actuated Capsule Robots: A Review（介绍了磁驱动胶囊机器人的体系）&lt;/p&gt;
+&lt;h2 id=&#34;输出&#34;&gt;输出&lt;/h2&gt;
+&lt;p&gt;理论力学、数电的一些笔记，已经post在blog里面了&lt;/p&gt;
+&lt;h2 id=&#34;最近&#34;&gt;最近&lt;/h2&gt;
+&lt;h3 id=&#34;最近在看&#34;&gt;最近在看📺&lt;/h3&gt;
+&lt;p&gt;追番和追美剧没有上学期那么狂热了，but还是会留意以前追过的番的续作&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;刺客伍六七 第四季&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;最近在读&#34;&gt;最近在读📕&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;麦田里的守望者（思绪一度和主人公很相同，甚至会模仿主人公的思维看待周边的事物和人）&lt;/li&gt;
+&lt;li&gt;机器人学导论&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;最近在听&#34;&gt;最近在听🎧&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;《小步舞曲》及其专辑《吉他手 groupies》（偶然在豆瓣发现了陈绮贞，很像台湾版的Serrini，是喜欢的风格）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;生活剪影&#34;&gt;生活剪影📷&lt;/h3&gt;
+
+
+
+&lt;div class=&#34;box aligncenter&#34; style=&#34;max-width:350px;&#34;&gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img  itemprop=&#34;thumbnail&#34; src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/0386c233b79fad3824bbc3cdf2070c9.jpg&#34; alt=&#34;丢酸油柑&#34; /&gt;
+    &lt;/div&gt;
+    
+      &lt;figcaption&gt;
+          &lt;p&gt;&lt;blockquote&gt;
+&lt;p&gt;和比利那晚喝的丢酸油柑，油柑曾是小时候很喜欢的水果&lt;/p&gt;
+&lt;/blockquote&gt;
+
+              
+          &lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>周报1 | 大物考试、法师桥和ChatGPT</title>
+        <link>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A51-%E5%A4%A7%E7%89%A9%E8%80%83%E8%AF%95%E6%B3%95%E5%B8%88%E6%A1%A5%E5%92%8Cchatgpt/</link>
+        <pubDate>Tue, 14 Feb 2023 00:09:42 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A51-%E5%A4%A7%E7%89%A9%E8%80%83%E8%AF%95%E6%B3%95%E5%B8%88%E6%A1%A5%E5%92%8Cchatgpt/</guid>
+        <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230312000411047.png" alt="Featured image of post 周报1 | 大物考试、法师桥和ChatGPT" /&gt;&lt;p&gt;本篇是对&lt;code&gt;2023-02-08&lt;/code&gt; 到 &lt;code&gt;2023-02-14&lt;/code&gt; 这周生活的记录与思考。&lt;/p&gt;
+&lt;p&gt;这周的大部分时间都在复习物理考试，也留出很多时间进一步完善刚刚搭建不久的博客。因为没有课要上，每天基本都待在宿舍里面，时间被大片地使用起来，不过始终感觉效率不高。”光阴如锉，细细磨无声“的感觉也确乎体会到了。&lt;/p&gt;
+&lt;h2 id=&#34;大学物理试图教会我们什么&#34;&gt;大学物理试图教会我们什么&lt;/h2&gt;
+&lt;p&gt;可以说从2月1日回来到2月13日主要的“工作”都是在复习大学物理考试。大物我们学了两学期，秋季学期考察的是“振动”、“波动”、“光学”、“气体动理论”、“热力学基础”和“量子物理”的内容。因为知识体系非常庞大，加之上学期因为不满老师念PPT而无趣的上课方式翘了大半时间的课，所以这次总归不得不在这几天学下来。前面大半时间（7天）都在翻书看课本，其中第十一章光学看了四天。虽然做作业的时候知识点都懂，但是要隔了一个月要捡起来知识的时候还是蛮陌生的（平时做作业前的归纳总结确实蛮有帮助不过）。有一种感觉是，我知道这个，但是这个有什么用呢。&lt;/p&gt;
+&lt;p&gt;我先简单梳理一下学会了什么吧，至于有什么用，希望留在日后自己反思观察，当作埋下一颗种子。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;振动&lt;/code&gt;主要讲了弹簧振子的位移和时间之间的关系。科学家通过研究发现其规律满足一个余弦函数，并且可以用&lt;code&gt;旋转矢量法&lt;/code&gt;来方便地进行初相等物理量的表示。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;波动&lt;/code&gt;主要讲了平面简谐波，是因为数学家发现无论多复杂的波都可以用平面简谐波进行合成。所以我们只用研究平面简谐波就可以了。而波是时间和空间的二元函数，在时间固定或者空间固定的时候其函数表达式满足简谐振动的规律。所以这一章最开始讲的是，波动是振动的传递过程（横波、纵波）。我们学习了其中的相干波和驻波（特殊的相干波），了解了半波损失（相位跃变）。平面简谐波的波函数从振动方程出发，引出位移的概念，还是蛮好求的。唯一的应用可能是&lt;code&gt;多普勒效应&lt;/code&gt;，解释了为什么救护车在你耳边的时候声音突然变高，其实是与救护车与观察者靠近的时候观察者接收的声音频率变大有关。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;光学&lt;/code&gt;延伸了许多波动的概念。首先我们讲了杨氏双缝干涉和劳埃德镜，我们通过它们产生相干波（驻波），并且在光屏上观察到肉眼可见的条纹（干涉加强产生）。然后我们讲了薄膜干涉以及其应用劈尖、牛顿环和迈克尔逊干涉仪，我们可以通过数光纹的条数或者间距来方便地测量细丝的直径，这对于精微测量有重要的意义。最后我们讲了夫琅禾费(&lt;strong&gt;Fraunhofer&lt;/strong&gt;)单缝衍射(这个名字至考试结束依旧没能记下来)和圆孔衍射，这是一种理想化的”远场衍射“，书本上说理论上简单，而且大多数实用场合需要考虑。我们可以用这两种衍射来判断光学仪器分辨率和雷达精度。最后讲了光栅衍射，它是为解决单缝衍射不能很好控制亮度和分辨条纹而来的，通过在玻璃上刻毛玻璃来实现（上千个单缝累加？I guess）。最后提到的马吕斯定律很好地解释了小时候看的查理九世和小虎队为什么可以用解密卡看见谜底的原理，第一个想到将这个用在儿童科幻读物上的人是个有童心的天才！&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;气体动理论&lt;/code&gt;和&lt;code&gt;热力学基础&lt;/code&gt;和我们高中学习的差不多，可能多出来了自由度、能量均分定理、定容热容和定压热容这些方便实际应用计算的概念。热力学定律也一再涉略，标志着科学家对有限能源进行无限使用的幻想。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;量子物理&lt;/code&gt;还是涉略了很多看似科幻的内容的。现在只是有点不明为什么刚放假的时候花了将近一个星期才把这章啃完。介绍了很多量子化的物理观念，从光电效应到氢原子的玻尔理论。最后讲一维势井的时候很有让人不可思议的感觉，但是我在书本上学到的时候只是看见了一堆公式，并没有很好地满足好奇心和兴趣。以后注定不会喜欢/从事这一类的研究。&lt;/p&gt;
+&lt;p&gt;整本书简略地梳理下来，贴近学术研究的理论比较多，实际生产中见到的比较少。也不知道这些知识会如何与自动化研究结合起来，姑且拭目以待。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/6a7b1eb69572fe95740d318ded78b69.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;与ChatGPT聊大物&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;法师桥上追赶日落的我们&#34;&gt;法师桥上追赶日落的我们&lt;/h2&gt;
+&lt;p&gt;物理考试的前一天同学想来深圳摄影，于是顺道约我出去玩，我心想着当作考试前的放松就答应了。&lt;/p&gt;
+&lt;p&gt;我们那天先在我们学校逛了一下，各自边逛边分享大家的校园生活，聊了挺多有意思的（包括但不限于东北的澡堂和东北的姑娘😁）。&lt;/p&gt;
+&lt;p&gt;后来我们去深圳湾拍照（大抵是我心目中深圳的城市名片了，每次外出几乎都会往那跑），去人才公园踩好机位之后我们拍了一些照片准备去吃饭，打算趁日落最美的时候再来拍照。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/c2b384394ee9950ef3b8acb647b49a6.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;人才公园合照&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;晚上在万象城的蔡澜吃了pho，味道和价格都很好。越南粉的汤清甜。免费加粉的设定很人性化。&lt;/p&gt;
+&lt;p&gt;然后就是绕了大半圈去法师桥啦，我带路的方向感向来一般，走了远的那条路子。当时5点近6点的时候骑单车飞速，生怕赶不上日落。但是最后还好赶上了，并且发现日落其实在手机显示的时间(18:16)之后看更有味道，而且还是挺漫长的(19:10之前一直在拍)，一直到下面是简单的照片分享。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/96b564dda061dbce981788c6f987284.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;朋友在调整机位&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/78c40985becc3e705e505d4e1f2d3db.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;法师桥日落1&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/3b81a4762b7b4f5e17196948b156bbb.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;蓝调时刻&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;关于chatgpt我所目睹的&#34;&gt;关于ChatGPT，我所目睹的&lt;/h2&gt;
+&lt;p&gt;不谦虚地说，我对ChatGPT的技术一无所知，只知道它是和NLP相关的语言模型。但是我见证了它最开始小有名气到现在人尽皆知、国内争相模仿的过程。&lt;/p&gt;
+&lt;p&gt;ChatGPT可以做的太多了，写代码，情感咨询，问物理题&amp;hellip;&amp;hellip;在Chat这方面，我没有听说它不能聊的地方。在体验上最大的不同是，它是一个有记忆力的AI，它可以记得它之前说过什么来结合上下文回答你的问题。我今天在新版Bing上用它感觉良好，觉得它可以帮我们节省很多筛选信息的时间。感觉就像钢铁侠的助理贾维斯。只是它还仅限于Chat，但是不排除未来它可能会做更多的事情，可能是好事或者坏事。我觉得它会像iPhone一样推动一场科技革命，或者已经开始推动了，&lt;a class=&#34;link&#34; href=&#34;https://www.ithome.com/0/672/997.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;其实也是Jensen Huang的观点&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Siri、小爱同学等老牌人工智能助手显得相形见绌了许多。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230214025939443.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230214025939443&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;最近&#34;&gt;最近&lt;/h2&gt;
+&lt;h3 id=&#34;最近在玩&#34;&gt;最近在玩🎮&lt;/h3&gt;
+&lt;p&gt;《God of  War 4》(战神4)，很有索尼的一贯的高水平独占风格。画风没有想象中的压抑。&lt;/p&gt;
+&lt;h3 id=&#34;最近在读&#34;&gt;最近在读📚&lt;/h3&gt;
+&lt;p&gt;《大学物理》P1-P376，论考试前的量子速读:&amp;gt;&lt;/p&gt;
+&lt;p&gt;《环球地理》2022年12月刊，编辑说，每一张照片都必须是难以复制的，才算是好照片。&lt;/p&gt;
+&lt;p&gt;《读者》，订购了2023半年刊还没到，但是在图书馆看到22年11月刊，有点失望，言论变成了心灵鸡汤区，少有引录和文采，感觉是谁都可以写的东西。文章相当一部分变成了公众号文章，不可否认这是一种新的文字载体，就像我现在写博客一样。喜欢刘润的《体育生、数学生和艺术生》，也是发表在公众号上。我觉得自己高中的时候是个学数学的体育生，现在大学了变成了爱体育的数学生。未来希望自己多向艺术生发展。&lt;/p&gt;
+&lt;h3 id=&#34;最近在听&#34;&gt;最近在听🎧&lt;/h3&gt;
+&lt;p&gt;《&amp;lsquo;Til It&amp;rsquo;s Over》，源自Apple的广告，觉得莫名好听。下次有机会看歌词。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

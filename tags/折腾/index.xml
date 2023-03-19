@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>折腾 on 林定㝝</title>
+        <link>https://www.huang-zifeng.com/tags/%E6%8A%98%E8%85%BE/</link>
+        <description>Recent content in 折腾 on 林定㝝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 13 Mar 2023 00:30:06 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>周报3 | Pagefind、20公里与游园会</title>
+        <link>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/</link>
+        <pubDate>Mon, 13 Mar 2023 00:30:06 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/</guid>
+        <description>&lt;img src="https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/balloon.jpg" alt="Featured image of post 周报3 | Pagefind、20公里与游园会" /&gt;&lt;figure &gt;
+    &lt;audio controls preload=&#34;metadata&#34;&gt;
+        
+        &lt;source src=&#34;https://www.huang-zifeng.com/audios/%e5%85%b6%e5%ae%9e%e5%af%82%e5%af%9e.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+    &lt;/audio&gt;
+    &lt;i&gt;&lt;figcaption&gt;《其实寂寞》-谢安琪&lt;/figcaption&gt;&lt;/i&gt;
+&lt;/figure&gt;
+&lt;p&gt;这周的大部分时间都在折腾自己的博客。这周还做了很多其他有意思的事情，运动量最大的一周，睡眠时间最少的一周，也是人际交往最多的一周。总的来说，这周在读一本小书的时候，同时有读到了许多蛮有意思的大书。&lt;/p&gt;
+&lt;h2 id=&#34;折腾的路上不孤单&#34;&gt;折腾的路上不孤单&lt;/h2&gt;
+&lt;p&gt;上周六闲着也是闲着，于是寻思顺便在原来的主题加入搜索引擎，以更好整理日后的内容。因为之前（直到昨天）还是在用&lt;a class=&#34;link&#34; href=&#34;www.pseudoyu.com&#34; &gt;Pseudoyu&lt;/a&gt;的配置文件，看到yu介绍自己搭建过程的时候比较轻描淡写，加上之前有使用Cusdis的一些经验，于是产生了应该不是很难的错觉。&lt;/p&gt;
+&lt;p&gt;详细的配置过程已经在&lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com/p/%e4%b8%ba%e4%bd%a0%e7%9a%84%e5%8d%9a%e5%ae%a2%e5%88%9b%e5%bb%ba%e6%90%9c%e7%b4%a2%e5%bc%95%e6%93%8epagefind%e6%90%ad%e5%bb%ba%e6%8c%87%e5%8c%97/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;为你的博客创建搜索引擎——Pagefind搭建指北&lt;/a&gt;中分享。&lt;/p&gt;
+&lt;p&gt;首先，碰见了和我一样喜欢折腾但不是程式专长的&lt;a class=&#34;link&#34; href=&#34;https://pinchlime.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;吳秉儒先生&lt;/a&gt;，每次有一点小进度都欣喜向他报告。一个对生产力工具和部落格很有热枕的人。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313004536834.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230313004536834&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;后面通过电邮联系到了&lt;a class=&#34;link&#34; href=&#34;[BryceWray.com]%28https://www.brycewray.com/%29&#34; &gt;Brycewray&lt;/a&gt;，一个写了Pagefind搭建指南的博主，因为他也碰到过，所以最开始怀疑是npx或者是CI的问题。&lt;/p&gt;
+&lt;p&gt;他在这方面提供了很多帮助。某种意义上也是第一次和老外写信来往。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313005245363.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Email&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最后在推上联系到了作者bglw，问题圆满解决。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313005726857.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image-20230313005726857&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;高中学的写信的句式总算找到了用武之地。这种体验蛮有意思的，虽然自己只是一个自动化专业的学生，本可能这辈子都和前端无缘，但是在接触一个自己不熟悉的领域的时候还是得到了很多陌生人的热心帮助。作为接触的比较深入的第一个开源项目，在查issue、提issue的过程中也碰到了很多和我类似的问题，在这个角度来看，它让我第一次意识到了开源项目的魅力所在。这种开源的氛围至少在国内还不太浓厚，issue通常被当作吐槽、教产品经理做产品的平台，代码也一般会藏在私有仓库甚至本地管理。&lt;/p&gt;
+&lt;h2 id=&#34;生命中的第一个20公里&#34;&gt;生命中的第一个20公里&lt;/h2&gt;
+&lt;p&gt;这周和朋友一起参加了机电学院的跑步活动，跑步本身是从初中开始就很喜欢的一项运动。但平时只会一周跑一次当作散心。这次跑步活动我和朋友每天一起跑3公里，3公里作为一个平时不会触碰的距离还是蛮有挑战性的，这周跑了7天，周末稍微偷了一下懒。但是自从跑了几天之后也慢慢适应了。跑步的时候听的最多的专辑是陈绮贞的《Groupies吉他手》，简单轻松，但又同时都充满了一种很舒服的哲理感。后面有一次还听起了博客，是一直很想了解的跳海酒馆。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout.jpg&#34;
+	width=&#34;395&#34;
+	height=&#34;737&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout_hu7f9166768db96b8f83d237b284caa0ad_54479_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout_hu7f9166768db96b8f83d237b284caa0ad_54479_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;7-Day Workouts&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;53&#34;
+		data-flex-basis=&#34;128px&#34;
+	
+&gt;  &lt;img src=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468.jpg&#34;
+	width=&#34;667&#34;
+	height=&#34;890&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468_hu8e2b2a6b42042c3ba8c0eebe8440a986_103808_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468_hu8e2b2a6b42042c3ba8c0eebe8440a986_103808_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Me&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;74&#34;
+		data-flex-basis=&#34;179px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;游园会&#34;&gt;游园会&lt;/h2&gt;
+&lt;p&gt;疫情虽然夺走了三年的青春，但是没有夺                                                                                                                                                                                                                                                                                                   走我们的游园会！虽然这次算是我们协会21级同学第一次半参与的组织活动，有很多没有准备充分的地方，但是总的来说大家还是玩得很开心。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531.png&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531_hu46b00567250ea7c124947f7f86acb761_12091058_480x0_resize_box_3.png 480w, https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531_hu46b00567250ea7c124947f7f86acb761_12091058_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;翻牌游戏&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21.jpg&#34;
+	width=&#34;3233&#34;
+	height=&#34;2425&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21_huc5c78204c0a9c10d0f56ca1020d506aa_1771089_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A53-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21_huc5c78204c0a9c10d0f56ca1020d506aa_1771089_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;合照&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;HSCIA是我在大学参加的归属感最浓厚的集体。我在这里认识了很多有意思的朋友，也参加了很多有意思的活动。希望未来HSCIA会大家的共同努力下越来越好。&lt;/p&gt;
+&lt;h2 id=&#34;最近在听&#34;&gt;最近在听🎧&lt;/h2&gt;
+&lt;p&gt;谢安琪的「其实寂寞」&lt;/p&gt;
+&lt;p&gt;很喜欢里面的一句歌词&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;開餐一個人 不必等夠人 埋頭狂吃通粉不夠淋&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+        </item>
+        <item>
+        <title>为你的博客创建搜索引擎——Pagefind搭建指北</title>
+        <link>https://www.huang-zifeng.com/p/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8Epagefind%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8C%97/</link>
+        <pubDate>Sun, 12 Mar 2023 22:47:34 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/p/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8Epagefind%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8C%97/</guid>
+        <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313001534638.png" alt="Featured image of post 为你的博客创建搜索引擎——Pagefind搭建指北" /&gt;&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;上周六闲着也是闲着，于是寻思顺便在原来的主题加入搜索引擎，以更好整理日后的内容。因为之前（直到昨天）还是在用&lt;a class=&#34;link&#34; href=&#34;www.pseudoyu.com&#34; &gt;Pseudoyu&lt;/a&gt;的配置文件，看到yu介绍自己搭建过程的时候比较轻描淡写，加上之前有使用Cusdis的一些经验，于是产生了应该不是很难的错觉。本篇的省流版本可见于&lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com/p/%e4%b8%ba%e4%bd%a0%e7%9a%84%e5%8d%9a%e5%ae%a2%e5%88%9b%e5%bb%ba%e6%90%9c%e7%b4%a2%e5%bc%95%e6%93%8e%e8%b0%88%e8%b0%88%e6%88%91%e5%9c%a8%e6%90%ad%e5%bb%bapagefind%e6%97%b6%e8%b8%a9%e8%bf%87%e7%9a%84%e5%9d%91/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;为你的博客创建搜索引擎——谈谈我在搭建Pagefind时踩过的坑&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;localhost&#34;&gt;localhost&lt;/h2&gt;
+&lt;p&gt;首先应该是在layouts/shortcodes中创建search.html，在其中放入来自&lt;a class=&#34;link&#34; href=&#34;https://pagefind.app/docs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Getting Started with Pagefind&lt;/a&gt;的html代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/_pagefind/pagefind-ui.css&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/_pagefind/pagefind-ui.js&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;search&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addEventListener&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;DOMContentLoaded&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;event&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PagefindUI&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;element&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#search&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;以方便后面我们在写Markdown的时候通过关键字&lt;code&gt;search&lt;/code&gt;快速嵌入页面版式。&lt;/p&gt;
+&lt;p&gt;然后就是在&lt;code&gt;Bash&lt;/code&gt;对本地文件进行索引，查看效果：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npx -y pagefind --source public --serve
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;上面这行命令的意思是, 使用&lt;code&gt;npx&lt;/code&gt;安装pagefind，-y表示如果本地没有安装默认同意安装，&lt;code&gt;--source public&lt;/code&gt;表示对public文件夹中的文件进行索引, &amp;ndash;serve表示索引完之后直接启动本地端调试。&lt;/p&gt;
+&lt;p&gt;其中遇到的困难是，安装的时候会显示&lt;code&gt;正在写入数据流&lt;/code&gt;，写入完之后就不了了之了，这在GitHub上面有人提过issue，我当时还没有去看，只是通过询问New Bing知道了这种情况可能是终端不兼容的问题（当时用的是Bash）,后面换成命令行工具就好了。&lt;/p&gt;
+&lt;p&gt;执行索引的那条命令，如果按照教程加上&amp;ndash;serve按理说应该会看到本地的显示效果才对，while它会重定向到你&lt;code&gt;baseurl&lt;/code&gt;所指向的地址，所以你无法在本地端调试。&lt;/p&gt;
+&lt;p&gt;接下来笔者点了一个技能树，发现有一个Pseudoyu的仓库里有个Shell脚本文件&lt;code&gt;startpf.sh&lt;/code&gt;可以直接一次性执行上面的三行代码，并且可以在本地显示效果。&lt;/p&gt;
+&lt;p&gt;内容是&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;npm_config_yes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt; npx pagefind --source &lt;span class=&#34;s2&#34;&gt;&amp;#34;public&amp;#34;&lt;/span&gt; --bundle-dir ../static/mysearch
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;至此，你应该完成了本地端的调试。在本地端看见了效果：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313001534638.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;localhost&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ci&#34;&gt;CI&lt;/h2&gt;
+&lt;p&gt;接下来是GitHub Action上自动执行工作流，原本想的很简单的，就和白汤四物&lt;a class=&#34;link&#34; href=&#34;https://www.fournoas.com/posts/adding-full-text-search-to-a-hugo-static-website/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;轻描淡写&lt;/a&gt;般的一样。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;编辑 .github/workflows/hugo.yml 文件，在 steps 小结中的 Build 和 Deploy 操作之间添加如下内容：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Install nodejs&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;actions/setup-node@v3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;with&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;node-version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;npm i pagefind&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;npx pagefind --source public --bundle-dir search&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;对于大多数人来说，部署Pagefind已经就此完成了。如果只是这样，作为一款静态网站搜索引擎工具，Pagefind确实足够优秀，轻量化。&lt;/p&gt;
+&lt;h2 id=&#34;troubleshoot&#34;&gt;Troubleshoot&lt;/h2&gt;
+&lt;p&gt;但是发现所有workflow都没有报错之后，在网站依然看不见搜索框UI。&lt;/p&gt;
+&lt;p&gt;接下来的三天没折腾什么，就是对着&lt;code&gt;deploy.yml&lt;/code&gt;反复进行上百次的修改（此处是心碎的声音💔）&lt;/p&gt;
+&lt;p&gt;直接说结论，为什么Workflow没有报错，但是UI没有显示呢。&lt;/p&gt;
+&lt;p&gt;我在GitHub上面提问了作者&lt;a class=&#34;link&#34; href=&#34;https://github.com/bglw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bglw&lt;/a&gt;，得到的回复是DOMContentLoaded发生的时间太快，因此&lt;code&gt;window.addEventListener&lt;/code&gt;根本来不及运行，呃呃呃呃，只能说对于作为非前端开发的笔者根本看不出来可以这样debug好吧。后面在markdown的search标签下加入了script。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PagefindUI&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;element&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#search&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;意思是强制执行这行代码，还是用了&lt;code&gt;defer&lt;/code&gt;进行延后。&lt;/p&gt;
+&lt;p&gt;之后再看看开发者模式，果然跳出来了小丑（捣蛋鬼👻）&lt;/p&gt;
+&lt;p&gt;大概是&amp;quot;rocket-loader.css&amp;quot;加载错误。&lt;/p&gt;
+&lt;p&gt;这个恰恰是Cloudflare的一项加速服务。因而很容易想到为什么DOMContentLoaded发生的时间会太快。&lt;/p&gt;
+&lt;p&gt;于是关闭这项服务之后，等了四天的结果终于出现了。至此，踩的坑已经分享完成。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>为你的博客创建搜索引擎——谈谈我在搭建Pagefind时踩过的坑</title>
+        <link>https://www.huang-zifeng.com/p/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%88%E8%B0%88%E6%88%91%E5%9C%A8%E6%90%AD%E5%BB%BApagefind%E6%97%B6%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</link>
+        <pubDate>Sun, 05 Mar 2023 16:04:50 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/p/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%88%E8%B0%88%E6%88%91%E5%9C%A8%E6%90%AD%E5%BB%BApagefind%E6%97%B6%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</guid>
+        <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311202803144.png" alt="Featured image of post 为你的博客创建搜索引擎——谈谈我在搭建Pagefind时踩过的坑" /&gt;&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230308012450248.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pagefind&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这原先是一个Pagefind搭建过程中的测试页面。如图所述&lt;code&gt;Pagefind&lt;/code&gt;是一个有着相对不错口碑的静态网站索引生成工具。&lt;/p&gt;
+&lt;p&gt;具体的搭建教程可以参看&lt;a class=&#34;link&#34; href=&#34;https://pagefind.app/docs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Getting Started&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;其中，在本地安装Pagefind时，第一次使用Git Bash安装没有成功，后面用Command Prompt安装成功了。&lt;/p&gt;
+&lt;p&gt;其他踩过的坑可以查看笔者在Pagefind仓库提出的&lt;a class=&#34;link&#34; href=&#34;https://github.com/CloudCannon/pagefind/issues/240&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Issue&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311202803144.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;issue&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;搭建过程中得到了很多人的帮助。后面有机会会详细记录。&lt;/p&gt;
+&lt;link href=&#34;https://www.huang-zifeng.com/mysearch/pagefind-ui.css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;script src=&#34;https://www.huang-zifeng.com/mysearch/pagefind-ui.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;search&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+    window.addEventListener(&#39;DOMContentLoaded&#39;, (event) =&gt; {
+        new PagefindUI({
+            element: &#34;#search&#34;
+        });
+    });
+&lt;/script&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
+        <title>拥有自己域名的路上碰到的魔幻事件</title>
+        <link>https://www.huang-zifeng.com/p/%E6%8B%A5%E6%9C%89%E8%87%AA%E5%B7%B1%E5%9F%9F%E5%90%8D%E7%9A%84%E8%B7%AF%E4%B8%8A%E7%A2%B0%E5%88%B0%E7%9A%84%E9%AD%94%E5%B9%BB%E4%BA%8B%E4%BB%B6/</link>
+        <pubDate>Tue, 07 Feb 2023 01:04:44 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/p/%E6%8B%A5%E6%9C%89%E8%87%AA%E5%B7%B1%E5%9F%9F%E5%90%8D%E7%9A%84%E8%B7%AF%E4%B8%8A%E7%A2%B0%E5%88%B0%E7%9A%84%E9%AD%94%E5%B9%BB%E4%BA%8B%E4%BB%B6/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;搭建好博客之后，因为GitHub Pages在国内访问的速度问题，拥有自己的域名并配置CDN加速是一件很合情合理的事情。但是在拥有域名的路上也不总是那么一帆风顺。下面是对注册域名过程中的一些记录。&lt;/p&gt;
+&lt;h2 id=&#34;注册域名的导火线umami&#34;&gt;注册域名的导火线，umami&lt;/h2&gt;
+&lt;p&gt;umami cloud作为当时朋友推荐的轻量化网站统计工具，不支持GitHub提供的默认域名，于是更加推动了我注册域名的决心&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/20230208175937.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;腾讯云心目中的优秀选择&#34;&gt;腾讯云，心目中的优秀选择&lt;/h2&gt;
+&lt;p&gt;在注册国内域名首先是我想到的，毕竟朋友FunCheong的域名也是在腾讯云注册的。但是备案所需漫长的三天等待以及必须租用云服务器才能备案的设定让我不得不望而却步。因为云服务器的价格可以去到300元一年，而域名的价格却只18元一年。离谱的是，这是我花了18元注册域名要备案时候才得知的事情。&lt;/p&gt;
+&lt;p&gt;于是，不用备案并且提供免费云服务器的Cloudflare显然是更好的选择。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rg2IV.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;抛弃了支付宝的cloudflare&#34;&gt;抛弃了支付宝的Cloudflare&lt;/h2&gt;
+&lt;p&gt;在Cloudflare注册域名的时候只能选择VISA、万事达、PayPal这样的国际支付手段，对于一个大学生来说，这显然有点困难。因缘巧合之下，我之前注册了PayPal，但是在支付的时候却以支付失败作结。&lt;/p&gt;
+&lt;p&gt;并且这一画面还是多端尝试（iPad、iPhone），反复确认下出现的多次画面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rgwyN.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;namesilo--domain-cheap-easy-and-secure&#34;&gt;NameSilo · domain, cheap, easy and secure&lt;/h2&gt;
+&lt;p&gt;重点表扬NameSilo，正如网站标语一样，它既支持支付宝，也不用备案，成为了上岸的最后一根稻草。&lt;/p&gt;
+&lt;p&gt;接下来的设置其实就是按照教程&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://t.csdn.cn/8ZOD5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;注册域名并使用cloudflare解析_cloudflare域名解析_一只小小程序猿~的博客-CSDN博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo + GitHub Action，搭建你的博客自动发布系统 · Pseudoyu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;进行设置的。整体上没有太大困难。&lt;/p&gt;
+&lt;h2 id=&#34;魔幻的域名解析&#34;&gt;魔幻的域名解析&lt;/h2&gt;
+&lt;p&gt;什么是域名解析？域名解析就是国际域名或者国内域名以及中文域名等域名申请后做的到IP地址的转换过程。IP地址是网路上标识您站点的数字地址，为了简单好记，采用域名来代替IP地址标识站点地址。域名的解析工作由DNS服务器完成。&lt;/p&gt;
+&lt;p&gt;唯独最后一件奇怪的事情就是，当我去GitHub Pages设定的时候，DNS Check会给你提示出错的原因，第一次只添加了CNAME解析记录，那时候显示报错，网站登不上。后来添加了一条A记录，DNS Check的时候显示未解析到网址github.io，遂删除这条记录。这时候抱着绝望的心态，想着今晚先这样吧，然后点了一下以为打不开的网站。然后，它真的打开了！（这可能是最魔幻的一刻，但是也是宣告博客搭建告一段落的一刻）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rgXqv.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;加速&#34;&gt;加速!&lt;/h2&gt;
+&lt;p&gt;CDN加速是什么？ CDN全称Content Delivery Network，即&lt;strong&gt;内容分发网络&lt;/strong&gt;。 其基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定。&lt;/p&gt;
+&lt;p&gt;Cloudflare的CDN加速，在概述中，完成提示你的优化设置，并且保存即可（一开始不知道还要点保存）。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rg7Ey.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;速度确实提升了，后面想到参照Pseudoyu的文章，还是加了一条A记录上去，速度确实肉眼可见的提升了不少。&lt;/p&gt;
+&lt;h2 id=&#34;告一段落&#34;&gt;告一段落&lt;/h2&gt;
+&lt;p&gt;博客的搭建至此可能已经告一段落(&lt;del&gt;后续可能会转用Picgo+腾讯云作为图床,已完成&lt;/del&gt;)&lt;/p&gt;
+&lt;p&gt;下面会更加重视内容的输出（毕竟这才是初心）&lt;/p&gt;
+&lt;p&gt;另外，因为比较喜欢简单的博客也是原因之一罢。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

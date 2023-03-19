@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Mitcher</title>
+        <link>https://www.huang-zifeng.com/en/categories/</link>
+        <description>Recent content in Categories on Mitcher</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 03 Mar 2023 13:04:18 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Notes</title>
+        <link>https://www.huang-zifeng.com/en/categories/notes/</link>
+        <pubDate>Fri, 03 Mar 2023 13:04:18 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/en/categories/notes/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
