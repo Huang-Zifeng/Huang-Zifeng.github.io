@@ -10,7 +10,7 @@ rss_ignore: false
 draft: false
 ---
 
-这周周报一反以往夜半三更时的更新时间，早早就写了，主要是回到宿舍想到与其玩游戏倒不如记录一下这周生活。题目受到[geloyconception](https://www.instagram.com/geloyconcepcion/)的启发，想来确实也很符合我对这周生活的记录。而且每次总以《xx、xx和xx》为题多少有些刻板。顺便，这也算是这周众多不确定性中的一个因子吧。
+这周周报一反以往夜半三更时的更新时间，早早就写了，主要是回到宿舍想到与其玩游戏倒不如记录一下这周生活。题目受到[@geloyconcepcion](https://www.instagram.com/geloyconcepcion/)的启发，想来确实也很符合我对这周生活的记录。而且每次总以《xx、xx和xx》为题多少有些刻板。顺便，这也算是这周众多不确定性中的一个因子吧。
 
 ## EDC初尝试
 
