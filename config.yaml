@@ -8,12 +8,12 @@ languages:
     en:
         languageName: English
         title: Mitcher
-        description: Plan.Do.Life
+        description: 📫hi@huang-zifeng.com
         weight: 1
     zh-cn:
         languageName: 中文
         title: 林定㝝
-        description: 20嵗，是個學生
+        description: 📫hi@huang-zifeng.com
         weight: 2
 
 # Change it to your Disqus shortname before using
