@@ -1,5 +1,5 @@
 ---
-title: "周报4 | Things That Are Beyond My Control"
+title: "Weekly 4 | Uncertainty"
 date: 2023-03-19T16:54:51+08:00
 description: "原来生活有那么多的不确定性"
 tags: [“Weekly”]
@@ -10,7 +10,7 @@ rss_ignore: false
 draft: false
 ---
 
-这周周报一反以往夜半三更时的更新时间，早早就写了，主要是回到宿舍想到与其玩游戏倒不如记录一下这周生活。题目受到[@geloyconcepcion](https://www.instagram.com/geloyconcepcion/)的启发，想来确实也很符合我对这周生活的记录。而且每次总以《xx、xx和xx》为题多少有些刻板。顺便，这也算是这周众多不确定性中的一个因子吧。
+这周周报一反以往夜半三更时的更新时间，早早就写了，主要是回到宿舍想到与其玩游戏倒不如记录一下这周生活。
 
 ## EDC初尝试
 
@@ -34,13 +34,9 @@ draft: false
 
 ## 书影音
 
-本周久违地看了一部电影《哈利·波特与魔法石》，学了新的麻瓜咒语
+本周久违地看了一部电影《哈利·波特与魔法石》
 
-漂浮咒 - Wingardium Leviosa
-
-注意`sa`的发音要轻读，不然会有炸头发的风险（严肃脸）
-
-没有听什么新的音乐，但是还是推荐你去听Hikaru Utada，对~不知道听什么的时候就要去听Hikaru Utada。
+没有听什么新的音乐，在听Hikaru Utada
 
 这几周都蛮忙的，希望四月不会是另一个三月。
 
