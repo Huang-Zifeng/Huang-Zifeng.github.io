@@ -6,43 +6,21 @@
         <description>Recent content in 日常 on 林定㝝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 25 Mar 2023 01:27:04 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Weekly 5 | 时间会解决一切问题</title>
-        <link>https://www.huang-zifeng.com/p/weekly-5-%E6%97%B6%E9%97%B4%E4%BC%9A%E8%A7%A3%E5%86%B3%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98/</link>
-        <pubDate>Sat, 25 Mar 2023 01:27:04 +0800</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/p/weekly-5-%E6%97%B6%E9%97%B4%E4%BC%9A%E8%A7%A3%E5%86%B3%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98/</guid>
-        <description>&lt;p&gt;这周发生了很多事，在这里琐碎地记录&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;电源模块烧毁，定位模块反复重启，工训告一段落。出现问题的解决方式往往最不应该是逃避问题，但是意识到自己无法同时专注于两三件同样重要的事情的时候，只好如此。&lt;/li&gt;
-&lt;li&gt;模电、数电落下很大进度，周六日补上&lt;/li&gt;
-&lt;li&gt;明天(周六)补上RA那边欠下的工作，3D打印、联系、调试&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;还有就是，虽然这周不是那么顺利，但是也有好的事情发生。&lt;/p&gt;
-&lt;p&gt;这周狂听&lt;code&gt;King Gnu&lt;/code&gt;的音乐，每一首都好喜欢。&lt;/p&gt;
-&lt;p&gt;听到&lt;code&gt;Don&#39;t Stop the Clocks&lt;/code&gt;的时候自己处于焦头烂额的状态(向朋友抱怨很想414)，其实很希望时间能停下来。但是说不定&lt;code&gt;Don&#39;t Stop the Clocks&lt;/code&gt;才是版本的终极答案，时间的流逝确实会解决很多问题。以前在《读者》读过类似的言论&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;放轻松 时间会解决一切的问题&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>周报4 | Things That Are Beyond My Control</title>
-        <link>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/</link>
+        <lastBuildDate>Sun, 19 Mar 2023 16:54:51 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Weekly 4 | Uncertainty</title>
+        <link>https://www.huang-zifeng.com/p/weekly-4-uncertainty/</link>
         <pubDate>Sun, 19 Mar 2023 16:54:51 +0800</pubDate>
         
-        <guid>https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/</guid>
-        <description>&lt;img src="https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0638.jpg" alt="Featured image of post 周报4 | Things That Are Beyond My Control" /&gt;&lt;p&gt;这周周报一反以往夜半三更时的更新时间，早早就写了，主要是回到宿舍想到与其玩游戏倒不如记录一下这周生活。题目受到&lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/geloyconcepcion/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;@geloyconcepcion&lt;/a&gt;的启发，想来确实也很符合我对这周生活的记录。而且每次总以《xx、xx和xx》为题多少有些刻板。顺便，这也算是这周众多不确定性中的一个因子吧。&lt;/p&gt;
+        <guid>https://www.huang-zifeng.com/p/weekly-4-uncertainty/</guid>
+        <description>&lt;img src="https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0638.jpg" alt="Featured image of post Weekly 4 | Uncertainty" /&gt;&lt;p&gt;这周周报一反以往夜半三更时的更新时间，早早就写了，主要是回到宿舍想到与其玩游戏倒不如记录一下这周生活哈哈。&lt;/p&gt;
 &lt;h2 id=&#34;edc初尝试&#34;&gt;EDC初尝试&lt;/h2&gt;
 &lt;p&gt;这几天参加了学校举办的EDC(电子设计竞赛)，题目基本和全国题差不多，我们选择的是E题，要设计一个双向DC-DC变换器，虽然因缘巧合之下着是上周我们练习时就讨论过的一道题目，但是实际上手起来发现难度还是相当有的。就拿电路设计部分来说，虽然已经学会了基本的Buck电路和Boost电路，但是在芯片选型和完整设计这一块自己却没有任何的思路可言。最后只是在程序上帮了点小忙，用之前学过但是没实践过的结构体特性设计了一个PID控制器。不确定性也蛮多的：烧录程序的时候keil闪退、芯片无法识别，甚至&lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com/%e9%9a%8f%e6%83%b3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;卡在main函数执行之前&lt;/a&gt;，我们总是在奇怪的地方卡住。电路方面更是如此：IR2104高端使能低端没有输出波形(可能表述的不准确不要怪我balabala，但确实是一反芯片手册上的设计)，最后用贴片的IR2104方才成功，电容/MOS不知道那里击穿，只能逐个重新更换焊接来排查&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;这次下来感觉自己的能力还是很缺失的，但是所幸遇到了很友善的学长向我解释各种知识，也在技术栈上添加了ADC、矩阵键盘这样的小外设。如果学长之后没有找我我也不会奇怪，毕竟自己确实没有体现很大的作用。但是至少这次知道了自己缺失怎样的能力，也算是收获之一。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0670.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0670.jpg&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;可爱的IR2104&#34;
@@ -52,10 +30,10 @@
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt; &lt;img src=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0671.jpg&#34;
+&gt; &lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0671.jpg&#34;
 	width=&#34;3024&#34;
 	height=&#34;4032&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E5%91%A8%E6%8A%A54-things-that-are-beyond-my-control/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;现场&#34;
@@ -72,10 +50,8 @@
 &lt;p&gt;3# 每次去实验室都能在经过的活动中心听到风格各异的演唱，也许有一场我不知道的活动，抛开时间的维度自己至少也在相同的地方听到了一样的音乐。&lt;/p&gt;
 &lt;p&gt;刚开始想写的时候还是想到蛮多的，但是写到现在发现怎么憋不出来了。&lt;/p&gt;
 &lt;h2 id=&#34;书影音&#34;&gt;书影音&lt;/h2&gt;
-&lt;p&gt;本周久违地看了一部电影《哈利·波特与魔法石》，学了新的麻瓜咒语&lt;/p&gt;
-&lt;p&gt;漂浮咒 - Wingardium Leviosa&lt;/p&gt;
-&lt;p&gt;注意&lt;code&gt;sa&lt;/code&gt;的发音要轻读，不然会有炸头发的风险（严肃脸）&lt;/p&gt;
-&lt;p&gt;没有听什么新的音乐，但是还是推荐你去听Hikaru Utada，对~不知道听什么的时候就要去听Hikaru Utada。&lt;/p&gt;
+&lt;p&gt;本周久违地看了一部电影《哈利·波特与魔法石》&lt;/p&gt;
+&lt;p&gt;没有听什么新的音乐，在听Hikaru Utada&lt;/p&gt;
 &lt;p&gt;这几周都蛮忙的，希望四月不会是另一个三月。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I wish I would stop blaming myself for things that are beyond my control.
@@ -213,8 +189,8 @@
         <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311233627867.png" alt="Featured image of post 周报2 | 小情绪" /&gt;&lt;p&gt;本篇是对&lt;code&gt;2023-2-24&lt;/code&gt;到&lt;code&gt;2023-3-3&lt;/code&gt;这周生活的记录和思考。&lt;/p&gt;
 &lt;p&gt;这周是开学第二周，课程和生活逐渐步入了正轨。没有外卖，没有前几周那种暴饮暴食，作业和上课也认真了很多。熬夜还是一样如期而至。但是这周一种以前一直都存在的小情绪却泛滥了起来，会突然感觉无聊，会望眼欲穿某个人会来找自己，会在一次又一次的期待中失望离开。&lt;/p&gt;
 &lt;p&gt;当然也并不是每次都会失望，比如周三傍晚躺在床上的时候比利就突然发一条消息说他到大学城了，那晚我们就边散步边畅聊了很多有的没的。比如遇到战队或者比赛的问题时FunCheong或者学长也会开导我，帮我从一个Pro的角度去看待问题，有一个和你在技术上有很多共同话题的朋友是一件幸事。还有很多…我也正是从中理解作家为什么赞颂友谊。&lt;/p&gt;
-&lt;p&gt;当然啦，也要坦白承认自己是一个情感上不太成熟的人，会害怕承诺和过于自我。经常有时候会说出一些不经大脑思考的话。虽然已经伤害了不止一个人，但是所幸也遇到了包容我的那个人。&lt;/p&gt;
-&lt;p&gt;随便，这周也把这学期的几个baseline定下来了，因为还没有成果所以先不分享。&lt;/p&gt;
+&lt;p&gt;当然啦，也要坦白承认自己是一个情感上不太成熟的人，会害怕承诺和过于自我。经常有时候会说出一些不经大脑思考的话。这些称之为渣男的buff我一个也没少。但是所幸也遇到了包容我的那个人。&lt;/p&gt;
+&lt;p&gt;顺便，这周也把这学期的几个baseline定下来了，因为还没有成果所以先不分享。&lt;/p&gt;
 &lt;h2 id=&#34;输入&#34;&gt;输入&lt;/h2&gt;
 &lt;p&gt;数电 - 码制和数制&lt;/p&gt;
 &lt;p&gt;模电 - 本征半导体和掺杂半导体，以及在不同方向电压下的性质&lt;/p&gt;
