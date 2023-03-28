@@ -29,25 +29,25 @@ notFound:
 widget:
     archives:
         title:
-            other: 归档
+            other: archives
 
         more:
             other: 更多
 
     tagCloud:
         title:
-            other: 标签
+            other: Tags
 
     categoriesCloud:
         title:
-            other: 分类
+            other: categories
 
 search:
     title:
-        other: 搜索
+        other: Search
 
     placeholder:
-        other: 输入关键词...
+        other: 站内搜尋
 
     resultTitle:
         other: "#PAGES_COUNT 个结果 （用时 #TIME_SECONDS 秒）"

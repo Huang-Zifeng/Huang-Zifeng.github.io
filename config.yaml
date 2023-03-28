@@ -51,7 +51,7 @@ params:
 
     sidebar:
         emoji: 
-        subtitle: 📫hi@huang-zifeng.com
+        subtitle: hi@huang-zifeng.com
         avatar:
             enabled: true
             local: true

@@ -1,7 +1,6 @@
 ---
 title: "Weekly 4 | Uncertainty"
 date: 2023-03-19T16:54:51+08:00
-description: "原来生活有那么多的不确定性"
 tags: [“Weekly”]
 categories: ["日常"]
 author: "Mitcher"

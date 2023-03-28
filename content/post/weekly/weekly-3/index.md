@@ -1,7 +1,6 @@
 ---
 title: "Weekly 3 | Pagefind、20公里与游园会"
 date: 2023-03-13T00:30:06+08:00
-description: "如果你觉得人生无聊，不妨试试折腾一下舒适圈以外的事物"
 tags: ["折腾", "开源", "Weekly"]
 categories: ["日常"]
 author: "Mitcher"
