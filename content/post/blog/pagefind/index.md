@@ -5,7 +5,6 @@ draft: false
 tags: ["折腾"]
 categories: ["博客"]
 author: "Mitcher"
-image: "https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311202803144.png"
 ---
 
  ![Pagefind](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230308012450248.png)

@@ -5,7 +5,6 @@ description: "聊聊非CS选手是如何折腾前端的"
 tags: ["折腾"]
 keywords: ["Pagefind"]
 categories: ["博客"]
-image: "https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230313001534638.png"
 author: "Mitcher"
 rss_ignore: false
 draft: false
