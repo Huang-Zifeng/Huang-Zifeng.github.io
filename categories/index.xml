@@ -6,7 +6,15 @@
         <description>Recent content in Categories on 林定㝝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 19 Mar 2023 16:54:51 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 30 Mar 2023 02:51:32 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>学习</title>
+        <link>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</link>
+        <pubDate>Thu, 30 Mar 2023 02:51:32 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</guid>
+        <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311235546380.png" alt="Featured image of post 学习" /&gt;</description>
+        </item>
+        <item>
         <title>日常</title>
         <link>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</link>
         <pubDate>Sun, 19 Mar 2023 16:54:51 +0800</pubDate>
@@ -21,14 +29,6 @@
         
         <guid>https://www.huang-zifeng.com/categories/%E5%8D%9A%E5%AE%A2/</guid>
         <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230312000207584.png" alt="Featured image of post 博客" /&gt;</description>
-        </item>
-        <item>
-        <title>学习</title>
-        <link>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</link>
-        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</guid>
-        <description>&lt;img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230311235546380.png" alt="Featured image of post 学习" /&gt;</description>
         </item>
         
     </channel>
