@@ -27,7 +27,8 @@ draft: false
 **喜欢写作和博客**🗒️：初中的时候尝试写过俳句。现在大学之后会通过博客进行生活的记录和思考。
 
 **喜欢创作类活动**📹：除了写作，还会在B站分享自己的游戏视频，在小红书分享自己的桌搭。你可以关注我了解更多~
-  ![image-20230401222346133](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230401222346133.png) ![image-20230401222410790](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230401222410790.png)
+
+![bilibili](bilibili.png) ![小红书](xiaohongshu.png)
 
 **喜欢游戏**🎮：最开始接触到PS2，后来是Nintendo 3DS，陪伴我大部分中学时光的是PS4。喜欢剧情向游戏（比如底特律变人）和合作类游戏（双人成行）。借用某个UP的话
 
