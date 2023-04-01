@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.huang-zifeng.com/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
+    <lastmod>2023-04-02T00:45:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,11 @@
                 href="https://www.huang-zifeng.com/"
                 />
   </url><url>
+    <loc>https://www.huang-zifeng.com/tags/about/</loc>
+    <lastmod>2023-04-02T00:45:38+08:00</lastmod>
+  </url><url>
     <loc>https://www.huang-zifeng.com/categories/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
+    <lastmod>2023-04-02T00:45:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,8 +31,11 @@
                 href="https://www.huang-zifeng.com/categories/"
                 />
   </url><url>
+    <loc>https://www.huang-zifeng.com/categories/love/</loc>
+    <lastmod>2023-04-02T00:45:38+08:00</lastmod>
+  </url><url>
     <loc>https://www.huang-zifeng.com/post/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
+    <lastmod>2023-04-02T00:45:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,7 +48,7 @@
                 />
   </url><url>
     <loc>https://www.huang-zifeng.com/tags/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
+    <lastmod>2023-04-02T00:45:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -53,6 +59,9 @@
                 hreflang="zh-cn"
                 href="https://www.huang-zifeng.com/tags/"
                 />
+  </url><url>
+    <loc>https://www.huang-zifeng.com/p/%E5%85%B3%E4%BA%8E%E6%88%91-%E6%81%8B%E7%88%B1version/</loc>
+    <lastmod>2023-04-02T00:45:38+08:00</lastmod>
   </url><url>
     <loc>https://www.huang-zifeng.com/tags/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-03-30T02:51:32+08:00</lastmod>
