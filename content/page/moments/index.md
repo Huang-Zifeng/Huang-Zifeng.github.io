@@ -10,9 +10,15 @@ rss_ignore: true
 comments: true
 ---
 
-这里是随想。受到[Pin 起來！](https://pinchlime.com/)中的[Stream](https://pinchlime.com/stream/2023/)启发而建立。
+这里是随想。记录一些个人的murmur。
 
 ## 2023
+
+#### April
+
+写完作业洗完澡，终于可以开始做自己想做的事情了。希望下周效率高一点，思路清晰一点。先从做好下周的To-do开始吧。
+
+> Apr 2 1:42 AM
 
 #### March
 
