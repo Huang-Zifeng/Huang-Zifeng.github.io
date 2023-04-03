@@ -138,16 +138,6 @@
   </url><url>
     <loc>https://www.huang-zifeng.com/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.huang-zifeng.com/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.huang-zifeng.com/%E5%85%B3%E4%BA%8E/"
-                />
   </url><url>
     <loc>https://www.huang-zifeng.com/%E9%9A%8F%E6%83%B3/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
@@ -184,15 +174,5 @@
                 />
   </url><url>
     <loc>https://www.huang-zifeng.com/%E5%8F%8B%E9%93%BE/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.huang-zifeng.com/en/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.huang-zifeng.com/%E5%8F%8B%E9%93%BE/"
-                />
   </url>
 </urlset>
