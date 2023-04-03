@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.huang-zifeng.com/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
+    <lastmod>2023-04-03T15:06:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://www.huang-zifeng.com/categories/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
+    <lastmod>2023-04-03T15:06:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,8 +28,14 @@
                 href="https://www.huang-zifeng.com/categories/"
                 />
   </url><url>
+    <loc>https://www.huang-zifeng.com/tags/paper-notes/</loc>
+    <lastmod>2023-04-03T15:06:08+08:00</lastmod>
+  </url><url>
+    <loc>https://www.huang-zifeng.com/p/paper-notes-1-magnetic-quadrupole-assemblies-with-arbitrary-shapes-and-magnetizations/</loc>
+    <lastmod>2023-04-03T15:06:08+08:00</lastmod>
+  </url><url>
     <loc>https://www.huang-zifeng.com/post/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
+    <lastmod>2023-04-03T15:06:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,7 +48,7 @@
                 />
   </url><url>
     <loc>https://www.huang-zifeng.com/tags/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
+    <lastmod>2023-04-03T15:06:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,13 +60,13 @@
                 href="https://www.huang-zifeng.com/tags/"
                 />
   </url><url>
+    <loc>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-04-03T15:06:08+08:00</lastmod>
+  </url><url>
     <loc>https://www.huang-zifeng.com/tags/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-03-30T02:51:32+08:00</lastmod>
   </url><url>
     <loc>https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/</loc>
-    <lastmod>2023-03-30T02:51:32+08:00</lastmod>
-  </url><url>
-    <loc>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-03-30T02:51:32+08:00</lastmod>
   </url><url>
     <loc>https://www.huang-zifeng.com/tags/weekly/</loc>

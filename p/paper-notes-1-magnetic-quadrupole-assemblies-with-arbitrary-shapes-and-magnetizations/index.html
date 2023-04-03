@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+<script async defer src="https://analytics.umami.is/script.js" data-website-id="8ff4dc0b-4c73-4410-98b0-462a3594c14c"></script><meta name='description' content='A review of Magnetic quadrupole assemblies with arbitrary shapes and magnetizations. Summary This article talks about magnetic quadrupole assemblies with arbitrary shapes and magnetizations. The authors propose a magnetic quadrupole module that is able to form stable and frustration-free magnetic assemblies with arbitrary 2D shapes. The quadrupole structure changes the magnetic particle-particle interaction in terms of both symmetry and strength. Each module has a tunable dipole moment that allows the'>
+<title>Paper Notes 1 | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations</title>
+
+<link rel='canonical' href='https://www.huang-zifeng.com/p/paper-notes-1-magnetic-quadrupole-assemblies-with-arbitrary-shapes-and-magnetizations/'>
+
+<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='Paper Notes 1 | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations'>
+<meta property='og:description' content='A review of Magnetic quadrupole assemblies with arbitrary shapes and magnetizations. Summary This article talks about magnetic quadrupole assemblies with arbitrary shapes and magnetizations. The authors propose a magnetic quadrupole module that is able to form stable and frustration-free magnetic assemblies with arbitrary 2D shapes. The quadrupole structure changes the magnetic particle-particle interaction in terms of both symmetry and strength. Each module has a tunable dipole moment that allows the'>
+<meta property='og:url' content='https://www.huang-zifeng.com/p/paper-notes-1-magnetic-quadrupole-assemblies-with-arbitrary-shapes-and-magnetizations/'>
+<meta property='og:site_name' content='林定㝝'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Paper Notes' /><meta property='article:published_time' content='2023-04-03T15:06:08&#43;08:00'/><meta property='article:modified_time' content='2023-04-03T15:06:08&#43;08:00'/>
+<meta name="twitter:title" content="Paper Notes 1 | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations">
+<meta name="twitter:description" content="A review of Magnetic quadrupole assemblies with arbitrary shapes and magnetizations. Summary This article talks about magnetic quadrupole assemblies with arbitrary shapes and magnetizations. The authors propose a magnetic quadrupole module that is able to form stable and frustration-free magnetic assemblies with arbitrary 2D shapes. The quadrupole structure changes the magnetic particle-particle interaction in terms of both symmetry and strength. Each module has a tunable dipole moment that allows the">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu4b6d3ebe4b9b4430ce23d7610b481822_20819_300x0_resize_box_3.png" width="300"
+                            height="298" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">林定㝝</a></h1>
+            <h2 class="site-description"><a href="mailto:hi@huang-zifeng.com">hi@huang-zifeng.com</a></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Huang-Zifeng/'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.huang-zifeng.com/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E9%9A%8F%E6%83%B3/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cloud" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" />
+</svg>
+
+
+
+                
+                <span>随想</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%8F%8B%E9%93%BE/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://www.huang-zifeng.com/en/" >English</option>
+                        
+                            <option value="https://www.huang-zifeng.com/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler-toggle-right " width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#experiments">Experiments</a></li>
+    <li><a href="#why-20-is-chosen">Why 20° is chosen?</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#inspiration">Inspiration</a></li>
+    <li><a href="#whats-next">What&rsquo;s Next?</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%AD%A6%E4%B9%A0/" style="background-color: #2a9d8f; color: #fff;">
+                学习
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/paper-notes-1-magnetic-quadrupole-assemblies-with-arbitrary-shapes-and-magnetizations/">Paper Notes 1 | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Apr 03, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <path d="M13.5 6.5l4 4" />
+</svg>
+
+
+
+                <time class="article-words">
+                    1191字
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>A review of <a class="link" href="https://www.science.org/doi/10.1126/scirobotics.aax8977"  target="_blank" rel="noopener"
+    >Magnetic quadrupole assemblies with arbitrary shapes and magnetizations</a>.</p>
+<h2 id="summary">Summary</h2>
+<p>This article talks about magnetic quadrupole assemblies with arbitrary shapes and magnetizations. The authors propose a magnetic quadrupole module that is able to form stable and frustration-free magnetic assemblies with arbitrary 2D shapes. The quadrupole structure changes the magnetic particle-particle interaction in terms of both symmetry and strength. Each module has a tunable dipole moment that allows the magnetization of overall assemblies to be programmed at the single module level. They provide a simple combinatorial design method to reach both arbitrary shapes and arbitrary magnetizations concurrently. Last, by combining modules with soft segments, they demonstrate programmable actuation of magnetic metamaterials that could be used in applications for soft robots and electromagnetic metasurfaces.</p>
+<h2 id="experiments">Experiments</h2>
+<p>四极矩模块由两个相同的 NdFeB 块状磁体组成，它们位于一个正方形外壳内，两个磁体之间的偶极矩具有相对角度。通过改变两个磁体之间的相对角度，可以调节<strong>偶极</strong>和<strong>四极项</strong>。四极项具有四重旋转对称性，这使得模块能够在二维正方晶格中与其他模块稳定地组装在一起，而<strong>不会产生局部排斥</strong>。这种四重旋转对称性使得模块能够形成稳定的复杂组件，具有任意的磁化。</p>
+<blockquote>
+<p><strong>偶极矩</strong>(dipole moment)描述了一个物体的总磁矩，即物体内部所有磁偶极子的矢量和</p>
+<p><strong>四極子</strong>(quadrupole)是指一種<a class="link" href="https://zh.wikipedia.org/wiki/%e9%9b%bb%e8%8d%b7"  target="_blank" rel="noopener"
+    >電荷</a>、<a class="link" href="https://zh.wikipedia.org/wiki/%e9%9b%bb%e6%b5%81"  target="_blank" rel="noopener"
+    >電流</a>或產生<a class="link" href="https://zh.wikipedia.org/wiki/%e5%bc%95%e5%8a%9b"  target="_blank" rel="noopener"
+    >引力</a>的<a class="link" href="https://zh.wikipedia.org/wiki/%e8%b3%aa%e9%bb%9e"  target="_blank" rel="noopener"
+    >質點</a>等<a class="link" href="https://zh.wikipedia.org/wiki/%e5%a0%b4_%28%e7%89%a9%e7%90%86%29"  target="_blank" rel="noopener"
+    >場源</a>在空間中分佈模式。四極子是一種特殊的空間分佈，對於一般分佈而言，四極子可以是其<a class="link" href="https://zh.wikipedia.org/wiki/%e5%a4%9a%e6%a5%b5%e5%b1%95%e9%96%8b"  target="_blank" rel="noopener"
+    >多極展開</a>的一部分。</p>
+</blockquote>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403153927694.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Quadrupole module"
+	
+	
+></p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403161503052.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="自动吸附"
+	
+	
+></p>
+<p>When two quadrupoles are brought close together, they will automatically assemble (movie S1). Quadrupole assemblies between the same type and different types are demonstrated.</p>
+<h2 id="why-20-is-chosen">Why 20° is chosen?</h2>
+<blockquote>
+<p>an angle (q = 20°, type A) was chosen so that four alternating magnetic poles can be easily identified on each side of the module structure with a noticeable magnetic dipole moment.</p>
+</blockquote>
+<p>The presence of a noticeable magnetic dipole moment allows the module to respond to external magnetic fields and interact with other modules to form stable and frustration-free magnetic assemblies.</p>
+<p>经过统计性研究和大量的仿真，当两个磁体之间的偶极矩具有相对角度20°时，模块四边的极性都可以被一个外加的磁偶极矩轻松地辨认出来，并且形成一个易于分离的结构。</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403163552293.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Theta angle"
+	
+	
+></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>两个磁块通过一定相对角度的排列之后组成的模块，由于四极子的四重对称性(quadrupole’s fourfold symmetry)，可以形成自动组装、易于分离、可以组成任意形状的特性。这对于设计群体软体机器人有极大的帮助。</p>
+<h2 id="inspiration">Inspiration</h2>
+<p>坦诚而言，之前并没有很好地理解这篇文章就直接设计相似的实验了。</p>
+<ol>
+<li>易于分离不单止是因为有3D打印外壳的物理隔离，而更加是因为磁块之间形成了特定的偶极矩、四极矩。这是之前没有考虑到的。</li>
+<li>球型的结构相比起长方体结构来说，更加地不稳定，也更加地灵活。此外，因为磁性模块变成了立体的排列，也因此产生了更多的可能，而且文章当中采用了只采用了四极子，那么，采用八极子甚至十六极子会不会有更特殊的现象？比方说更容易吸引、或是更容易分离？与此同时，现有的结构还是在球上面“切”了一刀，好处是在平面上有更好的稳定性，但是这样会不会失去一部分的对称性(symmetry)？</li>
+<li>之前实验当中自动组装的效果不是很明显。</li>
+<li>还有一个很不同的方面，这篇文章的第一个实验是在没有外加干扰下进行的。而第二个实验是在外部动态磁场下进行的(比如从B = 0 → B = 15mT，相对稳定)。目前我是使用的外部动态磁场是由旋转永磁体组成的，旋转永磁体产生的磁场本来就是相对复杂的，实验的目的目前暂定变成：研究三维磁性四极子在旋转磁场下的运动规律。</li>
+</ol>
+<h2 id="whats-next">What&rsquo;s Next?</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 拍摄完整视频，参考<code>aax8977_movie_s1.mp4</code>，应当设置稳定的镜头，还有就是针对不同的type进行说明</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/paper-notes/">Paper Notes</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+        <div class="article-list--compact links">
+    
+        <article>
+            <a href="https://www.science.org/doi/10.1126/scirobotics.aax8977" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Magnetic quadrupole assemblies with arbitrary shapes and magnetizations</h2>
+                    <footer class="article-time">
+                        
+                            https://www.science.org/doi/10.1126/scirobotics.aax8977
+                        
+                    </footer>
+                </div>
+        
+                
+            </a>
+        </article>
+    
+</div>
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">模拟电子技术基础学习笔记 1 | 基本放大电路</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01-%E6%95%B0%E5%88%B6%E5%92%8C%E7%A0%81%E5%88%B6/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">数字电子技术基础学习笔记1 | 数制和码制</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02-%E5%B9%B3%E9%9D%A2%E5%8A%9B%E7%B3%BB/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">理论力学学习笔记2 | 平面力系</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01-%E9%9D%99%E5%8A%9B%E5%AD%A6%E5%85%AC%E7%90%86%E5%92%8C%E7%89%A9%E4%BD%93%E7%9A%84%E5%8F%97%E5%8A%9B%E5%88%86%E6%9E%90/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">理论力学学习笔记1 | 静力学公理和物体的受力分析</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="100b3e75-de12-486c-95dc-77a9928f7467"
+    data-page-id="629d1f2e1b8c012906e499ed5c89e595"
+    data-page-url="https://www.huang-zifeng.com/p/paper-notes-1-magnetic-quadrupole-assemblies-with-arbitrary-shapes-and-magnetizations/"
+    data-page-title="Paper Notes 1 | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations"></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+<script>
+    function setCusdisTheme(theme) {
+        let cusdis = document.querySelector('#cusdis_thread iframe');
+        if (cusdis) {
+            window.CUSDIS.setTheme(theme)
+        }
+    }
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        setCusdisTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <section class="copyright">
+        
+        2023 林定㝝</title><br>
+        <i class="fas fa-bell"></i> <a id="days">0</a>Days<br>
+        共书写了17.1k字<br>
+        共 13篇文章</br><span><p>
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+
+    <script>
+        var s1 = '2023-02-02';
+        s1 = new Date(s1.replace(/-/g, "/"));
+        s2 = new Date();
+        var days = s2.getTime() - s1.getTime();
+        var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+        document.getElementById('days').innerHTML = number_of_days;
+    </script>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
