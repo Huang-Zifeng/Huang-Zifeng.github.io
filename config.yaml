@@ -12,7 +12,7 @@ languages:
         weight: 1
     zh-cn:
         languageName: 中文
-        title: 林定㝝
+        title: 黃梓峰
         description: 20嵗，是個學生
         weight: 2
 
@@ -51,7 +51,6 @@ params:
 
     sidebar:
         emoji: 
-        subtitle: hi@huang-zifeng.com
         avatar:
             enabled: true
             local: true
@@ -194,6 +193,12 @@ menu:
           url: https://www.huang-zifeng.com/index.xml
           params:
               icon: rss
+
+        - identifier: mail
+          name: Mail
+          url: mailto:hi@huang-zifeng.com
+          params:
+              icon: mail
 
 related:
     includeNewer: true
