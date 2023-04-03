@@ -1,11 +1,6 @@
 ---
 title: 随想
 date: 2023-02-02
-menu:
-    main: 
-        weight: -65
-        params:
-            icon: cloud
 rss_ignore: true
 comments: true
 ---

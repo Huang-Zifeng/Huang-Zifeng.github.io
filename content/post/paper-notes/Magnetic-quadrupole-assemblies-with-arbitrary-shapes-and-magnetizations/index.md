@@ -4,7 +4,8 @@ date: 2023-04-03T15:06:08+08:00
 tags: ["Paper Notes"]
 categories: [学习]
 author: "Mitcher"
-rss_ignore: true
+image: "etienne-desclides-GmH-SpoGXKc-unsplash.jpg"
+rss_ignore: false
 draft: false
 links:
  - title: "Magnetic quadrupole assemblies with arbitrary shapes and magnetizations"

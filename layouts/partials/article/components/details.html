@@ -1,13 +1,4 @@
 <div class="article-details">
-    {{ if .Params.categories }}
-    <header class="article-category">
-        {{ range (.GetTerms "categories") }}
-            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
-                {{ .LinkTitle }}
-            </a>
-        {{ end }}
-    </header>
-    {{ end }}
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
@@ -30,41 +21,11 @@
     <footer class="article-time">
         {{ if $showDate }}
             <div>
-                {{ partial "helper/icon" "date" }}
                 <time class="article-time--published">
                     {{- .Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
                 </time>
             </div>
         {{ end }}
-
-        {{ if $showReadingTime }}
-            <div>
-                {{ partial "helper/icon" "clock" }}
-                <time class="article-time--reading">
-                    {{ T "article.readingTime" .ReadingTime }}
-                </time>
-            </div>
-        {{ end }}
-
-        {{ if .Site.Params.article.readingTime }}
-            <div>
-                {{ partial "helper/icon" "pencil" }}
-                <time class="article-words">
-                    {{ .WordCount }}字
-                </time>
-            </div>
-        {{ end }}
     </footer>
-    {{ end }}
-
-    {{ if .IsTranslated }}
-        <footer class="article-translations">
-            {{ partial "helper/icon" "language" }}
-            <div>
-                {{ range .Translations }}
-                    <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
-                {{ end }}
-            </div>
-        </footer>
     {{ end }}
 </div>

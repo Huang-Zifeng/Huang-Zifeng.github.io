@@ -60,7 +60,7 @@ params:
     article:
         math: true
         toc: true
-        readingTime: true
+        readingTime: false
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
@@ -142,18 +142,7 @@ params:
         cusdis:
             host: "https://cusdis.com"
             id: "100b3e75-de12-486c-95dc-77a9928f7467"
-    widgets:
-        homepage:
-            - type: search
-            - type: archives
-              params:
-                  limit: 5
-            - type: categories
-              params:
-                  limit: 10
-            - type: tag-cloud
-              params:
-                  limit: 10
+            
         page:
             - type: toc
 

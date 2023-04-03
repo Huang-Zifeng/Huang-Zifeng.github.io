@@ -24,6 +24,7 @@ _testmain.go
 
 public
 static/mysearch
+resource
 
 assets/jsconfig.json
 .DS_Store
