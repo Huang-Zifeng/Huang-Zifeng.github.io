@@ -1,5 +1,5 @@
 ---
-title: "Paper Notes 1 | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations"
+title: "Paper Notes | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations"
 date: 2023-04-03T15:06:08+08:00
 tags: ["Paper Notes"]
 categories: [学习]
