@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>黃梓峰</title>
+        <title>黄梓峰</title>
         <link>https://www.huang-zifeng.com/</link>
-        <description>Recent content on 黃梓峰</description>
+        <description>Recent content on 黄梓峰</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Mon, 10 Apr 2023 01:10:19 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -559,7 +559,7 @@
         });
     });
 &lt;/script&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;script defer&gt; new PagefindUI({element:“#search”}) &lt;/script&gt;
 </description>
         </item>
         <item>
@@ -1016,7 +1016,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;在复习物理时问ChatGPT问题，给出了很专业的回复，但是有点阴阳（&lt;/center&gt;
 &lt;h2 id=&#34;法师桥上追赶日落的我们&#34;&gt;法师桥上追赶日落的我们&lt;/h2&gt;
 &lt;p&gt;物理考试的前一天同学想来深圳摄影，于是顺道约我出去玩，我心想着当作考试前的放松就答应了。&lt;/p&gt;
 &lt;p&gt;我们那天先在我们学校逛了一下，各自边逛边分享大家的校园生活，聊了挺多有意思的（包括但不限于东北的澡堂和东北的姑娘😁）。&lt;/p&gt;
@@ -1031,7 +1031,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;在人才公园的合照，我在看着远处的阿里巴巴，哈哈哈哈&lt;/center&gt;
 &lt;p&gt;晚上在万象城的蔡澜吃了pho，味道和价格都很好。越南粉的汤清甜。免费加粉的设定很人性化。&lt;/p&gt;
 &lt;p&gt;然后就是绕了大半圈去法师桥啦，我带路的方向感向来一般，走了远的那条路子。当时5点近6点的时候骑单车飞速，生怕赶不上日落。但是最后还好赶上了，并且发现日落其实在手机显示的时间(18:16)之后看更有味道，而且还是挺漫长的(19:10之前一直在拍)，一直到下面是简单的照片分享。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/96b564dda061dbce981788c6f987284.jpg&#34;
@@ -1064,7 +1064,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;最后一张是第一次拍的蓝调时刻&lt;/center&gt;
 &lt;h2 id=&#34;关于chatgpt我所目睹的&#34;&gt;关于ChatGPT，我所目睹的&lt;/h2&gt;
 &lt;p&gt;不谦虚地说，我对ChatGPT的技术一无所知，只知道它是和NLP相关的语言模型。但是我见证了它最开始小有名气到现在人尽皆知、国内争相模仿的过程。&lt;/p&gt;
 &lt;p&gt;ChatGPT可以做的太多了，写代码，情感咨询，问物理题&amp;hellip;&amp;hellip;在Chat这方面，我没有听说它不能聊的地方。在体验上最大的不同是，它是一个有记忆力的AI，它可以记得它之前说过什么来结合上下文回答你的问题。我今天在新版Bing上用它感觉良好，觉得它可以帮我们节省很多筛选信息的时间。感觉就像钢铁侠的助理贾维斯。只是它还仅限于Chat，但是不排除未来它可能会做更多的事情，可能是好事或者坏事。我觉得它会像iPhone一样推动一场科技革命，或者已经开始推动了，&lt;a class=&#34;link&#34; href=&#34;https://www.ithome.com/0/672/997.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1080,7 +1080,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;借助ChatGPT帮我翻译看不懂的代码，解决了之前blog相关文章板块不能显示的问题&lt;/center&gt;
 &lt;h2 id=&#34;最近&#34;&gt;最近&lt;/h2&gt;
 &lt;h3 id=&#34;最近在玩&#34;&gt;最近在玩🎮&lt;/h3&gt;
 &lt;p&gt;《God of  War 4》(战神4)，很有索尼的一贯的高水平独占风格。画风没有想象中的压抑。&lt;/p&gt;
@@ -1183,14 +1183,32 @@
         </item>
         <item>
         <title>随想</title>
-        <link>https://www.huang-zifeng.com/%E9%9A%8F%E6%83%B3/</link>
+        <link>https://www.huang-zifeng.com/p/%E9%9A%8F%E6%83%B3/</link>
         <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.huang-zifeng.com/%E9%9A%8F%E6%83%B3/</guid>
-        <description>&lt;p&gt;这里是随想。记录一些个人的murmur。&lt;/p&gt;
+        <guid>https://www.huang-zifeng.com/p/%E9%9A%8F%E6%83%B3/</guid>
+        <description>&lt;p&gt;这里是随想，记录一些个人的murmur。&lt;/p&gt;
 &lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
 &lt;h4 id=&#34;april&#34;&gt;April&lt;/h4&gt;
+&lt;p&gt;今天回家拜山，主要是想家里人了以及回家蹭一下新房子(嘿嘿)。&lt;/p&gt;
+&lt;p&gt;转发一下朋友圈&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;顺手记录一下奇妙的巧合：小学旁边的7仔重新装修了，去的时候店员说明天开业。三年级的时候第一次去这家7仔，刚好也是在开业前一天。&lt;/p&gt;
+&lt;p&gt;如果你看见一个人在采蝶轩买4件面包当中饭，那他说不定是从很远的地方回来的吧&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今晚去了中海龙湾的7仔，买抹茶系列的时候店员会可爱地和我推销：“抹茶泡芙这么好吃都不买吗？”，虽然一开始真的对两件8折不太在意，后来还是下单了。&lt;/p&gt;
+&lt;p&gt;让我想起了学校旁边的全家也在处于抹茶季。店员和顾客（不是我，也可能是自言自语）说：”虽然我在这里上班，但是我是真心喜欢这里的东西（两件八折我觉得真的好划算）“（原话忘差不多了，自己的讲故事能力一直很差qaq）&lt;/p&gt;
+&lt;p&gt;果然发现自己是一个喜欢便利店文化的人了，以后也想有机会能当便利店店员（伍六七的“便利店一夜”也有这种意味欸，兴许便利店文化真的有信仰者）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apr 14 7:58 PM&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今晚体育课周毅老师教我们网络上很火的运球步法，虽然没学太会，但是觉得老师很用心。在这位教师官网上查不到名字的老师身上，我看见了哈工大老师应该有的样子。除此之外还有几位很喜欢(敬佩)的老师：电子设计实践课的&lt;a class=&#34;link&#34; href=&#34;http://homepage.hit.edu.cn/wanglixin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;王立欣老师&lt;/a&gt;，高等数学的殷锡鸣老师，概率论的王勇老师，复变函数的凌怡老师——只要是本部的老师都很喜欢，也应了那句话“如果是本部过来的老师，这门课就有救了”。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apr 11 8:30 AM&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;写完作业洗完澡，终于可以开始做自己想做的事情了。希望下周效率高一点，思路清晰一点。先从做好下周的To-do开始吧。&lt;/p&gt;
+&lt;p&gt;4月12日更新：拖延症已然成为可怕的问题🤦&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Apr 2 1:42 AM&lt;/p&gt;
 &lt;/blockquote&gt;
