@@ -6,50 +6,21 @@
         <description>Recent content in Weekly on 黄梓峰</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Apr 2023 01:10:19 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Weekly | 告一段落又何妨</title>
-        <link>https://www.huang-zifeng.com/p/weekly-%E5%91%8A%E4%B8%80%E6%AE%B5%E8%90%BD%E5%8F%88%E4%BD%95%E5%A6%A8/</link>
-        <pubDate>Mon, 10 Apr 2023 01:10:19 +0800</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/p/weekly-%E5%91%8A%E4%B8%80%E6%AE%B5%E8%90%BD%E5%8F%88%E4%BD%95%E5%A6%A8/</guid>
-        <description>&lt;img src="https://www.huang-zifeng.com/p/weekly-%E5%91%8A%E4%B8%80%E6%AE%B5%E8%90%BD%E5%8F%88%E4%BD%95%E5%A6%A8/noah-silliman-i2J9jnvaAbU-unsplash.jpg" alt="Featured image of post Weekly | 告一段落又何妨" /&gt;&lt;h2 id=&#34;weekly--告一段落又何妨&#34;&gt;Weekly | 告一段落又何妨&lt;/h2&gt;
-&lt;p&gt;本篇周记记录从上次周报之后发生的一些琐事。&lt;/p&gt;
-&lt;h2 id=&#34;结束&#34;&gt;结束&lt;/h2&gt;
-&lt;p&gt;这学期开始的前两个月，我退出了学校的VEX战队和工训赛。&lt;/p&gt;
-&lt;p&gt;这两件原本在上学期被寄于厚望的事情，似乎一件也没办成。在弄工训的时候，总是想着VEX。在弄VEX的时候总在写作业。究其原因，都想做，就会都做不好。至少对我来说如此。&lt;/p&gt;
-&lt;p&gt;但是如果你问我有没有收获，会不会后悔？&lt;/p&gt;
-&lt;p&gt;我的答案是肯定不会，在VEX程序组的经历让我对写代码的工作流有了更清楚的了解。在工训赛的经历让我对机器人需要的技术栈有了大致的轮廓。虽然技术力提升不是很多，但是眼界更开阔了。也让我从急于输出，变得更重视输入。&lt;/p&gt;
-&lt;p&gt;收获了很多友情，也辜负了一些人。&lt;/p&gt;
-&lt;p&gt;总而言之，现在的状态和大一下的状态还是很不一样的。虽然闲了，但是更知道自己要干什么了。&lt;/p&gt;
-&lt;h2 id=&#34;简化&#34;&gt;简化&lt;/h2&gt;
-&lt;p&gt;对博客和生活进行了一定简化，用&lt;a class=&#34;link&#34; href=&#34;https://yuuikic.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;桜庭夜&lt;/a&gt;的一句话说&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;转念又想，被大家知道我太多生活的事情不是很好，并且占用大家的注意力和时间也不是件正确的事情&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;嗯，应该如此。&lt;del&gt;(所以本文也不会用RSS推送)&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;后面打算关闭评论区和周报。&lt;/p&gt;
-&lt;h2 id=&#34;晚安&#34;&gt;晚安&lt;/h2&gt;
-&lt;p&gt;今晚看了&lt;a class=&#34;link&#34; href=&#34;https://sspai.com/post/79188&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;从失眠到高效早晨：我的 5AM Club 计划分享&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;决心试一试&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Weekly 4 | Uncertainty</title>
-        <link>https://www.huang-zifeng.com/p/weekly-4-uncertainty/</link>
+        <lastBuildDate>Sun, 19 Mar 2023 16:54:51 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/tags/weekly/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Weekly | Uncertainty</title>
+        <link>https://www.huang-zifeng.com/p/weekly-uncertainty/</link>
         <pubDate>Sun, 19 Mar 2023 16:54:51 +0800</pubDate>
         
-        <guid>https://www.huang-zifeng.com/p/weekly-4-uncertainty/</guid>
+        <guid>https://www.huang-zifeng.com/p/weekly-uncertainty/</guid>
         <description>&lt;p&gt;这周周报一反以往夜半三更时的更新时间，早早就写了，主要是回到宿舍想到与其玩游戏倒不如记录一下这周生活哈哈。&lt;/p&gt;
 &lt;h2 id=&#34;edc初尝试&#34;&gt;EDC初尝试&lt;/h2&gt;
 &lt;p&gt;这几天参加了学校举办的EDC(电子设计竞赛)，题目基本和全国题差不多，我们选择的是E题，要设计一个双向DC-DC变换器，虽然因缘巧合之下着是上周我们练习时就讨论过的一道题目，但是实际上手起来发现难度还是相当有的。就拿电路设计部分来说，虽然已经学会了基本的Buck电路和Boost电路，但是在芯片选型和完整设计这一块自己却没有任何的思路可言。最后只是在程序上帮了点小忙，用之前学过但是没实践过的结构体特性设计了一个PID控制器。不确定性也蛮多的：烧录程序的时候keil闪退、芯片无法识别，甚至&lt;a class=&#34;link&#34; href=&#34;https://www.huang-zifeng.com/%e9%9a%8f%e6%83%b3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;卡在main函数执行之前&lt;/a&gt;，我们总是在奇怪的地方卡住。电路方面更是如此：IR2104高端使能低端没有输出波形(可能表述的不准确不要怪我balabala，但确实是一反芯片手册上的设计)，最后用贴片的IR2104方才成功，电容/MOS不知道那里击穿，只能逐个重新更换焊接来排查&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;这次下来感觉自己的能力还是很缺失的，但是所幸遇到了很友善的学长向我解释各种知识，也在技术栈上添加了ADC、矩阵键盘这样的小外设。如果学长之后没有找我我也不会奇怪，毕竟自己确实没有体现很大的作用。但是至少这次知道了自己缺失怎样的能力，也算是收获之一。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0670.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-uncertainty/IMG_0670.jpg&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/weekly-uncertainty/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-uncertainty/IMG_0670_hua607a66e735032db94da61aade28dbd4_947496_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;可爱的IR2104&#34;
@@ -59,10 +30,10 @@
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt; &lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0671.jpg&#34;
+&gt; &lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-uncertainty/IMG_0671.jpg&#34;
 	width=&#34;3024&#34;
 	height=&#34;4032&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-4-uncertainty/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/weekly-uncertainty/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-uncertainty/IMG_0671_hu46199c9048039ffa9489a2ea173975cd_2579609_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;现场&#34;
@@ -89,11 +60,11 @@
 </description>
         </item>
         <item>
-        <title>Weekly 3 | Pagefind、20公里与游园会</title>
-        <link>https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/</link>
+        <title>Weekly | Pagefind、20公里与游园会</title>
+        <link>https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/</link>
         <pubDate>Mon, 13 Mar 2023 00:30:06 +0800</pubDate>
         
-        <guid>https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/</guid>
+        <guid>https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/</guid>
         <description>&lt;figure &gt;
     &lt;audio controls preload=&#34;metadata&#34;&gt;
         
@@ -144,10 +115,10 @@
 &lt;p&gt;高中学的写信的句式总算找到了用武之地。这种体验蛮有意思的，虽然自己只是一个自动化专业的学生，本可能这辈子都和前端无缘，但是在接触一个自己不熟悉的领域的时候还是得到了很多陌生人的热心帮助。作为接触的比较深入的第一个开源项目，在查issue、提issue的过程中也碰到了很多和我类似的问题，在这个角度来看，它让我第一次意识到了开源项目的魅力所在。这种开源的氛围至少在国内还不太浓厚，issue通常被当作吐槽、教产品经理做产品的平台，代码也一般会藏在私有仓库甚至本地管理。&lt;/p&gt;
 &lt;h2 id=&#34;生命中的第一个20公里&#34;&gt;生命中的第一个20公里&lt;/h2&gt;
 &lt;p&gt;这周和朋友一起参加了机电学院的跑步活动，跑步本身是从初中开始就很喜欢的一项运动。但平时只会一周跑一次当作散心。这次跑步活动我和朋友每天一起跑3公里，3公里作为一个平时不会触碰的距离还是蛮有挑战性的，这周跑了7天，周末稍微偷了一下懒。但是自从跑了几天之后也慢慢适应了。跑步的时候听的最多的专辑是陈绮贞的《Groupies吉他手》，简单轻松，但又同时都充满了一种很舒服的哲理感。后面有一次还听起了博客，是一直很想了解的跳海酒馆。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout.jpg&#34;
 	width=&#34;395&#34;
 	height=&#34;737&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout_hu7f9166768db96b8f83d237b284caa0ad_54479_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout_hu7f9166768db96b8f83d237b284caa0ad_54479_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout_hu7f9166768db96b8f83d237b284caa0ad_54479_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/workout_hu7f9166768db96b8f83d237b284caa0ad_54479_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;7-Day Workouts&#34;
@@ -157,10 +128,10 @@
 		data-flex-grow=&#34;53&#34;
 		data-flex-basis=&#34;128px&#34;
 	
-&gt;  &lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468.jpg&#34;
+&gt;  &lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468.jpg&#34;
 	width=&#34;667&#34;
 	height=&#34;890&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468_hu8e2b2a6b42042c3ba8c0eebe8440a986_103808_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468_hu8e2b2a6b42042c3ba8c0eebe8440a986_103808_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468_hu8e2b2a6b42042c3ba8c0eebe8440a986_103808_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0468_hu8e2b2a6b42042c3ba8c0eebe8440a986_103808_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Me&#34;
@@ -173,10 +144,10 @@
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;游园会&#34;&gt;游园会&lt;/h2&gt;
 &lt;p&gt;疫情虽然夺走了三年的青春，但是没有夺                                                                                                                                                                                                                                                                                                   走我们的游园会！虽然这次算是我们协会21级同学第一次半参与的组织活动，有很多没有准备充分的地方，但是总的来说大家还是玩得很开心。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531.png&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531_hu46b00567250ea7c124947f7f86acb761_12091058_480x0_resize_box_3.png 480w, https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531_hu46b00567250ea7c124947f7f86acb761_12091058_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531_hu46b00567250ea7c124947f7f86acb761_12091058_480x0_resize_box_3.png 480w, https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/IMG_0531_hu46b00567250ea7c124947f7f86acb761_12091058_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;翻牌游戏&#34;
@@ -187,10 +158,10 @@
 		data-flex-basis=&#34;320px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21.jpg&#34;
 	width=&#34;3233&#34;
 	height=&#34;2425&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21_huc5c78204c0a9c10d0f56ca1020d506aa_1771089_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-3-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21_huc5c78204c0a9c10d0f56ca1020d506aa_1771089_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21_huc5c78204c0a9c10d0f56ca1020d506aa_1771089_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/weekly-pagefind20%E5%85%AC%E9%87%8C%E4%B8%8E%E6%B8%B8%E5%9B%AD%E4%BC%9A/%E6%B8%B8%E5%9B%AD%E4%BC%9A_21_huc5c78204c0a9c10d0f56ca1020d506aa_1771089_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;合照&#34;
@@ -208,63 +179,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;開餐一個人 不必等夠人 埋頭狂吃通粉不夠淋&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-        </item>
-        <item>
-        <title>Weekly 2 | 小情绪</title>
-        <link>https://www.huang-zifeng.com/p/weekly-2-%E5%B0%8F%E6%83%85%E7%BB%AA/</link>
-        <pubDate>Fri, 03 Mar 2023 01:44:01 +0800</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/p/weekly-2-%E5%B0%8F%E6%83%85%E7%BB%AA/</guid>
-        <description>&lt;p&gt;本篇是对&lt;code&gt;2023-2-24&lt;/code&gt;到&lt;code&gt;2023-3-3&lt;/code&gt;这周生活的记录和思考。&lt;/p&gt;
-&lt;p&gt;这周是开学第二周，课程和生活逐渐步入了正轨。没有外卖，没有前几周那种暴饮暴食，作业和上课也认真了很多。熬夜还是一样如期而至。但是这周一种以前一直都存在的小情绪却泛滥了起来，会突然感觉无聊，会望眼欲穿某个人会来找自己，会在一次又一次的期待中失望离开。&lt;/p&gt;
-&lt;p&gt;当然也并不是每次都会失望，比如周三傍晚躺在床上的时候比利就突然发一条消息说他到大学城了，那晚我们就边散步边畅聊了很多有的没的。比如遇到战队或者比赛的问题时FunCheong或者学长也会开导我，帮我从一个Pro的角度去看待问题，有一个和你在技术上有很多共同话题的朋友是一件幸事。还有很多…我也正是从中理解作家为什么赞颂友谊。&lt;/p&gt;
-&lt;p&gt;当然啦，也要坦白承认自己是一个情感上不太成熟的人，会害怕承诺和过于自我。经常有时候会说出一些不经大脑思考的话。这些称之为渣男的buff我一个也没少。但是所幸也遇到了包容我的那个人。&lt;/p&gt;
-&lt;p&gt;顺便，这周也把这学期的几个baseline定下来了，因为还没有成果所以先不分享。&lt;/p&gt;
-&lt;h2 id=&#34;输入&#34;&gt;输入&lt;/h2&gt;
-&lt;p&gt;数电 - 码制和数制&lt;/p&gt;
-&lt;p&gt;模电 - 本征半导体和掺杂半导体，以及在不同方向电压下的性质&lt;/p&gt;
-&lt;p&gt;理论力学 - 力偶系，平面任意力系&lt;/p&gt;
-&lt;p&gt;毛概 - 毛泽东思想的形成和发展，联系（感觉还是很表面的东西）不过会结合历史还是很有意思的&lt;/p&gt;
-&lt;p&gt;Magnetically Actuated Capsule Robots: A Review（介绍了磁驱动胶囊机器人的体系）&lt;/p&gt;
-&lt;h2 id=&#34;输出&#34;&gt;输出&lt;/h2&gt;
-&lt;p&gt;理论力学、数电的一些笔记，已经post在blog里面了&lt;/p&gt;
-&lt;h2 id=&#34;最近&#34;&gt;最近&lt;/h2&gt;
-&lt;h3 id=&#34;最近在看&#34;&gt;最近在看📺&lt;/h3&gt;
-&lt;p&gt;追番和追美剧没有上学期那么狂热了，but还是会留意以前追过的番的续作&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;刺客伍六七 第四季&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;最近在读&#34;&gt;最近在读📕&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;麦田里的守望者（思绪一度和主人公很相同，甚至会模仿主人公的思维看待周边的事物和人）&lt;/li&gt;
-&lt;li&gt;机器人学导论&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;最近在听&#34;&gt;最近在听🎧&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;《小步舞曲》及其专辑《吉他手 groupies》（偶然在豆瓣发现了陈绮贞，很像台湾版的Serrini，是喜欢的风格）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;生活剪影&#34;&gt;生活剪影📷&lt;/h3&gt;
-
-
-
-&lt;div class=&#34;box aligncenter&#34; style=&#34;max-width:350px;&#34;&gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img  itemprop=&#34;thumbnail&#34; src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/0386c233b79fad3824bbc3cdf2070c9.jpg&#34; alt=&#34;丢酸油柑&#34; /&gt;
-    &lt;/div&gt;
-    
-      &lt;figcaption&gt;
-          &lt;p&gt;&lt;blockquote&gt;
-&lt;p&gt;和比利那晚喝的丢酸油柑，油柑曾是小时候很喜欢的水果&lt;/p&gt;
-&lt;/blockquote&gt;
-
-              
-          &lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-</description>
         </item>
         <item>
         <title>Weekly 1 | 大物考试、法师桥和ChatGPT</title>
