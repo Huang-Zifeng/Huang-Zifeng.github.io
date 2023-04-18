@@ -1,6 +1,6 @@
 ---
 
-title: "Weekly 1 | 大物考试、法师桥和ChatGPT"
+title: "Weekly | 大物考试、法师桥和ChatGPT"
 date: 2023-02-14T00:09:42+08:00
 draft: false
 tags: ["Weekly", "What's New"]
