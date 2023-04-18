@@ -48,6 +48,16 @@ The presence of a noticeable magnetic dipole moment allows the module to respond
 
 
 
+## Type A and Type B
+
+According to the article, the difference between type A and type B quadrupole modules lies in the relative angle between the two magnets inside the module. For type A quadrupole modules, both top and bottom poles are north poles. The magnetic flux from four north poles is equivalent to the flux coming back from two south poles, **making the south poles stronger than the north poles**. For type B quadrupole modules, **the north poles are stronger than the south poles**. The difference can be evaluated by the quadrupole-quadrupole interaction model based on their equation. During the experiments, **stronger poles are more likely to bond together than two weak poles between type A and type B quadrupole modules.**
+
+## Frustration-free
+
+“Frustration-free” refers to the ability of the magnetic quadrupole modules to form stable magnetic assemblies with arbitrary 2D shapes without internal frustration. Frustration in this context refers to conflicting magnetic interactions that can arise when trying to arrange magnetic particles in certain configurations. The quadrupole structure of the modules changes the magnetic particle-particle interaction in terms of both symmetry and strength, allowing for frustration-free assemblies.
+
+Frustration-free does not necessarily mean that the modules can be separated easily. The ease of separation would depend on the strength of the magnetic attraction between the modules and the force required to overcome it.
+
 ## Conclusion
 
 两个磁块通过一定相对角度的排列之后组成的模块，由于四极子的四重对称性(quadrupole’s fourfold symmetry)，可以形成自动组装、易于分离、可以组成任意形状的特性。这对于设计群体软体机器人有极大的帮助。
