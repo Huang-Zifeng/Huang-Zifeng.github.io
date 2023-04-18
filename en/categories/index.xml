@@ -5,15 +5,6 @@
         <link>https://www.huang-zifeng.com/en/categories/</link>
         <description>Recent content in Categories on Mitcher</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Fri, 03 Mar 2023 13:04:18 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Notes</title>
-        <link>https://www.huang-zifeng.com/en/categories/notes/</link>
-        <pubDate>Fri, 03 Mar 2023 13:04:18 +0800</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/en/categories/notes/</guid>
-        <description></description>
-        </item>
-        
+        <language>en-us</language><atom:link href="https://www.huang-zifeng.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
