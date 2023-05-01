@@ -12,7 +12,7 @@ languages:
         weight: 1
     zh-cn:
         languageName: 中文
-        title: 黄梓峰
+        title: Mitcher
         description: 20岁，是个学生
         weight: 2
 
@@ -51,10 +51,11 @@ params:
 
     sidebar:
         emoji: 
+        subtitle: 20岁，是个学生
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar.webp
 
     article:
         math: true
