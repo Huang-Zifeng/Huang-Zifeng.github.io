@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>学习 on 黄梓峰</title>
+        <title>学习 on Mitcher</title>
         <link>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</link>
-        <description>Recent content in 学习 on 黄梓峰</description>
+        <description>Recent content in 学习 on Mitcher</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Fri, 07 Apr 2023 15:27:59 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -123,15 +123,15 @@
 </description>
         </item>
         <item>
-        <title>模拟电子技术基础学习笔记 1 | 基本放大电路</title>
-        <link>https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/</link>
+        <title>模拟电子技术基础学习笔记 | 基本放大电路</title>
+        <link>https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/</link>
         <pubDate>Thu, 30 Mar 2023 02:51:32 +0800</pubDate>
         
-        <guid>https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/38.jpg&#34;
+        <guid>https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/38.jpg&#34;
 	width=&#34;1668&#34;
 	height=&#34;2157&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/38_hu87a6db82e682b14c8e897aa2ae9164a9_497543_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/38_hu87a6db82e682b14c8e897aa2ae9164a9_497543_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/38_hu87a6db82e682b14c8e897aa2ae9164a9_497543_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/38_hu87a6db82e682b14c8e897aa2ae9164a9_497543_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;page 1&#34;
@@ -142,10 +142,10 @@
 		data-flex-basis=&#34;185px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/39.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/39.jpg&#34;
 	width=&#34;1668&#34;
 	height=&#34;2157&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/39_hu8b99bd0d76a107935d9bcfd20b196062_585754_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/39_hu8b99bd0d76a107935d9bcfd20b196062_585754_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/39_hu8b99bd0d76a107935d9bcfd20b196062_585754_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/39_hu8b99bd0d76a107935d9bcfd20b196062_585754_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;page 2&#34;
@@ -156,10 +156,10 @@
 		data-flex-basis=&#34;185px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/40.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/40.jpg&#34;
 	width=&#34;1668&#34;
 	height=&#34;2157&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/40_hu8b99bd0d76a107935d9bcfd20b196062_391934_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/40_hu8b99bd0d76a107935d9bcfd20b196062_391934_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/40_hu8b99bd0d76a107935d9bcfd20b196062_391934_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/40_hu8b99bd0d76a107935d9bcfd20b196062_391934_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;page 3&#34;
@@ -170,10 +170,10 @@
 		data-flex-basis=&#34;185px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/41.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/41.jpg&#34;
 	width=&#34;1668&#34;
 	height=&#34;2157&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/41_hu8b99bd0d76a107935d9bcfd20b196062_284913_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/41_hu8b99bd0d76a107935d9bcfd20b196062_284913_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/41_hu8b99bd0d76a107935d9bcfd20b196062_284913_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/41_hu8b99bd0d76a107935d9bcfd20b196062_284913_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;page 4&#34;
@@ -184,10 +184,10 @@
 		data-flex-basis=&#34;185px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/42.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/42.jpg&#34;
 	width=&#34;1668&#34;
 	height=&#34;2157&#34;
-	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/42_hu8b99bd0d76a107935d9bcfd20b196062_422461_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/42_hu8b99bd0d76a107935d9bcfd20b196062_422461_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/42_hu8b99bd0d76a107935d9bcfd20b196062_422461_480x0_resize_q75_box.jpg 480w, https://www.huang-zifeng.com/p/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%9F%BA%E6%9C%AC%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF/42_hu8b99bd0d76a107935d9bcfd20b196062_422461_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;page 5&#34;
@@ -201,11 +201,11 @@
 </description>
         </item>
         <item>
-        <title>数字电子技术基础学习笔记1 | 数制和码制</title>
-        <link>https://www.huang-zifeng.com/p/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01-%E6%95%B0%E5%88%B6%E5%92%8C%E7%A0%81%E5%88%B6/</link>
+        <title>数字电子技术基础学习笔记 | 数制和码制</title>
+        <link>https://www.huang-zifeng.com/p/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%95%B0%E5%88%B6%E5%92%8C%E7%A0%81%E5%88%B6/</link>
         <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.huang-zifeng.com/p/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01-%E6%95%B0%E5%88%B6%E5%92%8C%E7%A0%81%E5%88%B6/</guid>
+        <guid>https://www.huang-zifeng.com/p/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%95%B0%E5%88%B6%E5%92%8C%E7%A0%81%E5%88%B6/</guid>
         <description>&lt;h2 id=&#34;数制&#34;&gt;数制&lt;/h2&gt;
 &lt;p&gt;数制之间的转换：&lt;/p&gt;
 &lt;ul&gt;
@@ -260,11 +260,11 @@
 </description>
         </item>
         <item>
-        <title>理论力学学习笔记2 | 平面力系</title>
-        <link>https://www.huang-zifeng.com/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02-%E5%B9%B3%E9%9D%A2%E5%8A%9B%E7%B3%BB/</link>
+        <title>理论力学学习笔记 | 平面力系</title>
+        <link>https://www.huang-zifeng.com/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B9%B3%E9%9D%A2%E5%8A%9B%E7%B3%BB/</link>
         <pubDate>Mon, 27 Feb 2023 11:29:55 +0800</pubDate>
         
-        <guid>https://www.huang-zifeng.com/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02-%E5%B9%B3%E9%9D%A2%E5%8A%9B%E7%B3%BB/</guid>
+        <guid>https://www.huang-zifeng.com/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%B9%B3%E9%9D%A2%E5%8A%9B%E7%B3%BB/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;与第一次笔记不同，会更多用自己的语言去描述知识，以增进知识的理解，疏漏难免，望读者不吝斧正。涉及的题号请参考理论力学《理论力学(I)》(高等教育出版社)中的课后练习题&lt;/p&gt;
 &lt;h2 id=&#34;平面汇交力系&#34;&gt;平面汇交力系&lt;/h2&gt;
@@ -399,11 +399,11 @@
 </description>
         </item>
         <item>
-        <title>理论力学学习笔记1 | 静力学公理和物体的受力分析</title>
-        <link>https://www.huang-zifeng.com/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01-%E9%9D%99%E5%8A%9B%E5%AD%A6%E5%85%AC%E7%90%86%E5%92%8C%E7%89%A9%E4%BD%93%E7%9A%84%E5%8F%97%E5%8A%9B%E5%88%86%E6%9E%90/</link>
+        <title>理论力学学习笔记 | 静力学公理和物体的受力分析</title>
+        <link>https://www.huang-zifeng.com/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E9%9D%99%E5%8A%9B%E5%AD%A6%E5%85%AC%E7%90%86%E5%92%8C%E7%89%A9%E4%BD%93%E7%9A%84%E5%8F%97%E5%8A%9B%E5%88%86%E6%9E%90/</link>
         <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.huang-zifeng.com/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01-%E9%9D%99%E5%8A%9B%E5%AD%A6%E5%85%AC%E7%90%86%E5%92%8C%E7%89%A9%E4%BD%93%E7%9A%84%E5%8F%97%E5%8A%9B%E5%88%86%E6%9E%90/</guid>
+        <guid>https://www.huang-zifeng.com/p/%E7%90%86%E8%AE%BA%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E9%9D%99%E5%8A%9B%E5%AD%A6%E5%85%AC%E7%90%86%E5%92%8C%E7%89%A9%E4%BD%93%E7%9A%84%E5%8F%97%E5%8A%9B%E5%88%86%E6%9E%90/</guid>
         <description>&lt;h2 id=&#34;静力学&#34;&gt;静力学&lt;/h2&gt;
 &lt;h3 id=&#34;引言的引言&#34;&gt;引言的引言&lt;/h3&gt;
 &lt;p&gt;以下内容是对《理论力学(I)》（高等教育出版社）的简单概括和摘要，&lt;del&gt;为之后笔者的期末考速通铺下后路。&lt;/del&gt;&lt;/p&gt;

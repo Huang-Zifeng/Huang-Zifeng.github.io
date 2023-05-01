@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on 黄梓峰</title>
+        <title>Tags on Mitcher</title>
         <link>https://www.huang-zifeng.com/tags/</link>
-        <description>Recent content in Tags on 黄梓峰</description>
+        <description>Recent content in Tags on Mitcher</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 07 Apr 2023 15:27:59 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 May 2023 14:39:22 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Weekly</title>
+        <link>https://www.huang-zifeng.com/tags/weekly/</link>
+        <pubDate>Mon, 01 May 2023 14:39:22 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/tags/weekly/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Paper Notes</title>
         <link>https://www.huang-zifeng.com/tags/paper-notes/</link>
         <pubDate>Fri, 07 Apr 2023 15:27:59 +0800</pubDate>
@@ -20,14 +28,6 @@
         <pubDate>Thu, 30 Mar 2023 02:51:32 +0800</pubDate>
         
         <guid>https://www.huang-zifeng.com/tags/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Weekly</title>
-        <link>https://www.huang-zifeng.com/tags/weekly/</link>
-        <pubDate>Sun, 19 Mar 2023 16:54:51 +0800</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/tags/weekly/</guid>
         <description></description>
         </item>
         <item>

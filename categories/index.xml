@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on 黄梓峰</title>
+        <title>Categories on Mitcher</title>
         <link>https://www.huang-zifeng.com/categories/</link>
-        <description>Recent content in Categories on 黄梓峰</description>
+        <description>Recent content in Categories on Mitcher</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 07 Apr 2023 15:27:59 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 May 2023 14:39:22 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>日常</title>
+        <link>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</link>
+        <pubDate>Mon, 01 May 2023 14:39:22 +0800</pubDate>
+        
+        <guid>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</guid>
+        <description>&lt;img src="https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 日常" /&gt;</description>
+        </item>
+        <item>
         <title>学习</title>
         <link>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</link>
         <pubDate>Fri, 07 Apr 2023 15:27:59 +0800</pubDate>
         
         <guid>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</guid>
         <description>&lt;img src="https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/mary-potoplyak-0zv7AIcNWbk-unsplash.jpg" alt="Featured image of post 学习" /&gt;</description>
-        </item>
-        <item>
-        <title>日常</title>
-        <link>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</link>
-        <pubDate>Sun, 19 Mar 2023 16:54:51 +0800</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</guid>
-        <description>&lt;img src="https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 日常" /&gt;</description>
         </item>
         <item>
         <title>博客</title>
