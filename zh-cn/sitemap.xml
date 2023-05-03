@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.huang-zifeng.com/</loc>
-    <lastmod>2023-05-01T14:39:22+08:00</lastmod>
+    <lastmod>2023-05-04T02:23:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://www.huang-zifeng.com/categories/</loc>
-    <lastmod>2023-05-01T14:39:22+08:00</lastmod>
+    <lastmod>2023-05-04T02:23:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,11 +28,14 @@
                 href="https://www.huang-zifeng.com/categories/"
                 />
   </url><url>
+    <loc>https://www.huang-zifeng.com/tags/love/</loc>
+    <lastmod>2023-05-04T02:23:57+08:00</lastmod>
+  </url><url>
     <loc>https://www.huang-zifeng.com/post/</loc>
-    <lastmod>2023-05-01T14:39:22+08:00</lastmod>
+    <lastmod>2023-05-04T02:23:57+08:00</lastmod>
   </url><url>
     <loc>https://www.huang-zifeng.com/tags/</loc>
-    <lastmod>2023-05-01T14:39:22+08:00</lastmod>
+    <lastmod>2023-05-04T02:23:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -44,13 +47,16 @@
                 href="https://www.huang-zifeng.com/tags/"
                 />
   </url><url>
+    <loc>https://www.huang-zifeng.com/p/%E5%92%8C%E4%B8%8D%E5%96%9C%E6%AC%A2%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%BA%E8%B0%88%E6%81%8B%E7%88%B1%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</loc>
+    <lastmod>2023-05-04T02:23:57+08:00</lastmod>
+  </url><url>
+    <loc>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <lastmod>2023-05-04T02:23:57+08:00</lastmod>
+  </url><url>
     <loc>https://www.huang-zifeng.com/tags/weekly/</loc>
     <lastmod>2023-05-01T14:39:22+08:00</lastmod>
   </url><url>
     <loc>https://www.huang-zifeng.com/p/weekly-%E5%9B%9B%E6%9C%88%E8%8A%B3%E8%8F%B2%E5%B0%BD-%E5%91%A8%E6%8A%A5%E5%A7%8B%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2023-05-01T14:39:22+08:00</lastmod>
-  </url><url>
-    <loc>https://www.huang-zifeng.com/categories/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2023-05-01T14:39:22+08:00</lastmod>
   </url><url>
     <loc>https://www.huang-zifeng.com/tags/paper-notes/</loc>
