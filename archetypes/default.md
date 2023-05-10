@@ -1,10 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description = ""
+description: ""
 tags: []
 categories: []
-image = ""
+image: ""
 author: "Mitcher"
 rss_ignore: false
 draft: false
