@@ -14,7 +14,6 @@
         <guid>https://www.huang-zifeng.com/p/paper-notes-morphological-computation-and-decentralized-learning-in-a-swarm-of-sterically-interacting-robots/</guid>
         <description>&lt;p&gt;A review of &lt;a class=&#34;link&#34; href=&#34;https://www.science.org/doi/10.1126/scirobotics.abo6140&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Morphological computation and decentralized learning in a swarm of sterically interacting robots | Science Robotics&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;这是第一次粗读的版本。会在后续更新。&lt;del&gt;水文章是笔者现在就发这篇博文的目的之一(bushi)&lt;/del&gt;&lt;/p&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;这篇文章讲述了一种新型的机器人群体行为，即通过形态计算和分散学习来实现一群机器人的集体行为。文章介绍了一种名为Morphobots的机器人群体平台，它通过3D打印的外骨骼来实现通过身体计算来实现集体行为。这种外骨骼可以对外部力（如重力）或表面力（如碰撞）产生重新定位反应。文章还展示了这种力定向反应是通用的，可以增强现有的机器人群体平台（如Kilobots），并且可以用于定制机器人，甚至比现有机器人大10倍。在个体层面，外骨骼改善了运动能力和稳定性，并允许对外部力或碰撞（包括与墙壁或可移动障碍物的碰撞以及在动态倾斜平面上）进行两种对比鲜明的动态行为的编码。这种力定向反应为机器人在群体层面增加了一个机械层，利用空间相互作用来实现拥挤时的集体光趋性。允许碰撞还促进了信息流动，促进了在线分布式学习。每个机器人都运行一个嵌入式算法，最终优化集体性能。文章通过实验和模拟研究了物理群体（多达64个机器人）和模拟群体（多达8192个代理），发现随着群体规模的增长，形态计算的效果增加。&lt;/p&gt;
 &lt;h2 id=&#34;k-parameter&#34;&gt;K parameter&lt;/h2&gt;
