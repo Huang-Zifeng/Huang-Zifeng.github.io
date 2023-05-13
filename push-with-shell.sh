@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 branch_file=".last_branch"
 
