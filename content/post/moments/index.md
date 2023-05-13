@@ -11,6 +11,78 @@ comments: false
 
 ### May
 
+今晚在mac上搭建开发环境，不用像Windows一样设置复杂的环境变量好评。jetbrain toolbox安装的pycharm是intel版的差评。
+
+然后比较麻烦的是之前的一个shell脚本出问题了。Windows的编辑器保存的时候会默认加上特有的换行符（看不见）。所以在Mac这样的基于unix的系统上运行会出错。后来用dos2unix解决。
+
+后来就是push的时候要通过GitHub认证。GitHub不允许用密码来认证。只可以用token或者git-credential-manager来认证，除了下载慢之外还好。token因为要涉及复杂的scope被我放弃了。
+
+最后折腾的是没想到的ssh密钥。我的博客repo比较特殊，需要密钥才能远程推送（一种安全机制罢）。可以参考[Generating a new SSH key and adding it to the ssh-agent - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+其中gpt给出的
+
+```shell
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+有点过时了。
+
+建议使用Ed25519算法，即
+
+```
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+添加密钥之后依旧报错
+
+> kex_exchange_identification: Connection closed by remote host
+>
+> Connection closed by 20.205.243.166 port 22
+>
+> fatal: Could not read from remote repository.
+>
+> 
+>
+> Please make sure you have the correct access rights
+>
+> and the repository exists.
+>
+> kex_exchange_identification: Connection closed by remote host
+>
+> Connection closed by 20.205.243.166 port 22
+>
+> fatal: Could not read from remote repository.
+>
+> 
+>
+> Please make sure you have the correct access rights
+>
+> and the repository exists.
+
+非常玄学。
+
+执行以下指令查看是否可以通过ssh访问GitHub
+
+```shell
+ssh -vT git@github.com
+```
+
+出现报错
+
+后来自己做了几个玄学的操作：
+
+- 想关闭防火墙，发现防火墙一直没有打开，于是打开了防火墙。执行上面命令的时候没有报错，但也没有好。
+
+- 下载GitHub CLI，顺便克隆了自己的仓库
+
+- 在新的仓库上再次执行时没有报错。回到旧的仓库成功。
+
+  这就是还有5个小时考雅思的人吗:(
+
+  
+
+> May 14 3:23
+
 已经分手
 
 第一次用Mac
