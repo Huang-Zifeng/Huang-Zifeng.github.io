@@ -1162,6 +1162,16 @@
         <description>&lt;p&gt;这里是随想，记录一些个人的murmur。&lt;/p&gt;
 &lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
 &lt;h3 id=&#34;may&#34;&gt;May&lt;/h3&gt;
+&lt;p&gt;在上晚自习，现在身心俱疲&lt;/p&gt;
+&lt;p&gt;听着AW的新单曲Hero&lt;/p&gt;
+&lt;p&gt;“leave me in the dark, please&lt;/p&gt;
+&lt;p&gt;who&amp;rsquo;s gonna save me now?&lt;/p&gt;
+&lt;p&gt;some kind of hero.&lt;/p&gt;
+&lt;p&gt;I can&amp;rsquo;t breathe, hoping you to rescue&lt;/p&gt;
+&lt;p&gt;me”&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;May 19 7:55 PM&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;今晚在mac上搭建开发环境，不用像Windows一样设置复杂的环境变量好评。jetbrain toolbox安装的pycharm是intel版的差评。&lt;/p&gt;
 &lt;p&gt;然后比较麻烦的是之前的一个shell脚本出问题了。Windows的编辑器保存的时候会默认加上特有的换行符（看不见）。所以在Mac这样的基于unix的系统上运行会出错。后来用dos2unix解决。&lt;/p&gt;
 &lt;p&gt;后来就是push的时候要通过GitHub认证。GitHub不允许用密码来认证。只可以用token或者git-credential-manager来认证，除了下载慢之外还好。token因为要涉及复杂的scope被我放弃了。&lt;/p&gt;
