@@ -1,5 +1,3 @@
-#!/bin/zsh
-
 branch_file=".last_branch"
 
 if [ -f "$branch_file" ]; then

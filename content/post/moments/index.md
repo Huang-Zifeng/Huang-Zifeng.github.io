@@ -11,6 +11,22 @@ comments: false
 
 ### May
 
+在上晚自习，现在身心俱疲
+
+听着AW的新单曲Hero
+
+“leave me in the dark, please
+
+who's gonna save me now?
+
+some kind of hero.
+
+I can't breathe, hoping you to rescue
+
+me” 
+
+> May 19 7:55 PM 
+
 今晚在mac上搭建开发环境，不用像Windows一样设置复杂的环境变量好评。jetbrain toolbox安装的pycharm是intel版的差评。
 
 然后比较麻烦的是之前的一个shell脚本出问题了。Windows的编辑器保存的时候会默认加上特有的换行符（看不见）。所以在Mac这样的基于unix的系统上运行会出错。后来用dos2unix解决。
