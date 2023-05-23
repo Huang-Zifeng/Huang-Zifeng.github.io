@@ -3,6 +3,7 @@ title: 关于
 date: '2023-02-02'
 aliases:
   - contact
+rss_ignore: true
 menu:
     main: 
         weight: -90
