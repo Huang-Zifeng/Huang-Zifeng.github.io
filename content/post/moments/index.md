@@ -9,7 +9,87 @@ comments: false
 
 ## 2023
 
-### May
+#### May
+
+**cv2.pointPolyTest()**
+
+就在几个月没碰opencv，因为RA工作的要接触一个叫pointPolyTest的函数，结果一直报错（第一个参数是无法解析的索引）。以下是正确的解决思路：
+
+先找出pointPolyTest接受的参数类型：
+
+![parameter](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/blog/image-20230527110624513.png)
+
+python语法基础知识
+
+``` python
+my_list = [1, 2, 'three', [4, 5]] #列表
+my_tuple = (1, 2, 3) #元祖，相当于数据不可被的列表
+tinydict = {'a': 1, 'b': 2, 'b': '3'} #字典
+tinydict['b'] #字典的访问方式
+```
+
+现在我们知道了pointPolyTest接受的参数类型，又知道每种数据类型长的样子之后，我们看看错误的调用代码：
+
+```python
+random_point = tuple(contour[np.random.randint(0, len(contour))][0])
+
+while True:
+  	offset = np.random.randint(-10, 10, size=2)
+		# 更新点的位置
+    new_point = (random_point[0] + offset[0], random_point[1] + offset[1])
+
+    #pointPolyTest
+    if cv2.pointPolygonTest(contour, new_point, False) >= 0:
+        random_point = new_point
+```
+
+这里面numpy数组默认的整数类型是int64，所以原本数据是int类型的random_point被强制转换为了int64类型，包括其创建的时候被转换为了int64，但是pointPolyTest接受的参数是“tuple of 2 ints”，由此出错。
+
+正确的解决思路是创建的时候和更新的时候使用类型强制转换
+
+```python
+random_point = tuple(int(x) for x in contour[np.random.randint(0, len(contour))][0])
+
+new_point = (random_point[0] + int(offset[0]), random_point[1] + int(offset[1]))
+```
+
+**cv2.findContours()**
+
+我们来看看findcontour返回的contour
+
+**一般用法**
+
+```python
+contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+```
+
+**参数的含义**
+
+• contours：返回一个列表，其中每个元素表示检测到的轮廓（由一组点组成的形状）。
+
+• hierarchy：表示层次结构，是一个Numpy数组，每个元素包含四个值：[next, previous, first_child, parent]
+
+一般来说我们只用第一个返回值即可
+
+关于contours,
+
+例如，我要用第一个轮廓，那么就是contours[0]
+
+大概长这样`[[[437 220]] ... [[438 220]]]`
+
+我要找第一个轮廓的第一个点，那么就是`[[437 220]]`,长得很奇怪，是一个列表，列表里面唯一的元素是一个列表
+
+**One More Thing**
+
+然而，写博客最大的动力居然是想记录一下巧合事，
+
+就在昨天上网看opencv的官方文档，被pointPolyTest弄得焦头烂额时，大洋彼岸的opencv course客服居然打了个电话过来，那个course的账号我其实几个月之前就注册了，甚至还退订了他们发的营销邮件，所以说非常的巧合，非常的无缘无故。但是客服很礼貌也很热情的向我推销他们的课。而我贫瘠的英语甚至不敢用来问它我为什么会报错哈哈哈哈。
+
+> May 27 10:54 AM
+
+Pspice当需要交流源的时候还是尽量用VSIN，VAC不能调节频率。
+
+> May 25
 
 生了一次病（感冒）
 
