@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  itemscope
+  itemtype="http://schema.org/WebPage"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+          通过Hugo&#43;GitHub Pages搭建你的第一个博客 - Mitcher&#39;s Blog
+        </title>
+    
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="Mitcher" />
+  <meta name="description" content="今天在这里给大家分享如何用Hugo搭建自己的个人博客。
+" />
+
+  <meta name="keywords" content="博客, Blog, Mitcher" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.114.0" />
+
+
+<link rel="canonical" href="http://www.huang-zifeng.com/post/blog/my-first-post/" />
+
+
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/sass/jane.min.4b83ee6015f9d680f86c8c2e825803dd9a8b52a415f927f779b068b21760e90b.css" integrity="sha256-S4PuYBX51oD4bIwuglgD3ZqLUqQV&#43;Sf3ebBoshdg6Qs=" media="screen" crossorigin="anonymous">
+
+
+
+
+
+
+
+<meta property="og:title" content="通过Hugo&#43;GitHub Pages搭建你的第一个博客" />
+<meta property="og:description" content="今天在这里给大家分享如何用Hugo搭建自己的个人博客。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.huang-zifeng.com/post/blog/my-first-post/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-02-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-02-02T00:00:00+00:00" />
+<meta itemprop="name" content="通过Hugo&#43;GitHub Pages搭建你的第一个博客">
+<meta itemprop="description" content="今天在这里给大家分享如何用Hugo搭建自己的个人博客。"><meta itemprop="datePublished" content="2023-02-02T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-02-02T00:00:00+00:00" />
+<meta itemprop="wordCount" content="2904">
+<meta itemprop="keywords" content="blog," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="通过Hugo&#43;GitHub Pages搭建你的第一个博客"/>
+<meta name="twitter:description" content="今天在这里给大家分享如何用Hugo搭建自己的个人博客。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+  </head>
+  <body>
+    <div id="back-to-top"></div>
+
+    <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Mitcher</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/post/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/tags/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/categories/">Categories</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/about/">About</a>
+          
+        
+      </li>
+    
+
+    
+  </ul>
+</nav>
+
+
+    
+      
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+    
+
+    
+
+    
+
+
+    <header id="header" class="header">
+      <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Mitcher
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/">Home</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.huang-zifeng.com/about/">About</a>
+          
+
+        
+
+      </li>
+    
+
+    
+    
+
+    
+  </ul>
+</nav>
+
+    </header>
+
+    <div id="mobile-panel">
+      <main id="main" class="main bg-llight wallpaper">
+        <div class="content-wrapper">
+    <div id="content" class="content">
+      <article class="post">
+        
+        <header class="post-header">
+          <h1 class="post-title">通过Hugo&#43;GitHub Pages搭建你的第一个博客</h1>
+          
+
+          <div class="post-meta">
+            <time datetime="2023-02-02" class="post-time">
+              2023-02-02
+            </time>
+            <div class="post-category">
+                <a href="http://www.huang-zifeng.com/categories/%E5%8D%9A%E5%AE%A2/"> 博客 </a>
+                
+              </div>
+            
+    
+            
+            
+    
+            
+            
+          </div>
+        </header>
+
+        
+        <div class="post-content">
+          <p>今天在这里给大家分享如何用Hugo搭建自己的个人博客。</p>
+<h2 id="前言">前言</h2>
+<p>搭建博客这个想法最早受到<a href="https://zhewana.cn/">ZheWana</a>和朋友<a href="https://funcheong.cn/">Fun_Cheong</a>的启发，想通过博客作为知识的输出工具和分享平台。后面看到<a href="https://www.pseudoyu.com/zh/">Pseudoyu</a>的博客之后才知道原来博客可以这样记录生活，于是更加坚定了搭建博客这件事。其中笔者踩了不少的坑才得以呈现此文。当然，这篇文章和任何其他技术类的文章一样，受限于技术日新月异地发展，其中一些细节可能会有出错或者不再适用的情况（笔者踩的另一个坑）。所以也请读者不吝指正文章需要更正的地方，并且带眼识文，不要只执着与此文，更可参考更多的其他文章。</p>
+<h2 id="一环境搭建">一、环境搭建</h2>
+<p>如果你有能力完成<a href="https://gohugo.io/getting-started/quick-start/">Quick Start | Hugo (gohugo.io)</a>中的内容，那么你可以跳过本部分内容。</p>
+<p>本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作）</p>
+<p>安装程序的时候最好勾选添加到环境变量选项，如果忘记添加也可以按照Step4手动添加</p>
+<h3 id="1-git安装">1. Git安装</h3>
+<p><a href="https://git-scm.com/downloads">Git - Downloads (git-scm.com)</a></p>
+<h3 id="2-hugo安装">2. Hugo安装</h3>
+<p><a href="https://gohugo.io/installation/windows/">Windows | Hugo (gohugo.io)</a></p>
+<p><a href="https://gohugo.io/installation/macos/">macOS | Hugo (gohugo.io)</a></p>
+<h3 id="3-go安装">3. Go安装</h3>
+<p><a href="https://go.dev/doc/install">Download and install - The Go Programming Language</a></p>
+<p>Hugo是用Go语言编写的静态网站生成工具。</p>
+<h3 id="4-添加环境变量">4. 添加环境变量</h3>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/8Pt6z.png" alt=""></p>
+<h2 id="二创建-hugo-网站">二、创建 Hugo 网站</h2>
+<h3 id="1-创建网站">1. 创建网站</h3>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site site-name<span style="color:#666">(</span>网站名字<span style="color:#666">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-安装主题">2. 安装主题</h3>
+<p>Hugo支持广泛的主题，你可以在<a href="https://themes.gohugo.io/">Themes</a>当中选取你想要的主题，每个主题的配置方式有些许不同，应该参考主题对应仓库下的说明，但是以下步骤是每个主题搭建都会遵循的步骤。</p>
+<p>你可以下载主题的最新版本 .zip 文件 并且解压放到 <code>themes</code> 目录.</p>
+<p>另外, 也可以直接把这个主题克隆到 <code>themes</code> 目录:</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>或者, 初始化你的项目目录为 git 仓库, 并且把主题仓库作为你的网站目录的子模块</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2">2</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/pseudoyu/hugo-theme-den themes/hugo-theme-den
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>（PS: <code>Coder</code>主题笔者直接用<code>git clone</code>可以成功，但是<code>den</code>主题只有使用第三种方式的时候才成功，采用前两种方式的时候不会创建<code>.gitmodule</code>文件，后续<code>GitHub Pages</code>在网站时会报错，den默认使用了<code>gitmodule</code>?  未知QAQ）</p>
+<p>下面以den这款主题为例子讲述如何搭建</p>
+<h3 id="3-修改配置文件toml">3. 修改配置文件<code>.toml</code></h3>
+<p>根目录下的<code>config.toml</code>是我们网站的配置文件，一般可以在<code>theme\(主题名字)\exampleSite</code>里面直接找到作者推荐的配置文件。</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">  1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2">  2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3">  3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4">  4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5">  5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-6">  6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-7">  7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-8">  8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-9">  9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-10"> 10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-11"> 11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-12"> 12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-13"> 13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-14"> 14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-15"> 15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-16"> 16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-17"> 17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-18"> 18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-19"> 19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-20"> 20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-21"> 21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-22"> 22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-23"> 23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-24"> 24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-25"> 25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-26"> 26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-27"> 27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-28"> 28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-29"> 29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-30"> 30</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-31"> 31</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-32"> 32</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-33"> 33</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-34"> 34</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-35"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-35"> 35</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-36"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-36"> 36</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-37"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-37"> 37</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-38"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-38"> 38</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-39"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-39"> 39</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-40"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-40"> 40</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-41"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-41"> 41</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-42"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-42"> 42</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-43"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-43"> 43</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-44"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-44"> 44</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-45"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-45"> 45</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-46"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-46"> 46</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-47"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-47"> 47</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-48"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-48"> 48</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-49"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-49"> 49</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-50"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-50"> 50</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-51"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-51"> 51</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-52"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-52"> 52</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-53"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-53"> 53</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-54"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-54"> 54</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-55"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-55"> 55</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-56"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-56"> 56</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-57"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-57"> 57</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-58"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-58"> 58</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-59"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-59"> 59</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-60"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-60"> 60</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-61"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-61"> 61</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-62"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-62"> 62</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-63"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-63"> 63</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-64"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-64"> 64</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-65"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-65"> 65</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-66"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-66"> 66</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-67"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-67"> 67</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-68"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-68"> 68</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-69"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-69"> 69</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-70"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-70"> 70</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-71"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-71"> 71</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-72"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-72"> 72</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-73"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-73"> 73</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-74"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-74"> 74</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-75"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-75"> 75</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-76"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-76"> 76</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-77"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-77"> 77</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-78"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-78"> 78</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-79"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-79"> 79</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-80"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-80"> 80</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-81"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-81"> 81</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-82"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-82"> 82</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-83"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-83"> 83</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-84"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-84"> 84</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-85"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-85"> 85</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-86"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-86"> 86</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-87"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-87"> 87</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-88"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-88"> 88</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-89"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-89"> 89</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-90"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-90"> 90</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-91"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-91"> 91</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-92"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-92"> 92</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-93"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-93"> 93</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-94"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-94"> 94</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-95"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-95"> 95</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-96"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-96"> 96</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-97"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-97"> 97</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-98"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-98"> 98</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-99"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-99"> 99</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-100"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-100">100</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-101"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-101">101</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-102"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-102">102</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-103"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-103">103</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-104"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-104">104</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-105"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-105">105</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-106"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-106">106</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-107"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-107">107</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-108"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-108">108</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-109"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-109">109</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-110"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-110">110</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-111"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-111">111</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-112"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-112">112</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-113"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-113">113</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-114"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-114">114</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-115"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-115">115</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-116"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-116">116</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-117"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-117">117</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-118"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-118">118</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-119"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-119">119</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-120"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-120">120</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-121"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-121">121</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-122"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-122">122</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-123"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-123">123</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-124"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-124">124</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-125"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-125">125</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-126"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-126">126</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-127"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-127">127</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-128"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-128">128</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-129"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-129">129</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-130"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-130">130</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-131"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-131">131</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-132"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-132">132</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-133"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-133">133</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-134"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-134">134</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-135"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-135">135</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-136"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-136">136</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-137"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-137">137</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-138"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-138">138</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-139"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-139">139</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-140"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-140">140</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-141"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-141">141</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-142"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-142">142</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-143"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-143">143</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-144"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-144">144</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-145"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-145">145</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-146"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-146">146</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-147"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-147">147</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-148"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-148">148</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-149"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-149">149</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-150"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-150">150</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-151"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-151">151</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-152"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-152">152</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-153"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-153">153</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-154"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-154">154</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-155"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-155">155</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-156"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-156">156</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-157"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-157">157</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-158"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-158">158</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-159"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-159">159</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-160"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-160">160</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-161"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-161">161</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-162"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-162">162</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-163"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-163">163</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-164"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-164">164</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-165"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-165">165</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-166"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-166">166</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-167"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-167">167</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-168"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-168">168</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-169"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-169">169</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-170"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-170">170</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-171"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-171">171</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ------------------------------------- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ---- General Settings --------------- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ------------------------------------- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">baseURL</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;https://example.com&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">title</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Den&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">theme</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;hugo-theme-den&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">#enableRobotsTXT = true       # generate robots.txt</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">enableEmoji</span> <span style="color:#666">=</span> <span style="color:#007020">true</span>           <span style="color:#60a0b0;font-style:italic"># use emoji support</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">hasCJKLanguage</span> <span style="color:#666">=</span> <span style="color:#007020">true</span>        <span style="color:#60a0b0;font-style:italic"># detect CJK languages for word count etc.</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">preserveTaxonomyNames</span> <span style="color:#666">=</span> <span style="color:#007020">true</span> <span style="color:#60a0b0;font-style:italic"># do not make tag names lowercase</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">rssLimit</span> <span style="color:#666">=</span> <span style="color:#40a070">20</span>                <span style="color:#60a0b0;font-style:italic"># limit number of entries in RSS feeds</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">ignoreErrors</span> <span style="color:#666">=</span> <span style="color:#666">[</span><span style="color:#4070a0">&#34;error-remote-getjson&#34;</span><span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># Copyright, appears in the footer</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># copyright = &#34;&#34;             # default: author.name</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># Pagination</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># number of entries per page for archives, tags and categories</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># since we don&#39;t have list view, recommend a large value</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">paginate</span> <span style="color:#666">=</span> <span style="color:#40a070">20</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">paginatePath</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;page&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># Syntax Hightlight</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">PygmentsCodeFences</span> <span style="color:#666">=</span> <span style="color:#007020">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">PygmentsUseClasses</span> <span style="color:#666">=</span> <span style="color:#007020">true</span>    <span style="color:#60a0b0;font-style:italic"># required for shhighlight shortcode</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># service plugins</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">disqusShortname</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;&#34;</span>         <span style="color:#60a0b0;font-style:italic"># disqus_shortname</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">googleAnalytics</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;&#34;</span>         <span style="color:#60a0b0;font-style:italic"># UA-XXXXXXXX-X</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># language support # en / zh-tw / other... translations present in i18n/</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">defaultContentLanguage</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;en&#34;</span>           <span style="color:#60a0b0;font-style:italic"># Default language to use</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">defaultContentLanguageInSubdir</span> <span style="color:#666">=</span> <span style="color:#007020">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># Links format</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>permalinks<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">posts</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;/:year/:month/:day/:slug/&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">categories</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;/category/:slug/&#34;</span>      <span style="color:#60a0b0;font-style:italic"># required</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">tags</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;/tag/:slug/&#34;</span>                 <span style="color:#60a0b0;font-style:italic"># required</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">pages</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;/:slug/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>author<span style="color:#666">]</span>                     <span style="color:#60a0b0;font-style:italic"># required</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Jane Doe&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>sitemap<span style="color:#666">]</span>                    <span style="color:#60a0b0;font-style:italic"># required</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">changefreq</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;weekly&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">priority</span> <span style="color:#666">=</span> 0.5
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">filename</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;sitemap.xml&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ------------------------------------- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ---- Other Params ------------------- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ------------------------------------- #</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>params<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">since</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;2017&#34;</span>             <span style="color:#60a0b0;font-style:italic"># Site creation time</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">rssFullContent</span> <span style="color:#666">=</span> <span style="color:#007020">true</span>      <span style="color:#60a0b0;font-style:italic"># set true to use full content instead of summary</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># site info (optional)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">keywords</span> <span style="color:#666">=</span> <span style="color:#666">[</span><span style="color:#4070a0">&#34;Hugo&#34;</span>, <span style="color:#4070a0">&#34;theme&#34;</span>,<span style="color:#4070a0">&#34;den&#34;</span><span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">description</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;A simple theme for Hugo&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">logoTitle</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Den&#34;</span> <span style="color:#60a0b0;font-style:italic"># shown on top-left, default: title</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">siteLogoImage</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;images/globe.svg&#34;</span>     <span style="color:#60a0b0;font-style:italic"># shown besides logoTitle</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># headerTitle = &#34;Den&#34;                   # default: title</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">headerImage</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;images/background.jpg&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">showAuthorCard</span> <span style="color:#666">=</span> <span style="color:#007020">true</span> <span style="color:#60a0b0;font-style:italic"># Whether to show author information below the article</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">showMenuLanguages</span> <span style="color:#666">=</span> <span style="color:#007020">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">autoLoadComments</span> <span style="color:#666">=</span> <span style="color:#007020">false</span> <span style="color:#60a0b0;font-style:italic"># auto load comment when scrolling down</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># paginate style, default use numbered pagination links</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># if true, use original &#34;Previous&#34; and &#34;Next&#34; links.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># paginateOriginalStyle = true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">dateFormatToUse</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;2006-01-02&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">google_verification</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;&#34;</span>  <span style="color:#60a0b0;font-style:italic"># Google_Verification</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># Link custom CSS and JS assets</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">#   (relative to /static/css and /static/js respectively)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">customCSS</span> <span style="color:#666">=</span> <span style="color:#666">[]</span>             <span style="color:#60a0b0;font-style:italic"># if [&#39;custom.css&#39;], load &#39;/static/css/custom.css&#39; file</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">customJS</span> <span style="color:#666">=</span> <span style="color:#666">[]</span>              <span style="color:#60a0b0;font-style:italic"># if [&#39;custom.js&#39;], load &#39;/static/js/custom.js&#39; file</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ------------------------------------- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ---- Related Articles --------------- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ------------------------------------- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>related<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># Only include matches with rank &gt;= threshold. This is a normalized rank between 0 and 100.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">threshold</span> <span style="color:#666">=</span> <span style="color:#40a070">50</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># To get stable &#34;See also&#34; sections we, by default, exclude newer related pages.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">includeNewer</span> <span style="color:#666">=</span> <span style="color:#007020">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic"># Will lower case keywords in both queries and in the indexes.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">toLower</span> <span style="color:#666">=</span> <span style="color:#007020">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[[</span>related.indices<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;categories&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">200</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[[</span>related.indices<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;keywords&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">150</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[[</span>related.indices<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;tags&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">100</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>languages.en<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">languageCode</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;en&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">languageName</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;English&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">contentDir</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;content/en&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[[</span>languages.en.menu.main<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Notes&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">10</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">identifier</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;notes&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">url</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;category/notes/&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[[</span>languages.en.menu.main<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Demos&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">20</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">identifier</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;demos&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">url</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;category/demos/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[[</span>languages.en.menu.social<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;GitHub&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">10</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">identifier</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;github&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">url</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[[</span>languages.en.menu.links<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;About Me&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">10</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">identifier</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;about-me&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">url</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>languages.zh-tw<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">languageCode</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;zh-tw&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">languageName</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;繁體中文&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">contentDir</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;content/zh-tw&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[</span>languages.zh-tw.params<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">description</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;一個簡單的佈景。&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[[</span>languages.zh-tw.menu.main<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;筆記&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">10</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">identifier</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;notes&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">url</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;category/notes/&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[[</span>languages.zh-tw.menu.main<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;展示&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">20</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">identifier</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;demos&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">url</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;category/demos/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[[</span>languages.zh-tw.menu.social<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;GitHub&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">10</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">identifier</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;github&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">url</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#666">[[</span>languages.zh-tw.menu.links<span style="color:#666">]]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">name</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;關於我&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">weight</span> <span style="color:#666">=</span> <span style="color:#40a070">10</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">identifier</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;about-me&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#bb60d5">url</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>一般来说可以直接将<code>theme\(主题名字)\exampleSite</code>里面的所有文件都复制到根目录，快速查看网站的效果。</p>
+<h3 id="4-发布文章">4. 发布文章</h3>
+<p>使用命令</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts<span style="color:#4070a0;font-weight:bold">\f</span>irst-post.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>来发布你的第一篇文章吧。</p>
+<p>注意文章开头的draft要设置成false才可以渲染文章。</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/ID885.png" alt=""></p>
+<h3 id="5-在本地启动你的网站">5. 在本地启动你的网站</h3>
+<p>使用以下命令启动网站:</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo serve
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>或者</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>去查看 <code>http://localhost:1313</code>.</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/8Tiqy.png" alt=""></p>
+<h2 id="三在github-pages上面发布你的网站">三、在GitHub Pages上面发布你的网站</h2>
+<h3 id="1-新建仓库">1. 新建仓库</h3>
+<p>首先，我们新建一个仓库</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rDZMH.png" alt=""></p>
+<p>除了仓库名字格式为username.github.io外，不要进行其他设置，因为这样会建立分支，而我们想要的是push代码的时候直接创建分支，避免引起冲突。</p>
+<h3 id="2生成静态网站">2.生成静态网站</h3>
+<p>在根目录下使用命令</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>为博客生成静态文件，文件默认会保存在目录public\下，GitHub Pages部署的静态网站正是里面的内容。</p>
+<h3 id="3-修改仓库设置和配置文件">3. 修改仓库设置和配置文件</h3>
+<p>上传之前，我们先到GitHub的仓库中进行GitHub Pages的相关设定。进入仓库，打开<code>Setting-Pages</code>,按照下图进行设定，</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rAFob.png" alt=""></p>
+<p>可以看到，GitHub Pages将通过branch分支的<code>docs\</code>目录构建我们的网站。</p>
+<p>但是我们的发布目录是在<code>publish</code>目录中，所以我们要在<code>config.toml</code>中添加下列语句</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>publishDir = <span style="color:#4070a0">&#34;docs&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这样，我们使用<code>hugo</code>命令生成的网站就会生成在<code>docs\</code>目录下</p>
+<p>重新执行命令<code>hugo</code></p>
+<p>接着在根目录下将代码上传</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-5">5</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init <span style="color:#60a0b0;font-style:italic"># 初始化仓库</span>
+</span></span><span style="display:flex;"><span>git remote add origin https://github.com/Huang-Zifeng/Huang-Zifeng.github.io.git <span style="color:#60a0b0;font-style:italic"># 修改为自己仓库的路径</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#4070a0">&#34;update&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master <span style="color:#60a0b0;font-style:italic"># 直接用git push会失败，以后还是尽量要指定分支</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>接着，经过大概5分钟左右的等待之后，你就可以通过访问<code>xxx.github.io</code>（这个网址第一次最好还是在上图所示中的<code>Visit Site</code>来获得，毕竟有时候你可能不知道自己设置的网址是否和你期待的一样）来查看你的网站。</p>
+<p>这时候其实还没有完成，你会发现点开其中任何一个链接都会超链接失败，显示<code>404 Page Not Found</code>，因此我们需要复制最开始的网址，将它替换掉<code>config.toml</code>中<code>baseURL = &quot;https://example.com&quot;</code>这一句里面的网址，重新执行<code>hugo</code>生成静态文件，推送代码上去才可以看到我们网站完整的效果。</p>
+<h2 id="参考资料">参考资料</h2>
+<p><a href="https://sspai.com/post/59904">浅谈我为什么从 HEXO 迁移到 HUGO - 少数派 (sspai.com)</a>（当时碰的坑是GitHub Pages没有设置对，没有弄清楚GitHub Pages的原理，看到这篇文章解决了，发布了第一个以coder为主题的网站）</p>
+<p><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统 · Pseudoyu</a>（现在用的主题den和这篇文章的作者一样，Pseudoyu是一位热爱博客的博主，你可以在他的网站里面学习更多自定义博客的知识，以及发掘博客的乐趣，后面笔者很多问题都是Pseudoyu帮我解决的。这篇文章主要参考的是主题的配置以及GitHub Action自动部署）</p>
+        </div>
+
+        
+        
+
+
+
+        
+        
+
+
+        <footer class="post-footer">
+          <div class="post-tags">
+              <a href="http://www.huang-zifeng.com/tags/blog/">blog</a>
+                
+            </div>
+
+
+          
+          <nav class="post-nav">
+            
+              <a class="prev" href="/post/blog/how-i-setup-my-domain/">
+                
+                <i class="iconfont">
+                  <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+                </i>
+                <span class="prev-text nav-default">拥有自己域名的路上碰到的魔幻事件</span>
+                <span class="prev-text nav-mobile">Prev</span>
+              </a>
+            
+              <a class="next" href="/post/moments/">
+                <span class="next-text nav-default">随想</span>
+                <span class="prev-text nav-mobile">Next</span>
+                
+                <i class="iconfont">
+                  <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+                </i>
+              </a>
+          </nav>
+        </footer>
+      </article>
+
+      
+      
+        
+      
+
+
+      
+      
+
+  
+
+  
+  
+    <div class="post">
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="xianmin/comments-for-hugo-theme-jane"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxNDAyNDYzNjc="
+    data-category="Announcements"
+    data-category-id="DIC_kwDOCFv9X84CRRWF"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
+
+  
+
+  
+  
+
+  
+
+  
+
+    
+
+  
+
+  <div id="remark42"></div>
+
+
+    </div>
+
+    
+    <nav class="toc" id="toc">
+    <div class="toc-title">Table of Contents</div>
+    <div class="toc-content custom-scrollbar">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#一环境搭建">一、环境搭建</a>
+      <ul>
+        <li><a href="#1-git安装">1. Git安装</a></li>
+        <li><a href="#2-hugo安装">2. Hugo安装</a></li>
+        <li><a href="#3-go安装">3. Go安装</a></li>
+        <li><a href="#4-添加环境变量">4. 添加环境变量</a></li>
+      </ul>
+    </li>
+    <li><a href="#二创建-hugo-网站">二、创建 Hugo 网站</a>
+      <ul>
+        <li><a href="#1-创建网站">1. 创建网站</a></li>
+        <li><a href="#2-安装主题">2. 安装主题</a></li>
+        <li><a href="#3-修改配置文件toml">3. 修改配置文件<code>.toml</code></a></li>
+        <li><a href="#4-发布文章">4. 发布文章</a></li>
+        <li><a href="#5-在本地启动你的网站">5. 在本地启动你的网站</a></li>
+      </ul>
+    </li>
+    <li><a href="#三在github-pages上面发布你的网站">三、在GitHub Pages上面发布你的网站</a>
+      <ul>
+        <li><a href="#1-新建仓库">1. 新建仓库</a></li>
+        <li><a href="#2生成静态网站">2.生成静态网站</a></li>
+        <li><a href="#3-修改仓库设置和配置文件">3. 修改仓库设置和配置文件</a></li>
+      </ul>
+    </li>
+    <li><a href="#参考资料">参考资料</a></li>
+  </ul>
+</nav>
+    </div>
+  </nav>
+
+
+  </div>
+
+      </main>
+
+      <footer id="footer" class="footer">
+        <div class="icon-links">
+  
+  
+    <a href="mailto:hi@huang-zifeng.com" rel="me noopener" class="iconfont"
+      title="email" >
+      <svg class="icon" viewBox="0 0 1451 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://github.com/Huang-Zifeng" rel="me noopener" class="iconfont"
+      title="github"  target="_blank"
+      >
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+    </a>
+
+
+<a href="http://www.huang-zifeng.com/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+    class="iconfont" title="rss" target="_blank">
+    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="30" height="30">
+  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg>
+
+  </a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    2023
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+        Mitcher
+        
+      </span></span>
+
+  
+  
+
+  
+</div>
+
+      </footer>
+
+      <div class="button__back-to-top">
+        <a href="#back-to-top">
+          <i class="iconfont">
+            
+            <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+          </i>
+        </a>
+      </div>
+    </div>
+    
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/main.bda18941b50727e7ac0069db14ee74bba0223c2fdbd6f7e591f8cfcb20cbe833.js" integrity="sha256-vaGJQbUHJ&#43;esAGnbFO50u6AiPC/b1vflkfjPyyDL6DM=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css"
+    integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG"
+    crossorigin="anonymous">
+
+  
+  <script defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.js"
+    integrity="sha384-JiKN5O8x9Hhs/UE5cT5AAJqieYlOZbGT3CHws/y97o3ty4R7/O5poG9F3JoiOYw1"
+    crossorigin="anonymous"></script>
+
+  
+  <script defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+    crossorigin="anonymous" onload="renderMathInElement(document.body);">
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        
+      });
+    });
+  </script>
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var remark_config = {
+    host: 'https:\/\/remark42.example.com',
+    site_id: 'remark',
+    components: [
+	    'embed',
+    ],
+  }
+  !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

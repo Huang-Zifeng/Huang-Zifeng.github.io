@@ -1,126 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>学习 on Mitcher</title>
-        <link>https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</link>
-        <description>Recent content in 学习 on Mitcher</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <lastBuildDate>Fri, 07 Apr 2023 15:27:59 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Paper Notes | Morphological computation and decentralized learning in a swarm of sterically interacting robots</title>
-        <link>https://www.huang-zifeng.com/p/paper-notes-morphological-computation-and-decentralized-learning-in-a-swarm-of-sterically-interacting-robots/</link>
-        <pubDate>Fri, 07 Apr 2023 15:27:59 +0800</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/p/paper-notes-morphological-computation-and-decentralized-learning-in-a-swarm-of-sterically-interacting-robots/</guid>
-        <description>&lt;p&gt;A review of &lt;a class=&#34;link&#34; href=&#34;https://www.science.org/doi/10.1126/scirobotics.abo6140&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Morphological computation and decentralized learning in a swarm of sterically interacting robots | Science Robotics&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;这篇文章讲述了一种新型的机器人群体行为，即通过形态计算和分散学习来实现一群机器人的集体行为。文章介绍了一种名为Morphobots的机器人群体平台，它通过3D打印的外骨骼来实现通过身体计算来实现集体行为。这种外骨骼可以对外部力（如重力）或表面力（如碰撞）产生重新定位反应。文章还展示了这种力定向反应是通用的，可以增强现有的机器人群体平台（如Kilobots），并且可以用于定制机器人，甚至比现有机器人大10倍。在个体层面，外骨骼改善了运动能力和稳定性，并允许对外部力或碰撞（包括与墙壁或可移动障碍物的碰撞以及在动态倾斜平面上）进行两种对比鲜明的动态行为的编码。这种力定向反应为机器人在群体层面增加了一个机械层，利用空间相互作用来实现拥挤时的集体光趋性。允许碰撞还促进了信息流动，促进了在线分布式学习。每个机器人都运行一个嵌入式算法，最终优化集体性能。文章通过实验和模拟研究了物理群体（多达64个机器人）和模拟群体（多达8192个代理），发现随着群体规模的增长，形态计算的效果增加。&lt;/p&gt;
-&lt;h2 id=&#34;k-parameter&#34;&gt;K parameter&lt;/h2&gt;
-&lt;p&gt;在文章中，κ参数是一个有效的对齐参数，用于描述机器人对外部力的重新定位。这个参数衡量了外部力对机器人方向的影响程度。当κ为正时，机器人与外部力保持一致；当κ为负时，机器人与外部力保持反向。κ是一个有效参数，它源自机器人的设计细节（材料性质、质量分布、驱动机制等），但它是经验性定义良好的，因为它可以通过实验测量并在不同的机器人平台之间进行定量比较。在文章中，研究人员发现κ是一个关键的设计参数，它可以控制机器人在遇到障碍物（如墙壁或另一个机器人）时的反应。使用正和负κ可以使两个原语定性地改变在拥挤的碰撞主导的环境中群体的动态。研究人员还发现κ可以用来指导集体运输的设计。&lt;/p&gt;
-&lt;h2 id=&#34;structure&#34;&gt;Structure&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230407164826663.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Augmenting Kilobots with exoskeletons makes Morphobots&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Morphobots是通过在Kilobots上增加一个三维打印的外骨骼来制造的。Kilobot是一种3.4厘米高、3.3厘米直径的单元，站在三个由细金属杆制成的刚性腿上。Kilobots能够通过两个振动器进行差动驱动运动。当其中一个振动器被激活时，Kilobot以大约45°/s的速度转弯；当两个振动器都被激活时，Kilobot向前移动。电源是可充电的锂离子电池，可以让Kilobot运行几个小时。Kilobots配备了红外发射器和接收器，因此它们可以相互通信。机器人的发射器向表面发射光，反射到另一个附近机器人的接收器上。&lt;/p&gt;
-&lt;h2 id=&#34;morphobots如何实现集体光趋性&#34;&gt;Morphobots如何实现集体光趋性？&lt;/h2&gt;
-&lt;p&gt;研究人员编程机器人以根据局部测量的光强改变速度，并发现机器人的形态可以在拥挤时改善它们的集体光趋性。当机器人到达静止机器人的墙壁时，它们表现出不同的动态特征：到达墙壁的对齐器（κ&amp;gt;0）倾向于沿着墙壁重新定位，直到最终离开；而前置Morphobot（κ&amp;lt;0）倾向于“挖入”，将已经停泊(taxied)的机器人推入亮区，直到自己被停泊。这些个体事件累加起来。&lt;/p&gt;
-&lt;p&gt;此外，文章还提到了群体可以通过分散强化学习算法来集体学习执行光趋性任务。研究人员发现，当允许碰撞时，群体流动化并有效地收敛到成功的光趋性策略，尽管通信网络稀疏且间歇。&lt;/p&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;通过外骨骼(exoskeletons)实现对外部环境的对抗或者对准&lt;/p&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 精读论文&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>Paper Notes | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations</title>
-        <link>https://www.huang-zifeng.com/p/paper-notes-magnetic-quadrupole-assemblies-with-arbitrary-shapes-and-magnetizations/</link>
-        <pubDate>Mon, 03 Apr 2023 15:06:08 +0800</pubDate>
-        
-        <guid>https://www.huang-zifeng.com/p/paper-notes-magnetic-quadrupole-assemblies-with-arbitrary-shapes-and-magnetizations/</guid>
-        <description>&lt;img src="https://www.huang-zifeng.com/p/paper-notes-magnetic-quadrupole-assemblies-with-arbitrary-shapes-and-magnetizations/etienne-desclides-GmH-SpoGXKc-unsplash.jpg" alt="Featured image of post Paper Notes | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations" /&gt;&lt;p&gt;A review of &lt;a class=&#34;link&#34; href=&#34;https://www.science.org/doi/10.1126/scirobotics.aax8977&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Magnetic quadrupole assemblies with arbitrary shapes and magnetizations&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;This article talks about magnetic quadrupole assemblies with arbitrary shapes and magnetizations. The authors propose a magnetic quadrupole module that is able to form stable and frustration-free magnetic assemblies with arbitrary 2D shapes. The quadrupole structure changes the magnetic particle-particle interaction in terms of both symmetry and strength. Each module has a tunable dipole moment that allows the magnetization of overall assemblies to be programmed at the single module level. They provide a simple combinatorial design method to reach both arbitrary shapes and arbitrary magnetizations concurrently. Last, by combining modules with soft segments, they demonstrate programmable actuation of magnetic metamaterials that could be used in applications for soft robots and electromagnetic metasurfaces.&lt;/p&gt;
-&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
-&lt;p&gt;四极矩模块由两个相同的 NdFeB 块状磁体组成，它们位于一个正方形外壳内，两个磁体之间的偶极矩具有相对角度。通过改变两个磁体之间的相对角度，可以调节&lt;strong&gt;偶极&lt;/strong&gt;和&lt;strong&gt;四极项&lt;/strong&gt;。四极项具有四重旋转对称性，这使得模块能够在二维正方晶格中与其他模块稳定地组装在一起，而&lt;strong&gt;不会产生局部排斥&lt;/strong&gt;。这种四重旋转对称性使得模块能够形成稳定的复杂组件，具有任意的磁化。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;偶极矩&lt;/strong&gt;(dipole moment)描述了一个物体的总磁矩，即物体内部所有磁偶极子的矢量和&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;四極子&lt;/strong&gt;(quadrupole)是指一種&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%e9%9b%bb%e8%8d%b7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;電荷&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%e9%9b%bb%e6%b5%81&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;電流&lt;/a&gt;或產生&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%e5%bc%95%e5%8a%9b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;引力&lt;/a&gt;的&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%e8%b3%aa%e9%bb%9e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;質點&lt;/a&gt;等&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%e5%a0%b4_%28%e7%89%a9%e7%90%86%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;場源&lt;/a&gt;在空間中分佈模式。四極子是一種特殊的空間分佈，對於一般分佈而言，四極子可以是其&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/wiki/%e5%a4%9a%e6%a5%b5%e5%b1%95%e9%96%8b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;多極展開&lt;/a&gt;的一部分。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403153927694.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Quadrupole module&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403161503052.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;自动吸附&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;When two quadrupoles are brought close together, they will automatically assemble (movie S1). Quadrupole assemblies between the same type and different types are demonstrated.&lt;/p&gt;
-&lt;h2 id=&#34;why-20-is-chosen&#34;&gt;Why 20° is chosen?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;an angle (q = 20°, type A) was chosen so that four alternating magnetic poles can be easily identified on each side of the module structure with a noticeable magnetic dipole moment.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The presence of a noticeable magnetic dipole moment allows the module to respond to external magnetic fields and interact with other modules to form stable and frustration-free magnetic assemblies.&lt;/p&gt;
-&lt;p&gt;经过统计性研究和大量的仿真，当两个磁体之间的偶极矩具有相对角度20°时，模块四边的极性都可以被一个外加的磁偶极矩轻松地辨认出来，并且形成一个易于分离的结构。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403163552293.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Theta angle&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;type-a-and-type-b&#34;&gt;Type A and Type B&lt;/h2&gt;
-&lt;p&gt;According to the article, the difference between type A and type B quadrupole modules lies in the relative angle between the two magnets inside the module. For type A quadrupole modules, both top and bottom poles are north poles. The magnetic flux from four north poles is equivalent to the flux coming back from two south poles, &lt;strong&gt;making the south poles stronger than the north poles&lt;/strong&gt;. For type B quadrupole modules, &lt;strong&gt;the north poles are stronger than the south poles&lt;/strong&gt;. The difference can be evaluated by the quadrupole-quadrupole interaction model based on their equation. During the experiments, &lt;strong&gt;stronger poles are more likely to bond together than two weak poles between type A and type B quadrupole modules.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;frustration-free&#34;&gt;Frustration-free&lt;/h2&gt;
-&lt;p&gt;“Frustration-free” refers to the ability of the magnetic quadrupole modules to form stable magnetic assemblies with arbitrary 2D shapes without internal frustration. Frustration in this context refers to conflicting magnetic interactions that can arise when trying to arrange magnetic particles in certain configurations. The quadrupole structure of the modules changes the magnetic particle-particle interaction in terms of both symmetry and strength, allowing for frustration-free assemblies.&lt;/p&gt;
-&lt;p&gt;Frustration-free does not necessarily mean that the modules can be separated easily. The ease of separation would depend on the strength of the magnetic attraction between the modules and the force required to overcome it.&lt;/p&gt;
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;两个磁块通过一定相对角度的排列之后组成的模块，由于四极子的四重对称性(quadrupole’s fourfold symmetry)，可以形成自动组装、易于分离、可以组成任意形状的特性。这对于设计群体软体机器人有极大的帮助。&lt;/p&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;坦诚而言，之前并没有很好地理解这篇文章就直接设计相似的实验了。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;易于分离不单止是因为有3D打印外壳的物理隔离，而更加是因为磁块之间形成了特定的偶极矩、四极矩。这是之前没有考虑到的。&lt;/li&gt;
-&lt;li&gt;球型的结构相比起长方体结构来说，更加地不稳定，也更加地灵活。此外，因为磁性模块变成了立体的排列，也因此产生了更多的可能，而且文章当中采用了只采用了四极子，那么，采用八极子甚至十六极子会不会有更特殊的现象？比方说更容易吸引、或是更容易分离？与此同时，现有的结构还是在球上面“切”了一刀，好处是在平面上有更好的稳定性，但是这样会不会失去一部分的对称性(symmetry)？&lt;/li&gt;
-&lt;li&gt;之前实验当中自动组装的效果不是很明显。&lt;/li&gt;
-&lt;li&gt;还有一个很不同的方面，这篇文章的第一个实验是在没有外加干扰下进行的。而第二个实验是在外部动态磁场下进行的(比如从B = 0 → B = 15mT，相对稳定)。目前我是使用的外部动态磁场是由旋转永磁体组成的，旋转永磁体产生的磁场本来就是相对复杂的，实验的目的目前暂定变成：研究三维磁性四极子在旋转磁场下的运动规律。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 拍摄完整视频，参考&lt;code&gt;aax8977_movie_s1.mp4&lt;/code&gt;，应当设置稳定的镜头，还有就是针对不同的type进行说明&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>学习 on Mitcher&#39;s Blog</title>
+    <link>http://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 学习 on Mitcher&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Apr 2023 15:27:59 +0800</lastBuildDate><atom:link href="http://www.huang-zifeng.com/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Notes | Morphological computation and decentralized learning in a swarm of sterically interacting robots</title>
+      <link>http://www.huang-zifeng.com/post/paper-notes/scirobotics-abo6140/</link>
+      <pubDate>Fri, 07 Apr 2023 15:27:59 +0800</pubDate>
+      
+      <guid>http://www.huang-zifeng.com/post/paper-notes/scirobotics-abo6140/</guid>
+      <description>&lt;p&gt;A review of &lt;a href=&#34;https://www.science.org/doi/10.1126/scirobotics.abo6140&#34;&gt;Morphological computation and decentralized learning in a swarm of sterically interacting robots | Science Robotics&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Notes | Magnetic Quadrupole Assemblies With Arbitrary Shapes and Magnetizations</title>
+      <link>http://www.huang-zifeng.com/post/paper-notes/scirobotics-aax8977/</link>
+      <pubDate>Mon, 03 Apr 2023 15:06:08 +0800</pubDate>
+      
+      <guid>http://www.huang-zifeng.com/post/paper-notes/scirobotics-aax8977/</guid>
+      <description>&lt;p&gt;A review of &lt;a href=&#34;https://www.science.org/doi/10.1126/scirobotics.aax8977&#34;&gt;Magnetic quadrupole assemblies with arbitrary shapes and magnetizations&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
 </rss>
