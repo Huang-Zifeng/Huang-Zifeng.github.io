@@ -1,14 +1,18 @@
 ---
 title: "我和Apple Care的短暂缘分"
 date: 2023-05-10T18:17:44+08:00
-description: "记一次iPad更换过程"
 tags: [数码产品]
 categories: [日常]
-image: "refargotohp-4A1gGhpcy24-unsplash.jpg"
 author: "Mitcher"
 rss_ignore: false
 draft: false
 ---
+
+记一次iPad更换过程。
+
+<!--more-->
+
+![cover](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/blog/kelly-sikkema-dgna2SRwsSw-unsplash.jpg)	
 
 你说倒霉不倒霉，就在我倾尽财力买了人生第一台mac之后的第二天早上，iPad莫名奇妙的发生断触了。我从来没想到，一件电子产品不磕不摔，也没有性能问题，就会这样被淘汰掉。
 

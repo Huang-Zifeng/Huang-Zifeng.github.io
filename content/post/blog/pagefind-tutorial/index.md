@@ -1,7 +1,6 @@
 ---
-title: "为你的博客创建搜索引擎——Pagefind搭建指北"
+title: "为你的博客创建搜索引擎：Pagefind搭建指北"
 date: 2023-03-12T22:47:34+08:00
-description: "聊聊非CS选手是如何折腾前端的"
 tags: ["折腾"]
 keywords: ["Pagefind"]
 categories: ["博客"]
@@ -10,7 +9,9 @@ rss_ignore: false
 draft: false
 ---
 
+聊聊非CS选手是如何折腾前端的...
 
+<!--more-->
 
 ## 写在前面
 

@@ -7,6 +7,8 @@ comments: false
 
 这里是随想，记录一些个人的murmur。
 
+<!--more-->
+
 ## 2023
 
 #### June

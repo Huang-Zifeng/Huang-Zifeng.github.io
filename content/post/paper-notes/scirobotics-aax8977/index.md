@@ -4,16 +4,14 @@ date: 2023-04-03T15:06:08+08:00
 tags: ["Paper Notes"]
 categories: [学习]
 author: "Mitcher"
-image: "etienne-desclides-GmH-SpoGXKc-unsplash.jpg"
 rss_ignore: false
 draft: false
-links:
- - title: "Magnetic quadrupole assemblies with arbitrary shapes and magnetizations"
-   website: https://www.science.org/doi/10.1126/scirobotics.aax8977
 
 ---
 
 A review of [Magnetic quadrupole assemblies with arbitrary shapes and magnetizations](https://www.science.org/doi/10.1126/scirobotics.aax8977).
+
+<!--more-->
 
 ## Summary
 
@@ -28,11 +26,7 @@ This article talks about magnetic quadrupole assemblies with arbitrary shapes an
 >
 > **四極子**(quadrupole)是指一種[電荷](https://zh.wikipedia.org/wiki/電荷)、[電流](https://zh.wikipedia.org/wiki/電流)或產生[引力](https://zh.wikipedia.org/wiki/引力)的[質點](https://zh.wikipedia.org/wiki/質點)等[場源](https://zh.wikipedia.org/wiki/場_(物理))在空間中分佈模式。四極子是一種特殊的空間分佈，對於一般分佈而言，四極子可以是其[多極展開](https://zh.wikipedia.org/wiki/多極展開)的一部分。
 
-
-
-![Quadrupole module](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403153927694.png)
-
-![自动吸附](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403161503052.png)
+<center><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403153927694.png" alt="Quadrupole module" /></center>
 
 When two quadrupoles are brought close together, they will automatically assemble (movie S1). Quadrupole assemblies between the same type and different types are demonstrated. 
 
@@ -44,7 +38,7 @@ The presence of a noticeable magnetic dipole moment allows the module to respond
 
 经过统计性研究和大量的仿真，当两个磁体之间的偶极矩具有相对角度20°时，模块四边的极性都可以被一个外加的磁偶极矩轻松地辨认出来，并且形成一个易于分离的结构。
 
-![Theta angle](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403163552293.png)
+<center><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230403163552293.png" alt="Theta angle" /></center>
 
 
 

@@ -9,7 +9,9 @@ rss_ignore: false
 draft: false
 ---
 
-A review of [Morphological computation and decentralized learning in a swarm of sterically interacting robots | Science Robotics](https://www.science.org/doi/10.1126/scirobotics.abo6140)
+A review of [Morphological computation and decentralized learning in a swarm of sterically interacting robots | Science Robotics](https://www.science.org/doi/10.1126/scirobotics.abo6140).
+
+<!--more-->
 
 ## Summary
 
@@ -21,7 +23,7 @@ A review of [Morphological computation and decentralized learning in a swarm of 
 
 ## Structure
 
-![Augmenting Kilobots with exoskeletons makes Morphobots](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230407164826663.png)
+<center><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230407164826663.png" alt="Augmenting Kilobots with exoskeletons makes Morphobots" /></center>
 
 Morphobots是通过在Kilobots上增加一个三维打印的外骨骼来制造的。Kilobot是一种3.4厘米高、3.3厘米直径的单元，站在三个由细金属杆制成的刚性腿上。Kilobots能够通过两个振动器进行差动驱动运动。当其中一个振动器被激活时，Kilobot以大约45°/s的速度转弯；当两个振动器都被激活时，Kilobot向前移动。电源是可充电的锂离子电池，可以让Kilobot运行几个小时。Kilobots配备了红外发射器和接收器，因此它们可以相互通信。机器人的发射器向表面发射光，反射到另一个附近机器人的接收器上。
 
@@ -35,6 +37,6 @@ Morphobots是通过在Kilobots上增加一个三维打印的外骨骼来制造�
 
 通过外骨骼(exoskeletons)实现对外部环境的对抗或者对准
 
-## What's Next?
+## TODO
 
 - [ ] 精读论文

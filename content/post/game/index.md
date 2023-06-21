@@ -3,14 +3,16 @@ title: "比玩游戏更重要的是一起玩的人"
 date: 2023-05-01T14:39:22+08:00
 tags: ["Weekly"]
 categories: ["日常"]
-description: 记一次校园赛
-image: "caspar-camille-rubin-HUBNTCzE-R8-unsplash.jpg"
 author: "Mitcher"
 rss_ignore: false
 draft: false
 ---
 
 众所周知，彩虹六号是一款并非为众所周知的游戏。
+
+<!--more-->
+
+![cover](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/blog/caspar-camille-rubin-HUBNTCzE-R8-unsplash.jpg)
 
 大概是在22年4月的时候表白墙有人问有没有彩六群，当时学校老群已经奄奄一息，于是自己也就无聊随意建了一个新的小群。
 
@@ -27,5 +29,3 @@ Maxwell甚至帮我们写了解说稿
 第二届是最近发生的事，反倒不想太详细记录了，就如同这场比赛诞生的命运一样——甚至在比赛开始的前一个晚上，我还和威海校区的教头讨论之后都同意不如不办，主要原因是威海校区那边的兄弟已经”疲敝“地凑不出五个人了。后来在学弟Mirage的推动下我们还是办成了这次比赛。Max和教头也上阵了，Tabby如愿以偿地打满了两天，一场bo1和一场bo3，大家的遗憾都已经荡然无存。附带一提，总决赛那天虽然Tabby他们队配合如同职业一般强力，但是诃德拿下了29杀更是把比赛的精彩推到了另一个高度。
 
 校园赛见证了我们与彩六相挂钩的那部分青春。也谨以此篇作为HIT彩六协会(~~地下组织~~)的记忆。
-
-![Poster designed by Tabby](Poster1.1.png) ![Poster designed by Mitcher](poster.jpg)

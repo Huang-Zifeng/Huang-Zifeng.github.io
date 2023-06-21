@@ -1,6 +1,6 @@
 ---
 title: "通过Hugo+GitHub Pages搭建你的第一个博客"
-date: 2023-02-01T12:10:21+08:00
+date: 2023-02-02
 draft: false
 tags: ["blog"]
 categories: ["博客"]
@@ -8,6 +8,8 @@ author: "Mitcher"
 ---
 
 今天在这里给大家分享如何用Hugo搭建自己的个人博客。
+
+<!--more-->
 
 ## 前言
 
