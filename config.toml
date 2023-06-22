@@ -1,5 +1,5 @@
 baseURL = "http://www.huang-zifeng.com/"
-title = "Mitcher's Blog"
+title = "林木林"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -10,7 +10,7 @@ rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
-enableGitInfo = false      # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
+enableGitInfo = true      # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 # uglyURLs = true         # more info: https://gohugo.io/content-management/urls/#ugly-urls
 
 # Enable author pages
@@ -20,9 +20,7 @@ enableGitInfo = false      # use git commit log to generate lastmod record # 可
 #  category = "categories"
 
 # language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
-[languages.en]
-  languageCode = "en"
+defaultContentLanguage = "zh-tw"           # Default language to use
 
 [author]
   name = "Mitcher"        # essential                     # 必需
@@ -34,22 +32,22 @@ defaultContentLanguage = "en"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
+  name = "主頁"
   weight = 10
   identifier = "home"
   pageref = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "彙整"
   weight = 20
   identifier = "archives"
   pageref = "/post/"
 [[menu.main]]
-  name = "Tags"
+  name = "標籤"
   weight = 30
   identifier = "tags"
   pageref = "/tags/"
 [[menu.main]]
-  name = "Categories"
+  name = "分類"
   weight = 40
   identifier = "categories"
   pageref = "/categories/"
@@ -63,25 +61,25 @@ defaultContentLanguage = "en"           # Default language to use
   mainSections = ["post"]
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Mitcher"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "林木林"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["博客", "Blog", "Mitcher"]
   description = "20歲，是一名學生"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archive-paginate = 3
+  archive-paginate = 20
 
   # paginate style, default use numbered pagination links
   # if true, use original "Previous" and "Next" links.
   # paginateOriginalStyle = true
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
+  dateFormatToUse = "Jan 2, 2006"
 
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
   moreMeta = false
 
   # show language chooser in menu
-  showMenuLanguageChooser = true
+  showMenuLanguageChooser = false
 
   showAuthorInfo = true # show author info below the article
 
@@ -137,17 +135,17 @@ defaultContentLanguage = "en"           # Default language to use
 
   [params.giscus]         # giscus is a comment system based on GitHub Discussions. see https://giscus.app
     enable = true
-    repo = "xianmin/comments-for-hugo-theme-jane"
-    repoId = "MDEwOlJlcG9zaXRvcnkxNDAyNDYzNjc="
+    repo = "Huang-Zifeng/Huang-Zifeng.github.io"
+    repoId = "R_kgDOJIOPLA"
     category = "Announcements"
-    categoryId = "DIC_kwDOCFv9X84CRRWF"
+    categoryId = "DIC_kwDOJIOPLM4CXZNg"
     # mapping = "pathname"  # comment value is the default value
     # strict = 0
     # reactionsEnabled = 1
     # emitMetadata = 0
     # inputPosition = "top"
     # theme = "light"
-    # lang = "en"
+    lang = "zh-TW"
     # lazyLoading = false
 
   [params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
@@ -198,7 +196,7 @@ defaultContentLanguage = "en"           # Default language to use
   # use public git repo url to link lastmod git commit, enableGitInfo should be true.
   # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
   [params.gitInfo]
-    gitRepo = "https://github.com/xianmin/hugo-theme-jane"
+    gitRepo = "https://github.com/Huang-Zifeng/huang-zifeng.github.io"
     showCommitMessage = true
 
   [params.social]                                         # 社交链接
@@ -221,12 +219,12 @@ defaultContentLanguage = "en"           # Default language to use
 
 # multilingual support example
 # [langusges]
-# [languages.en]
-#   title = "Jane - A simple theme for Hugo"
-#   weight = 1
-# [languages.zh-cn]
-#   title = "Jane —— 一个简洁的 Hugo 主题"
-#   weight = 2
+#   [languages.en]
+#     title = "Jane - A simple theme for Hugo"
+#     weight = 1
+#   [languages.zh-tw]
+#     title = "Mitcher's Blog"
+#     weight = 2
 
 
 # more information https://gohugo.io/getting-started/configuration-markup/#goldmark

@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "關於"
 date: 2023-02-02
 menu: "main"
 weight: 50
