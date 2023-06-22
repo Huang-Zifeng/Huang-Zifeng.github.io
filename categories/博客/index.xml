@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>博客 on Mitcher&#39;s Blog</title>
+    <title>博客 on 林木林</title>
     <link>http://www.huang-zifeng.com/categories/%E5%8D%9A%E5%AE%A2/</link>
-    <description>Recent content in 博客 on Mitcher&#39;s Blog</description>
+    <description>Recent content in 博客 on 林木林</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-tw</language>
     <lastBuildDate>Sun, 12 Mar 2023 22:47:34 +0800</lastBuildDate><atom:link href="http://www.huang-zifeng.com/categories/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>为你的博客创建搜索引擎：Pagefind搭建指北</title>
